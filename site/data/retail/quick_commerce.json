@@ -1,0 +1,57 @@
+{
+  "captured": "2026-11-16",
+  "platform": "Blinkit",
+  "location": "Connaught Place, New Delhi (store ETA 8 min)",
+  "method": "Public search results page (blinkit.com/s/?q=<item>), read manually in a browser; selling price and MRP as displayed. Per-kg price computed from pack size.",
+  "note": "Quick-commerce prices are store- and hour-specific and change through the day. Treat this as a dated snapshot, not a series. The pipeline does not scrape Blinkit; see Methodology for a compliant way to track it.",
+  "items": {
+    "onion": [
+      {"name": "Onion (Pyaz)", "pack": "1 kg", "price": 66, "mrp": 75, "per_kg": 66}
+    ],
+    "tomato": [
+      {"name": "Desi Tomato (Tamatar)", "pack": "500 g", "price": 24, "mrp": 29, "per_kg": 48},
+      {"name": "Hybrid Tomato (Tamatar)", "pack": "500 g", "price": 24, "mrp": 30, "per_kg": 48},
+      {"name": "Organically Grown Tomato (Hybrid)", "pack": "500 g", "price": 37, "mrp": 43, "per_kg": 74},
+      {"name": "Cherry Tomatoes", "pack": "200 g", "price": 41, "mrp": 52, "per_kg": 205}
+    ],
+    "potato": [
+      {"name": "Potato (Aloo)", "pack": "1 kg", "price": 25, "mrp": 29, "per_kg": 25},
+      {"name": "Red Potato (Aloo)", "pack": "1 kg", "price": 27, "mrp": 32, "per_kg": 27},
+      {"name": "Baby Potato (Aloo)", "pack": "500 g", "price": 14, "mrp": 17, "per_kg": 28},
+      {"name": "Organically Grown Potato", "pack": "1 kg", "price": 45, "mrp": 54, "per_kg": 45}
+    ],
+    "brinjal": [
+      {"name": "Brinjal - Bharta (Baingan)", "pack": "500 g", "price": 22, "mrp": 25, "per_kg": 44},
+      {"name": "Long Purple Brinjal", "pack": "250 g", "price": 15, "mrp": 18, "per_kg": 60},
+      {"name": "Small-Purple Brinjal", "pack": "250 g", "price": 15, "mrp": 18, "per_kg": 60}
+    ],
+    "cauliflower": [
+      {"name": "Cauliflower (Phool Gobhi)", "pack": "400 g (1 pc)", "price": 19, "mrp": 22, "per_kg": 47.5},
+      {"name": "Cauliflower Florets", "pack": "200 g", "price": 43, "mrp": 54, "per_kg": 215}
+    ],
+    "green-chilli": [
+      {"name": "Green Chilli (Hari Mirch)", "pack": "100 g", "price": 13, "mrp": 15, "per_kg": 130},
+      {"name": "Bajji Chilli", "pack": "250 g", "price": 20, "mrp": 25, "per_kg": 80}
+    ],
+    "banana": [
+      {"name": "Banana", "pack": "3 pcs", "price": 39, "mrp": 48, "per_kg": null, "per_dozen": 156},
+      {"name": "Baby Banana", "pack": "4 pcs", "price": 40, "mrp": 50, "per_kg": null},
+      {"name": "Raw Banana (Kacha Kela)", "pack": "3 pcs", "price": 48, "mrp": 55, "per_kg": null}
+    ],
+    "mango": [
+      {"name": "Raw Mango (Kacha Aam)", "pack": "500 g", "price": 84, "mrp": 106, "per_kg": 168, "note": "Ripe table mango not listed: off-season in November"}
+    ],
+    "apple": [
+      {"name": "Shimla Apple", "pack": "500 g", "price": 131, "mrp": 157, "per_kg": 262},
+      {"name": "Kinnaur Apple", "pack": "300 g", "price": 110, "mrp": 133, "per_kg": 367},
+      {"name": "Daily Apple", "pack": "500 g", "price": 101, "mrp": 120, "per_kg": 202},
+      {"name": "Royal Gala Apple (Italy / Poland)", "pack": "300 g", "price": 125, "mrp": 146, "per_kg": 417},
+      {"name": "Pink Lady Apple - USA", "pack": "300 g", "price": 144, "mrp": 174, "per_kg": 480}
+    ],
+    "grapes": [
+      {"name": "Green Grapes", "pack": "200 g", "price": 82, "mrp": 104, "per_kg": 410},
+      {"name": "Red-Globe Grapes", "pack": "200 g", "price": 87, "mrp": 100, "per_kg": 435},
+      {"name": "Imported Black Grapes", "pack": "250 g", "price": 163, "mrp": 193, "per_kg": 652, "note": "Indian grape season starts Dec–Jan; Nov shelves lean on imports and early southern/cold-store lots"}
+    ]
+  }
+}

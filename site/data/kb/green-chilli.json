@@ -1,0 +1,137 @@
+{
+  "slug": "green-chilli",
+  "name": "Green Chilli",
+  "local": "हरी मिर्च · Hari mirch",
+  "aka": {"Telugu": "Pachi mirapakaya", "Tamil": "Pachai milagai", "Kannada": "Hasi menasinakayi", "Marathi": "Hirvi mirchi", "Bengali": "Kancha lanka", "Gujarati": "Lila marcha"},
+  "botanical": "Capsicum annuum L. (also C. frutescens, C. chinense)",
+  "family": "Solanaceae",
+  "group": "Vegetable · spice",
+  "color": "#3f8a3a",
+  "perishability": "Highly perishable. 3–5 days before shrivelling or turning red.",
+  "summary": "Bought in small amounts but in every kitchen, so it is a sensitive item in household budgets. It is picked many times over several months from scattered belts, cannot be stored, and swings sharply with heat and rain. India is also the world's largest producer and exporter of dry red chilli, a separate market.",
+  "key_numbers": [
+    {"label": "Production (green)", "value": "~40–45 lakh t", "note": "approx., recent years", "src": "DA&FW / NHB"},
+    {"label": "Dry chilli", "value": "World #1", "note": "largest producer and exporter of dry red chilli (separate market)", "src": "Spices Board"},
+    {"label": "Pickings per crop", "value": "8–12", "note": "over 3–5 months", "src": "Agronomy practice"},
+    {"label": "Storage life at 7–10 °C", "value": "2–3 weeks", "note": "90–95% RH", "src": "Post-harvest handbooks"}
+  ],
+  "global": "India leads world chilli production. Fresh green chilli exports go mainly to the UAE, UK, Saudi Arabia, Qatar and Nepal.",
+  "states": {
+    "year": "recent years",
+    "basis": "Leading green-chilli states (ranked; shares not shown because published figures vary widely)",
+    "rows": [
+      {"state": "Karnataka", "share": null, "hubs": "Belagavi, Haveri, Dharwad, Chikkaballapur, Kolar"},
+      {"state": "Madhya Pradesh", "share": null, "hubs": "Khargone, Dhar, Barwani (Nimar belt)"},
+      {"state": "Andhra Pradesh", "share": null, "hubs": "Guntur, Prakasam, Kurnool"},
+      {"state": "Telangana", "share": null, "hubs": "Khammam, Warangal"},
+      {"state": "Maharashtra", "share": null, "hubs": "Nandurbar, Jalgaon, Dhule"},
+      {"state": "Bihar", "share": null, "hubs": "Vaishali, Samastipur"},
+      {"state": "Odisha", "share": null, "hubs": "Cuttack, Ganjam"},
+      {"state": "West Bengal", "share": null, "hubs": "Nadia, Murshidabad"},
+      {"state": "Gujarat", "share": null, "hubs": "Rajkot, Bhavnagar, Surat"}
+    ]
+  },
+  "belts": [
+    {"name": "Nimar", "where": "Khargone–Dhar–Barwani, MP", "note": "Large green and dry chilli belt supplying North India."},
+    {"name": "North Karnataka", "where": "Belagavi, Haveri, Dharwad", "note": "Green chilli plus Byadgi dry chilli (GI)."},
+    {"name": "Guntur–Khammam", "where": "AP and Telangana", "note": "Mainly dry chilli, also green for southern cities."},
+    {"name": "Nandurbar", "where": "Maharashtra", "note": "Large green chilli market for Mumbai and Gujarat."},
+    {"name": "North-East", "where": "Nagaland, Assam, Mizoram", "note": "Bhut jolokia, Naga mircha and bird's-eye chilli (GI)."}
+  ],
+  "seasons": [
+    {"name": "Kharif", "sow": [6, 7], "harvest": [9, 10, 11, 12, 1], "share": "~60%", "region": "Karnataka, MP, Maharashtra, AP, Telangana", "note": "Main crop; pickings run into winter."},
+    {"name": "Rabi", "sow": [10, 11], "harvest": [1, 2, 3, 4], "share": "~25%", "region": "East India, Gujarat", "note": "Winter supply; prices lowest."},
+    {"name": "Summer", "sow": [1, 2], "harvest": [4, 5, 6], "share": "~15%", "region": "Irrigated belts", "note": "Heat stress; supplies the early monsoon months."}
+  ],
+  "lean_season": "June–August, when summer pickings end and kharif has not started.",
+  "climate": [
+    {"k": "Temperature", "v": "20–30 °C ideal. Flowers drop above ~35 °C and below ~15 °C."},
+    {"k": "Rainfall", "v": "600–1,250 mm; heavy rain at flowering causes flower drop and fruit rot."},
+    {"k": "Soil", "v": "Well-drained loam, pH 6.5–7.5. Cannot stand waterlogging."},
+    {"k": "Pungency", "v": "Hot, dry weather raises capsaicin; variety still matters most."}
+  ],
+  "weather_risks": [
+    {"risk": "Heat wave", "months": [4, 5, 6], "where": "Central and South India", "impact": "Flower and fruit drop; summer crop shrinks.", "example": "2024 summer heat pushed retail prices up in June."},
+    {"risk": "Heavy monsoon rain", "months": [7, 8, 9], "where": "Karnataka, Maharashtra, MP", "impact": "Flower drop, anthracnose and die-back; transplanting delays.", "example": ""},
+    {"risk": "Cyclones and late rains", "months": [10, 11, 12], "where": "AP, Telangana, Odisha", "impact": "Fruit rot during peak pickings.", "example": ""},
+    {"risk": "Cold nights", "months": [12, 1], "where": "North India", "impact": "Slow growth and poor fruit set.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Thrips and mites (leaf-curl complex, 'murda')", "sci": "Scirtothrips dorsalis, Polyphagotarsonemus latus", "type": "Pest", "impact": "Leaf curl and stunting; major yield loss."},
+    {"name": "Invasive black thrips", "sci": "Thrips parvispinus", "type": "Pest", "impact": "Devastated AP, Telangana and Karnataka chilli in 2021-22."},
+    {"name": "Chilli leaf curl virus", "sci": "Begomovirus, spread by whitefly", "type": "Disease", "impact": "Severe stunting."},
+    {"name": "Anthracnose, die-back and fruit rot", "sci": "Colletotrichum spp.", "type": "Disease", "impact": "Rotting fruit in humid weather."},
+    {"name": "Fruit borers", "sci": "Helicoverpa armigera, Spodoptera litura", "type": "Pest", "impact": "Bored fruit, rejected at market."},
+    {"name": "Powdery mildew, bacterial leaf spot", "sci": "Leveillula taurica / Xanthomonas", "type": "Disease", "impact": "Leaf loss and lower yields."}
+  ],
+  "postharvest": {
+    "storage": "7–10 °C, 90–95% RH.",
+    "shelf_ambient": "3–5 days.",
+    "shelf_cold": "2–3 weeks.",
+    "respiration": "Non-climacteric.",
+    "chilling": "Chilling injury below ~7 °C: pitting and soft spots.",
+    "loss": {"value": null, "src": "NABCONS 2022", "detail": "Not reported separately; vegetables range 4.87–11.61%."},
+    "practices": [
+      "Picked green and firm, often early morning; sorted to remove reddening fruit.",
+      "Packed in jute or leno bags (20–40 kg); some long-distance loads iced in summer.",
+      "Shrivelling (water loss) is the main defect; shade and fast transit matter."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Repeated pickings; small farmers bring bags to the nearest APMC."},
+      {"stage": "Producer APMC", "what": "Auction at Nandurbar, Khargone, Belagavi, Guntur and similar markets."},
+      {"stage": "Long-haul trade", "what": "Overnight trucks (sometimes rail parcels) to Delhi, Mumbai, Kolkata, Hyderabad."},
+      {"stage": "Retail", "what": "Sold by 100–250 g; often bundled free with vegetables by vendors."}
+    ],
+    "routes": [
+      {"from": "Khargone / Nimar", "to": "Delhi (Azadpur)", "km": 900, "days": "1–2", "mode": "Truck"},
+      {"from": "Nandurbar", "to": "Mumbai, Surat, Ahmedabad", "km": 450, "days": "<1", "mode": "Truck"},
+      {"from": "Belagavi / Haveri", "to": "Bengaluru, Goa, Mumbai", "km": 500, "days": "<1", "mode": "Truck"}
+    ],
+    "packaging": "Jute or leno bags; open trucks.",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "North India terminal."},
+    {"name": "Vashi APMC", "place": "Navi Mumbai", "role": "West India terminal."},
+    {"name": "Bowenpally", "place": "Hyderabad", "role": "South India arrivals."},
+    {"name": "Nandurbar APMC", "place": "Maharashtra", "role": "Producer market."}
+  ],
+  "varieties": [
+    {"name": "Pusa Jwala, Pusa Sadabahar", "note": "ICAR-IARI; long, pungent green chillies."},
+    {"name": "Arka Lohit, Arka Meghana, Arka Harita", "note": "ICAR-IIHR."},
+    {"name": "G-4 (Bhagyalakshmi), Jwala", "note": "Older popular varieties."},
+    {"name": "Bajji / bhavnagari chilli", "note": "Large mild type for fritters and stuffing."},
+    {"name": "Bhut jolokia, Naga mircha, Mizo bird's-eye", "note": "North-East GI chillies."}
+  ],
+  "trade": {"exports": "Fresh green chilli: modest, to the Gulf, UK and Nepal. Dry chilli: India is the largest exporter (China, Bangladesh, Thailand, Sri Lanka).", "imports": "Negligible.", "hs_code": "0709 60 (fresh), 0904 21 (dried)"},
+  "policy": [
+    {"when": "Ongoing", "what": "No MSP or buffer. Spices Board covers dry chilli only."}
+  ],
+  "history": [
+    {"when": "Most Jun–Aug", "type": "spike", "what": "Retail often ₹100–200/kg as summer pickings end."},
+    {"when": "2021-22", "type": "shock", "what": "Thrips parvispinus outbreak cut southern chilli output sharply."},
+    {"when": "Most Jan–Mar", "type": "crash", "what": "Winter glut; farm prices fall to ₹5–15/kg."}
+  ],
+  "signals": [
+    "Arrivals in Nandurbar, Khargone and Hyderabad markets (Agmarknet).",
+    "Max temperature anomalies in May–June in central India.",
+    "Pest advisories (thrips) from state universities in the South."
+  ],
+  "business": [
+    "Small ticket, high frequency: a staple add-on item for quick commerce baskets, so availability matters more than margin.",
+    "Very high price per kg at retail (₹100+/kg in small packs) versus ₹20–50/kg at wholesale for much of the year.",
+    "Cold chain at 7–10 °C roughly triples saleable life; most of the trade still runs without it."
+  ],
+  "institutes": [
+    {"name": "ICAR-Indian Institute of Horticultural Research (IIHR)", "url": "https://iihr.res.in/", "where": "Bengaluru"},
+    {"name": "Spices Board India (dry chilli)", "url": "https://www.indianspices.com/", "where": "Kochi"}
+  ],
+  "gi": ["Naga mircha", "Bhut jolokia (Assam)", "Mizo chilli", "Byadgi (dry)", "Guntur Sannam (dry)"],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "Spices Board India", "url": "https://www.indianspices.com/"},
+    {"name": "ICAR-IIHR", "url": "https://iihr.res.in/"}
+  ]
+}

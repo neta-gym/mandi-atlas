@@ -1,0 +1,96 @@
+{
+  "checked": "2026-11-16",
+  "access_note": "Access was tested from a US network on the check date. Several Indian government portals (Agmarknet, data.gov.in API, agriwelfare.gov.in) refuse non-Indian connections; they work from India.",
+  "groups": [
+    {
+      "id": "prices",
+      "title": "Mandi and retail prices",
+      "items": [
+        {"name": "Agmarknet", "org": "Directorate of Marketing & Inspection, MoA&FW", "url": "https://agmarknet.gov.in/", "what": "Daily min / max / modal prices and arrivals from ~3,000 APMC markets for 300+ commodities, by variety and grade.", "granularity": "Market × variety × day", "freq": "Daily", "access": "Web reports; blocks non-Indian IPs", "used": "Indirectly via CEDA"},
+        {"name": "data.gov.in – Daily mandi prices API", "org": "NIC / MeitY (Open Government Data)", "url": "https://data.gov.in/resource/current-daily-price-various-commodities-various-markets-mandi", "what": "JSON/CSV API of the current day's Agmarknet prices (resource 9ef84268-d588-465a-a308-a864a43d0070). Free API key.", "granularity": "Market × variety × day", "freq": "Daily", "access": "REST API with key; India IP", "used": "Pipeline (pipeline/fetch_ogd.py)"},
+        {"name": "CEDA Agri-Market Data", "org": "Centre for Economic Data & Analysis, Ashoka University", "url": "https://agmarknet.ceda.ashoka.edu.in/", "what": "Cleaned Agmarknet prices and arrivals mapped to Census 2011 districts; national, state and district series since 2008.", "granularity": "District × day / month / year", "freq": "Periodic (data to Oct 2025 on check date)", "access": "Web + JSON endpoints", "used": "Yes – history, arrivals, district maps"},
+        {"name": "DoCA Price Monitoring System", "org": "Department of Consumer Affairs", "url": "https://fcainfoweb.nic.in/", "what": "Daily retail and wholesale prices of 38 essential items (incl. onion, potato, tomato, brinjal, banana) from 550+ centres. Homepage shows all-India averages.", "granularity": "Centre × day", "freq": "Daily", "access": "Homepage open; detailed reports behind CAPTCHA", "used": "Yes – daily all-India averages"},
+        {"name": "NHB Market Information", "org": "National Horticulture Board", "url": "https://www.nhb.gov.in/OnlineClient/MonthwiseAnnualPriceandArrivalReport.aspx", "what": "Daily, weekly and monthly wholesale, retail prices and arrivals for 31 centres (Lasalgaon, Delhi, Mumbai, Bengaluru, Shimla...) since 2000.", "granularity": "Centre × day / month", "freq": "Daily (coverage thinned after 2020)", "access": "ASP.NET forms, no CAPTCHA", "used": "Yes – centre-level history"},
+        {"name": "eNAM", "org": "SFAC, MoA&FW", "url": "https://enam.gov.in/web/dashboard/trade-data", "what": "Trades and prices on the national electronic market (~1,500 mandis).", "granularity": "Mandi × day", "freq": "Daily", "access": "Dashboard (trade-data endpoints returned errors on check date)", "used": "No"},
+        {"name": "MSAMB", "org": "Maharashtra State Agricultural Marketing Board", "url": "https://www.msamb.com/", "what": "Daily APMC prices for Maharashtra: Lasalgaon, Pimpalgaon, Vashi, Pune, Solapur.", "granularity": "Market × day", "freq": "Daily", "access": "Web", "used": "No (recommended for onion, grapes)"},
+        {"name": "Krishi Marata Vahini", "org": "Govt of Karnataka", "url": "https://krishimaratavahini.karnataka.gov.in/", "what": "Daily prices and arrivals for Karnataka APMCs, incl. Kolar tomato.", "granularity": "Market × day", "freq": "Daily", "access": "Web", "used": "No (recommended for tomato)"},
+        {"name": "NHRDF", "org": "National Horticultural Research & Development Foundation", "url": "https://nhrdf.org/", "what": "Onion and garlic arrivals, prices and crop status reports.", "granularity": "Market × day / report", "freq": "Daily / periodic", "access": "Web", "used": "No"},
+        {"name": "Quick-commerce apps (Blinkit, Zepto, Swiggy Instamart, BigBasket)", "org": "Private", "url": "https://blinkit.com/", "what": "Consumer prices by pin code and hour. No public API.", "granularity": "Store × hour", "freq": "Continuous", "access": "Public pages only; respect terms", "used": "Dated snapshot (Delhi)"}
+      ]
+    },
+    {
+      "id": "macro",
+      "title": "Inflation and macro price indices",
+      "items": [
+        {"name": "CPI (item indices)", "org": "MoSPI / NSO", "url": "https://mospi.gov.in/", "what": "Monthly consumer price indices incl. vegetables and fruit items.", "granularity": "All-India / state × month", "freq": "Monthly (12th of month)", "access": "Web, Excel", "used": "No"},
+        {"name": "WPI", "org": "Office of the Economic Adviser, DPIIT", "url": "https://eaindustry.nic.in/", "what": "Wholesale price index for onion, potato, fruits and vegetables.", "granularity": "All-India × month", "freq": "Monthly (14th)", "access": "Web, Excel", "used": "No"},
+        {"name": "RBI DBIE", "org": "Reserve Bank of India", "url": "https://dbie.rbi.org.in/", "what": "Price series, inflation analysis and research on food inflation.", "granularity": "Series", "freq": "Varies", "access": "Web", "used": "No"},
+        {"name": "CRISIL Roti Rice Rate (thali cost)", "org": "CRISIL", "url": "https://www.crisil.com/", "what": "Monthly cost of a home-cooked veg/non-veg thali, driven by onion, tomato, potato prices.", "granularity": "All-India × month", "freq": "Monthly", "access": "Press release", "used": "No"}
+      ]
+    },
+    {
+      "id": "production",
+      "title": "Production, area and crop status",
+      "items": [
+        {"name": "Horticulture area & production estimates", "org": "DA&FW, Horticulture Statistics Division", "url": "https://agriwelfare.gov.in/en/StatHortEst", "what": "Advance and final estimates by crop and state.", "granularity": "State × year", "freq": "3–4 releases a year", "access": "PDF/XLS; blocks non-Indian IPs", "used": "Yes – national totals"},
+        {"name": "UPAg", "org": "MoA&FW", "url": "https://upag.gov.in/", "what": "Unified Portal for Agricultural Statistics: production, prices, trade in one place.", "granularity": "State × season", "freq": "Ongoing", "access": "Web dashboards", "used": "No"},
+        {"name": "Horticultural Statistics at a Glance", "org": "DA&FW", "url": "https://agriwelfare.gov.in/", "what": "Reference yearbook with state shares, district leaders, trade.", "granularity": "State × year", "freq": "Every 1–2 years", "access": "PDF", "used": "Reference"},
+        {"name": "CHAMAN / MNCFC", "org": "Mahalanobis National Crop Forecast Centre", "url": "https://www.ncfc.gov.in/", "what": "Satellite-based area and production assessment of horticulture crops (incl. onion, potato, tomato, mango, banana, chilli).", "granularity": "District × season", "freq": "Seasonal", "access": "Reports", "used": "No"},
+        {"name": "Kharif / rabi sowing progress", "org": "DA&FW", "url": "https://agriwelfare.gov.in/", "what": "Weekly area sown by crop during the season.", "granularity": "State × week", "freq": "Weekly (season)", "access": "Press releases", "used": "No"},
+        {"name": "ICRISAT District Level Database", "org": "ICRISAT", "url": "https://data.icrisat.org/dld/", "what": "Long-run district-level area, production, prices.", "granularity": "District × year", "freq": "Periodic", "access": "Download", "used": "No"},
+        {"name": "FAOSTAT", "org": "FAO", "url": "https://www.fao.org/faostat/", "what": "Global production and trade for comparisons.", "granularity": "Country × year", "freq": "Annual", "access": "API / download", "used": "Reference"}
+      ]
+    },
+    {
+      "id": "weather",
+      "title": "Weather and climate",
+      "items": [
+        {"name": "IMD", "org": "India Meteorological Department", "url": "https://mausam.imd.gov.in/", "what": "District rainfall, temperature, monsoon progress, heat-wave and cyclone warnings, extended-range forecasts.", "granularity": "District × day", "freq": "Daily", "access": "Web, some APIs", "used": "No (recommended model input)"},
+        {"name": "Agromet Advisory Service (GKMS)", "org": "IMD / ICAR", "url": "https://mausam.imd.gov.in/", "what": "District crop-weather advisories every Tuesday and Friday.", "granularity": "District × 2/week", "freq": "Twice weekly", "access": "Web/PDF", "used": "No"},
+        {"name": "Open-Meteo", "org": "Open-source", "url": "https://open-meteo.com/", "what": "Free historical and forecast weather API by latitude/longitude (ERA5 reanalysis).", "granularity": "Point × hour", "freq": "Hourly", "access": "Free API", "used": "No (easiest for modelling)"},
+        {"name": "NASA POWER", "org": "NASA", "url": "https://power.larc.nasa.gov/", "what": "Agro-climatology data since 1981.", "granularity": "Point × day", "freq": "Daily", "access": "Free API", "used": "No"},
+        {"name": "India-WRIS", "org": "Ministry of Jal Shakti", "url": "https://indiawris.gov.in/", "what": "Reservoir and groundwater levels (irrigation for onion, grapes, banana).", "granularity": "Reservoir × week", "freq": "Weekly", "access": "Web", "used": "No"}
+      ]
+    },
+    {
+      "id": "chain",
+      "title": "Supply chain, storage and losses",
+      "items": [
+        {"name": "NABCONS post-harvest loss study", "org": "NABCONS for MoFPI (2022)", "url": "https://www.mofpi.gov.in/", "what": "Crop-wise harvest and post-harvest losses for 2020-22.", "granularity": "Crop × stage", "freq": "One-off", "access": "Report", "used": "Yes"},
+        {"name": "ICAR-CIPHET loss study", "org": "ICAR-CIPHET, Ludhiana (2015)", "url": "https://ciphet.icar.gov.in/", "what": "Earlier national post-harvest loss estimates for 45 crops.", "granularity": "Crop", "freq": "One-off", "access": "Report", "used": "Yes"},
+        {"name": "Cold-chain requirement study", "org": "DES / NCCD", "url": "https://desagri.gov.in/wp-content/uploads/2024/04/2021-22-Requirement-and-Availability-of-Cold-Chain-for-Fruits-and-Vegetables-in-the-Country.pdf", "what": "Cold storage, pack-house, reefer and ripening-chamber gaps.", "granularity": "National / state", "freq": "Periodic", "access": "PDF", "used": "Reference"},
+        {"name": "NCCD", "org": "National Centre for Cold-chain Development", "url": "https://nccd.gov.in/", "what": "Cold-chain standards, capacity and studies.", "granularity": "National", "freq": "Periodic", "access": "Web", "used": "Reference"},
+        {"name": "Operation Greens", "org": "MoFPI", "url": "https://www.mofpi.gov.in/", "what": "Subsidies for transport and storage of TOP and other perishables in gluts.", "granularity": "Scheme", "freq": "", "access": "Web", "used": "Reference"},
+        {"name": "Kisan Rail", "org": "Indian Railways", "url": "https://indianrailways.gov.in/", "what": "Perishable parcel trains (2020–22) and parcel services.", "granularity": "Route", "freq": "", "access": "Press releases", "used": "Reference"},
+        {"name": "RBI value-chain working papers (2024)", "org": "RBI DEPR", "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=22721", "what": "Farmer's share in the consumer rupee for TOP, fruits, pulses, dairy.", "granularity": "Commodity", "freq": "One-off", "access": "PDF", "used": "Yes"}
+      ]
+    },
+    {
+      "id": "trade",
+      "title": "Trade and policy",
+      "items": [
+        {"name": "APEDA", "org": "Ministry of Commerce", "url": "https://apeda.gov.in/", "what": "Export statistics, product profiles, GrapeNet / MangoNet / HortiNet traceability.", "granularity": "Product × country × year", "freq": "Monthly / annual", "access": "Web (agriexchange)", "used": "Reference"},
+        {"name": "TradeStat (DGCI&S)", "org": "Ministry of Commerce", "url": "https://tradestat.commerce.gov.in/", "what": "Exports and imports by 8-digit HS code (0701 potato, 0702 tomato, 0703 onion, 0803 banana, 0804 mango, 0806 grapes, 0808 apple).", "granularity": "HS × country × month", "freq": "Monthly", "access": "Web", "used": "Reference"},
+        {"name": "DGFT notifications", "org": "Directorate General of Foreign Trade", "url": "https://www.dgft.gov.in/", "what": "Export bans, minimum export prices, minimum import prices.", "granularity": "Notification", "freq": "As issued", "access": "Web/PDF", "used": "Reference"},
+        {"name": "Price Stabilisation Fund", "org": "DoCA, NAFED, NCCF", "url": "https://consumeraffairs.nic.in/", "what": "Onion buffer procurement and release; subsidised retail sales.", "granularity": "Operation", "freq": "Seasonal", "access": "PIB releases", "used": "Reference"},
+        {"name": "PIB", "org": "Press Information Bureau", "url": "https://pib.gov.in/", "what": "Official announcements: estimates, policy, buffer operations.", "granularity": "Release", "freq": "Daily", "access": "Web", "used": "Reference"},
+        {"name": "GI Registry", "org": "Controller General of Patents, Designs & Trade Marks", "url": "https://ipindia.gov.in/", "what": "Geographical Indication tags (Alphonso, Nashik grapes, Jalgaon banana...).", "granularity": "Product", "freq": "", "access": "Web", "used": "Reference"},
+        {"name": "FSSAI", "org": "Food Safety and Standards Authority", "url": "https://www.fssai.gov.in/", "what": "Ripening rules (ethylene allowed, carbide banned), residue limits.", "granularity": "Regulation", "freq": "", "access": "Web", "used": "Reference"}
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research institutes",
+      "items": [
+        {"name": "ICAR-DOGR (onion, garlic)", "org": "ICAR", "url": "https://dogr.icar.gov.in/", "what": "Varieties, storage research, crop advisories.", "granularity": "", "freq": "", "access": "Web", "used": "Reference"},
+        {"name": "ICAR-CPRI (potato)", "org": "ICAR", "url": "https://cpri.icar.gov.in/", "what": "Kufri varieties, seed systems, late-blight forecasting.", "granularity": "", "freq": "", "access": "Web", "used": "Reference"},
+        {"name": "ICAR-IIHR (vegetables, fruits)", "org": "ICAR", "url": "https://iihr.res.in/", "what": "Arka varieties for tomato, chilli, brinjal, mango and more.", "granularity": "", "freq": "", "access": "Web", "used": "Reference"},
+        {"name": "ICAR-IIVR (vegetables)", "org": "ICAR", "url": "https://iivr.icar.gov.in/", "what": "Vegetable research and varieties.", "granularity": "", "freq": "", "access": "Web", "used": "Reference"},
+        {"name": "ICAR-NRCB (banana)", "org": "ICAR", "url": "https://nrcb.icar.gov.in/", "what": "Banana varieties, Fusarium TR4 management, post-harvest.", "granularity": "", "freq": "", "access": "Web", "used": "Reference"},
+        {"name": "ICAR-CISH (mango)", "org": "ICAR", "url": "https://cish.icar.gov.in/", "what": "Mango varieties (Amrapali, Mallika), flowering and pest management.", "granularity": "", "freq": "", "access": "Web", "used": "Reference"},
+        {"name": "ICAR-CITH (apple)", "org": "ICAR", "url": "https://cith.icar.gov.in/", "what": "Temperate fruit research, high-density apple.", "granularity": "", "freq": "", "access": "Web", "used": "Reference"},
+        {"name": "ICAR-NRCG (grapes)", "org": "ICAR", "url": "https://nrcg.icar.gov.in/", "what": "Grape varieties, residue management, export protocols.", "granularity": "", "freq": "", "access": "Web", "used": "Reference"}
+      ]
+    }
+  ]
+}

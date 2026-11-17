@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mandi Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Everything about India's perishable commodities: where they grow, how they move, what they cost in mandis and on quick commerce, and where prices are heading.">
+<meta property="og:title" content="Mandi Atlas">
+<meta property="og:description" content="Onion, tomato, potato, brinjal, cauliflower, green chilli, banana, mango, apple and grapes: production, seasons, weather risks, supply chains, mandi and retail prices, and forecasts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Latin:wdth,wght@75..100,500..800&family=Hind:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#board"><b>Mandi Atlas</b><span>India · perishables</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#board" data-r="board">Rate board</a>
+      <a href="#commodities" data-r="commodities">Commodities</a>
+      <a href="#calendar" data-r="calendar">Calendar</a>
+      <a href="#supply-chain" data-r="supply-chain">Supply chain</a>
+      <a href="#sources" data-r="sources">Sources</a>
+      <a href="#method" data-r="method">Method</a>
+    </nav>
+    <button class="themebtn" id="themebtn" type="button" aria-label="Switch colour theme">Theme</button>
+  </div>
+</header>
+<div class="cstrip"><div class="wrap" id="cstrip"></div></div>
+<main class="wrap" id="app"><p class="loading">Loading data…</p></main>
+<footer>
+  <div class="wrap">
+    <p>Mandi Atlas · built from open Indian government and research data. Not trading or investment advice.</p>
+    <p id="fresh"></p>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

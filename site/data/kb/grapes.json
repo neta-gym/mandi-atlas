@@ -1,0 +1,140 @@
+{
+  "slug": "grapes",
+  "name": "Grapes",
+  "local": "अंगूर · Angoor",
+  "aka": {"Marathi": "Draksha", "Tamil": "Thiratchai", "Kannada": "Drakshi", "Telugu": "Draksha", "Bengali": "Angur"},
+  "botanical": "Vitis vinifera L. (and V. labrusca hybrids such as Bangalore Blue)",
+  "family": "Vitaceae",
+  "group": "Fruit · vine",
+  "color": "#5e7d2a",
+  "perishability": "Highly perishable at room temperature (berry drop, browning stems). 4–8 weeks at 0 °C with SO₂ pads.",
+  "summary": "India's biggest fresh-fruit export and a tightly managed crop. Vines in Maharashtra and Karnataka are pruned twice a year and give one harvest, timed for January–April. Any rain between October pruning and harvest can wreck the crop through downy mildew or cracked berries, and hail in February–March can ruin export lots overnight.",
+  "key_numbers": [
+    {"label": "Production", "value": "~35–38 lakh t", "note": "approx., recent years", "src": "DA&FW / NHB"},
+    {"label": "Maharashtra share", "value": "~70–75%", "note": "Nashik alone grows over half of India's grapes", "src": "DA&FW / NRCG"},
+    {"label": "Exports 2023-24", "value": "~3.4 lakh t", "note": "about US$ 400 million; India's top fresh fruit export", "src": "APEDA"},
+    {"label": "Post-harvest loss", "value": "8.63%", "note": "harvest to retail", "src": "ICAR-CIPHET 2015"},
+    {"label": "Farmer's share", "value": "~35%", "note": "of the consumer rupee (domestic chain)", "src": "RBI Working Paper 06/2024"}
+  ],
+  "global": "Indian table grapes (mainly Thompson Seedless clones) go to the Netherlands, UK, Germany and the rest of the EU, Russia, Bangladesh, the UAE and Saudi Arabia. Export vineyards are registered and residue-tested through APEDA's GrapeNet.",
+  "states": {
+    "year": "recent years",
+    "basis": "Share of national production (approx.)",
+    "rows": [
+      {"state": "Maharashtra", "share": 72, "hubs": "Nashik (Niphad, Dindori, Pimpalgaon), Sangli (Tasgaon), Solapur, Pune, Satara, Dharashiv"},
+      {"state": "Karnataka", "share": 22, "hubs": "Vijayapura, Bagalkot, Belagavi, Chikkaballapur, Bengaluru Rural (Bangalore Blue)"},
+      {"state": "Tamil Nadu", "share": 3, "hubs": "Theni (Cumbum valley)"},
+      {"state": "Others", "share": 3, "hubs": "Andhra Pradesh, Telangana, Mizoram, Punjab, Haryana"}
+    ]
+  },
+  "belts": [
+    {"name": "Nashik", "where": "Niphad, Dindori, Pimpalgaon Baswant", "note": "'Grape capital of India'; most export vineyards; wine cluster (Sula and others)."},
+    {"name": "Sangli–Solapur–Tasgaon", "where": "Southern Maharashtra", "note": "Table grapes and India's main raisin-drying hub."},
+    {"name": "Vijayapura–Bagalkot", "where": "North Karnataka", "note": "Table grapes and raisins."},
+    {"name": "Chikkaballapur–Bengaluru Rural", "where": "Karnataka", "note": "Bangalore Blue (GI) for juice and wine; two crops a year."},
+    {"name": "Cumbum valley", "where": "Theni, Tamil Nadu", "note": "Panneer (Muscat) grapes harvested almost all year (GI)."}
+  ],
+  "seasons": [
+    {"name": "Foundation (back) pruning", "sow": [4], "harvest": [], "share": "", "region": "Maharashtra, Karnataka", "note": "After harvest; grows the canes that will fruit next season. No crop."},
+    {"name": "Fruit (forward) pruning → main harvest", "sow": [9, 10], "harvest": [1, 2, 3, 4], "share": "~90%", "region": "Maharashtra, Karnataka", "note": "'Sow' here means fruit pruning. Peak harvest Feb–Mar; export season Jan–Apr."},
+    {"name": "Early (pre-season) pruning", "sow": [8], "harvest": [11, 12], "share": "small", "region": "Nashik", "note": "High prices but high rain risk in Sep–Oct."},
+    {"name": "Cumbum and North India", "sow": [], "harvest": [5, 6, 7], "share": "small", "region": "Tamil Nadu, Punjab, Haryana", "note": "Off-season supply."}
+  ],
+  "lean_season": "June–November: very little Indian table grape; shelves rely on cold-stored and imported fruit.",
+  "climate": [
+    {"k": "Dry season", "v": "Needs dry weather from fruit pruning (Oct) to harvest (Mar–Apr). India's tropical viticulture depends on this."},
+    {"k": "Temperature", "v": "15–40 °C. Night temperatures below ~8 °C at ripening cause cracking and slow colour; above ~40 °C causes sunburn."},
+    {"k": "Water", "v": "Drip irrigated; depends on groundwater and canals in Nashik and Sangli."},
+    {"k": "Soil", "v": "Well-drained soil, pH 6.5–7.5; sensitive to salinity."}
+  ],
+  "weather_risks": [
+    {"risk": "Unseasonal rain after fruit pruning", "months": [10, 11, 12], "where": "Nashik, Sangli, Vijayapura", "impact": "Downy mildew outbreaks, flower and berry drop; sometimes the whole season's crop.", "example": "Nov 2019 and Nov–Dec 2021 rains caused widespread losses in Nashik."},
+    {"risk": "Hailstorms", "months": [2, 3, 4], "where": "Nashik, Sangli, Solapur", "impact": "Split and bruised berries; export lots downgraded overnight.", "example": "Feb–Mar hail in 2014 and 2023."},
+    {"risk": "Cold snaps", "months": [12, 1], "where": "Nashik", "impact": "Berry cracking and slow sugar build-up.", "example": ""},
+    {"risk": "Heat", "months": [4, 5], "where": "Maharashtra, Karnataka", "impact": "Sunburn, shrivelling of late-harvested bunches.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Downy mildew", "sci": "Plasmopara viticola", "type": "Disease", "impact": "The most damaging disease; explodes after rain in Oct–Dec."},
+    {"name": "Powdery mildew", "sci": "Erysiphe necator", "type": "Disease", "impact": "Dry-season disease; scars berries."},
+    {"name": "Anthracnose", "sci": "Elsinoe ampelina", "type": "Disease", "impact": "'Bird's-eye' spots on berries and shoots."},
+    {"name": "Mealybugs", "sci": "Maconellicoccus hirsutus and others", "type": "Pest", "impact": "Honeydew and sooty mould on bunches; export rejections."},
+    {"name": "Thrips, flea beetle, mites, stem girdler", "sci": "Various", "type": "Pest", "impact": "Berry scarring and vine damage."},
+    {"name": "Pesticide residues", "sci": "Compliance", "type": "Disorder", "impact": "EU maximum residue limits drive spray schedules for export vineyards."}
+  ],
+  "postharvest": {
+    "storage": "−1 to 0 °C, 90–95% RH, with sulphur dioxide (SO₂) generator pads against grey mould.",
+    "shelf_ambient": "2–5 days.",
+    "shelf_cold": "4–8 weeks (export shipments arrive in Europe after 3–4 weeks at sea).",
+    "respiration": "Non-climacteric: grapes do not ripen after harvest, so they are picked at full sweetness (about 16–18 °Brix).",
+    "chilling": "Not chilling-sensitive; freezing below about −2 °C.",
+    "loss": {"value": 8.63, "src": "ICAR-CIPHET 2015", "detail": "Harvest to retail."},
+    "practices": [
+      "Pre-cooled to 0–2 °C within about 6 hours of harvest at export pack houses.",
+      "Packed in 500 g punnets inside 4.5–9 kg cartons for export; 2–8 kg boxes for the domestic market.",
+      "When prices crash, growers dry grapes into raisins (Sangli, Vijayapura) on shaded racks.",
+      "A small share goes to wine and juice (Nashik wineries, Bangalore Blue)."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Vineyard", "what": "Traders or exporters inspect and agree a price per kg or per 4 kg crate before harvest."},
+      {"stage": "Pack house", "what": "Export grapes are graded, pre-cooled and packed at APEDA-registered pack houses; domestic fruit is packed in the field."},
+      {"stage": "Domestic wholesale", "what": "Overnight trucks to Azadpur, Vashi, Kolkata, Bengaluru and Chennai."},
+      {"stage": "Export", "what": "Reefer containers from JNPT (Nhava Sheva) to Rotterdam, London, the Gulf; trucks to Bangladesh."},
+      {"stage": "Retail", "what": "Fruit sellers, modern retail and quick commerce, mostly in 200–500 g packs."}
+    ],
+    "routes": [
+      {"from": "Nashik", "to": "Delhi (Azadpur)", "km": 1350, "days": "2", "mode": "Truck"},
+      {"from": "Nashik", "to": "JNPT → Rotterdam", "km": 200, "days": "20–25 at sea", "mode": "Reefer container at 0 °C"},
+      {"from": "Sangli / Vijayapura", "to": "Bengaluru, Hyderabad, Chennai", "km": 700, "days": "1", "mode": "Truck"},
+      {"from": "Nashik / Sangli", "to": "Bangladesh (Petrapole)", "km": 2000, "days": "4–5", "mode": "Truck"}
+    ],
+    "packaging": "Punnets and cartons (export), crates and boxes (domestic).",
+    "farmer_share": "About 35% of the retail price in the domestic chain (RBI, 2024). In the export chain the farmer's share is lower but the realised price is higher."
+  },
+  "markets": [
+    {"name": "Pimpalgaon Baswant / Nashik vineyards", "place": "Maharashtra", "role": "Price discovery mostly happens at the vineyard."},
+    {"name": "Tasgaon (Sangli) raisin market", "place": "Maharashtra", "role": "India's main raisin auction."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Largest consuming market."},
+    {"name": "Vashi APMC", "place": "Navi Mumbai", "role": "West India terminal."}
+  ],
+  "varieties": [
+    {"name": "Thompson Seedless and clones (Tas-A-Ganesh, Sonaka, Manik Chaman, Clone 2A)", "note": "Green seedless; table, export and raisin."},
+    {"name": "Sharad Seedless, Krishna Seedless, Nanasaheb Purple, Jumbo Seedless", "note": "Black and coloured seedless grapes."},
+    {"name": "Red Globe, Crimson Seedless, Flame Seedless", "note": "Red types; Red Globe is seeded."},
+    {"name": "Bangalore Blue", "note": "Karnataka; juice and wine; two crops a year (GI)."},
+    {"name": "Panneer (Muscat Hamburg)", "note": "Cumbum valley; three harvests a year (GI)."},
+    {"name": "Wine grapes (Cabernet Sauvignon, Shiraz, Sauvignon Blanc, Chenin Blanc)", "note": "Nashik and North Karnataka wineries."}
+  ],
+  "trade": {"exports": "About 3.4 lakh t worth roughly US$ 400 million in 2023-24 (APEDA). Main buyers: Netherlands, Bangladesh, UK, Russia, UAE, Germany, Saudi Arabia.", "imports": "Off-season table grapes and raisins (Afghanistan, Chile, Australia, USA, China, Peru).", "hs_code": "0806 10 (fresh), 0806 20 (dried)"},
+  "policy": [
+    {"when": "2003 onward", "what": "APEDA GrapeNet: registration, residue monitoring and traceability of export vineyards."},
+    {"when": "Ongoing", "what": "Crop insurance (weather-based) in Maharashtra covers unseasonal rain and hail for grapes."}
+  ],
+  "history": [
+    {"when": "2019 Oct–Nov", "type": "shock", "what": "Unseasonal rains after pruning destroyed a large part of Nashik's crop."},
+    {"when": "2021 Nov–Dec", "type": "shock", "what": "Repeat rains and cold; heavy downy mildew losses."},
+    {"when": "Most Feb–Mar", "type": "crash", "what": "Peak harvest pushes domestic prices down; growers switch to raisin-making."}
+  ],
+  "signals": [
+    "Rainfall in Nashik, Sangli and Vijayapura during Oct–Dec (disease risk) and hail warnings in Feb–Mar.",
+    "APEDA GrapeNet export registrations and weekly container shipments.",
+    "Raisin stocks and prices at Tasgaon (they absorb surplus table grapes).",
+    "EU residue rule changes."
+  ],
+  "business": [
+    "Export-grade discipline (pre-cooling, SO₂ pads, residue testing) is the main quality and margin lever, and it can be applied to domestic premium supply.",
+    "The domestic season is short (Jan–Apr). Year-round supply needs cold storage plus imports.",
+    "Farmer collectives such as Sahyadri Farms and Mahagrapes show how small growers reach export markets."
+  ],
+  "institutes": [
+    {"name": "ICAR-National Research Centre for Grapes (NRCG)", "url": "https://nrcg.icar.gov.in/", "where": "Pune"},
+    {"name": "Maharashtra Rajya Draksha Bagaitdar Sangh", "url": "https://www.mahagrapes.org/", "where": "Pune"}
+  ],
+  "gi": ["Bangalore Blue grapes", "Cumbum Panneer Thratchai", "Nashik Valley wine"],
+  "sources": [
+    {"name": "APEDA – grapes", "url": "https://apeda.gov.in/"},
+    {"name": "RBI Working Paper 06/2024 (fruit value chains)", "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=22721"},
+    {"name": "ICAR-NRCG", "url": "https://nrcg.icar.gov.in/"}
+  ]
+}

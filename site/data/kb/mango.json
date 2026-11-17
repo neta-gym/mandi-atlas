@@ -1,0 +1,152 @@
+{
+  "slug": "mango",
+  "name": "Mango",
+  "local": "आम · Aam",
+  "aka": {"Marathi": "Amba", "Tamil": "Maambazham", "Telugu": "Mamidi pandu", "Kannada": "Maavina hannu", "Bengali": "Aam", "Gujarati": "Keri"},
+  "botanical": "Mangifera indica L.",
+  "family": "Anacardiaceae",
+  "group": "Fruit · tropical tree, seasonal",
+  "color": "#e08a1e",
+  "perishability": "Perishable once ripe (4–7 days). A strictly seasonal fruit: fresh supply runs February to August.",
+  "summary": "India grows close to half the world's mangoes, across hundreds of named varieties that arrive in a fixed sequence: Alphonso and Banganapalli from the South and West first, Dasheri, Langra and Chausa from the North last. The crop is decided at flowering in December–March, when fog, rain or a warm winter can halve the harvest.",
+  "key_numbers": [
+    {"label": "Production", "value": "~220–230 lakh t", "note": "approx., recent years", "src": "DA&FW / NHB"},
+    {"label": "World share", "value": "~40%+", "note": "India is #1", "src": "FAOSTAT"},
+    {"label": "Area", "value": "~24 lakh ha", "note": "largest area of any fruit", "src": "DA&FW / NHB"},
+    {"label": "Post-harvest loss", "value": "8.53%", "note": "farm 6.03% + market 2.50%", "src": "NABCONS 2022"},
+    {"label": "Farmer's share", "value": "~43%", "note": "of the consumer rupee (domestic chain)", "src": "RBI Working Paper 06/2024"}
+  ],
+  "global": "India is the largest producer, but exports a small share of its crop (fresh fruit mainly to the UAE, UK, USA, Qatar, Oman, Kuwait; mango pulp to the Gulf and Europe). The US accepts Indian mangoes after irradiation; Japan and Korea after vapour heat treatment.",
+  "states": {
+    "year": "recent years",
+    "basis": "Share of national production (approx.)",
+    "rows": [
+      {"state": "Uttar Pradesh", "share": 23, "hubs": "Lucknow (Malihabad), Saharanpur, Varanasi, Amroha, Hardoi"},
+      {"state": "Andhra Pradesh", "share": 22, "hubs": "Chittoor, Krishna, Kurnool (Banganapalle), Vizianagaram"},
+      {"state": "Karnataka", "share": 9, "hubs": "Kolar, Ramanagara, Chikkaballapur, Dharwad"},
+      {"state": "Bihar", "share": 7, "hubs": "Bhagalpur, Darbhanga, Muzaffarpur, Patna (Digha)"},
+      {"state": "Gujarat", "share": 6, "hubs": "Gir–Junagadh (Kesar), Valsad, Navsari"},
+      {"state": "Telangana", "share": 5, "hubs": "Jagtial, Khammam, Nagarkurnool"},
+      {"state": "Tamil Nadu", "share": 5, "hubs": "Krishnagiri, Dharmapuri, Dindigul"},
+      {"state": "Others", "share": 23, "hubs": "Odisha, Maharashtra (Konkan Alphonso), West Bengal (Malda), Kerala, Jharkhand"}
+    ]
+  },
+  "belts": [
+    {"name": "Konkan coast", "where": "Ratnagiri, Sindhudurg, Raigad (Maharashtra)", "note": "Alphonso (Hapus), GI tagged; first arrivals in Feb–Mar at Vashi."},
+    {"name": "Gir and Saurashtra", "where": "Junagadh, Amreli (Gujarat)", "note": "Kesar (Gir Kesar GI); Apr–Jun."},
+    {"name": "Rayalaseema and Krishna", "where": "Kurnool, Chittoor, Krishna (AP)", "note": "Banganapalli (GI) and Totapuri; Chittoor is the pulping capital."},
+    {"name": "Malihabad", "where": "Lucknow (UP)", "note": "Dasheri (GI); Jun–Jul."},
+    {"name": "Varanasi and Bhagalpur", "where": "UP and Bihar", "note": "Langra (Banarasi Langda GI), Jardalu (GI), Chausa; Jun–Aug."},
+    {"name": "Malda", "where": "West Bengal", "note": "Himsagar, Fazli, Lakshmanbhog (GI); Jun–Jul."}
+  ],
+  "seasons": [
+    {"name": "South and West early varieties", "sow": [12, 1, 2], "harvest": [3, 4, 5], "share": "", "region": "Konkan, Gujarat, AP, Karnataka", "note": "'Sow' here means flowering. Alphonso, Kesar, Banganapalli, Badami."},
+    {"name": "Mid-season", "sow": [1, 2, 3], "harvest": [5, 6], "share": "", "region": "AP, Telangana, Tamil Nadu, Karnataka", "note": "Totapuri, Neelam, Mallika, Imam Pasand."},
+    {"name": "North and East late varieties", "sow": [2, 3], "harvest": [6, 7, 8], "share": "", "region": "UP, Bihar, West Bengal", "note": "Dasheri, Langra, Himsagar, Fazli, Chausa."}
+  ],
+  "lean_season": "September–January: no fresh domestic mangoes. Pulp, frozen and imported fruit only.",
+  "climate": [
+    {"k": "Flowering trigger", "v": "Needs a cool, dry spell (roughly 10–20 °C) in winter to flower well. Warm winters mean poor flowering."},
+    {"k": "Temperature", "v": "24–30 °C during fruit growth; fruit drops in heat above ~42–45 °C."},
+    {"k": "Rain", "v": "Rain, fog or cloud at flowering (Dec–Mar) brings powdery mildew, anthracnose and hoppers; dry weather from flowering to harvest is ideal."},
+    {"k": "Alternate bearing", "v": "Many varieties (Alphonso, Dasheri, Langra) give a heavy crop one year and a light one the next."},
+    {"k": "Soil", "v": "Deep, well-drained soil, pH 5.5–7.5; altitude up to ~600 m for commercial crops."}
+  ],
+  "weather_risks": [
+    {"risk": "Fog, rain or cloud at flowering", "months": [12, 1, 2, 3], "where": "All belts", "impact": "Flowers blacken (powdery mildew, anthracnose), hoppers multiply, and fruit set collapses.", "example": "Unseasonal winter rains cut Konkan Alphonso output in several recent seasons."},
+    {"risk": "Warm winter", "months": [11, 12, 1], "where": "Konkan, South", "impact": "Weak or late flowering; vegetative flush instead of flowers.", "example": ""},
+    {"risk": "Hail, storms and unseasonal rain", "months": [3, 4, 5], "where": "UP, Bihar, WB, Maharashtra", "impact": "Heavy fruit drop and scarring just before harvest.", "example": "Nor'westers (kalbaisakhi) in Bengal and Bihar each spring."},
+    {"risk": "Heat wave", "months": [4, 5, 6], "where": "North India, Telangana", "impact": "Fruit drop and sunburn.", "example": ""},
+    {"risk": "Cyclones", "months": [5, 6, 10, 11], "where": "Konkan, Gujarat, AP, Odisha", "impact": "Trees uprooted, crop lost.", "example": "Cyclone Tauktae (May 2021) hit Konkan Alphonso and Gir Kesar."}
+  ],
+  "pests": [
+    {"name": "Mango hoppers", "sci": "Idioscopus spp., Amritodus atkinsoni", "type": "Pest", "impact": "Suck sap from flowers; flowers and young fruit drop."},
+    {"name": "Powdery mildew", "sci": "Oidium mangiferae", "type": "Disease", "impact": "White coating on flowers; poor fruit set."},
+    {"name": "Anthracnose", "sci": "Colletotrichum gloeosporioides", "type": "Disease", "impact": "Blossom blight in the field and black spots on ripening fruit."},
+    {"name": "Fruit fly", "sci": "Bactrocera dorsalis", "type": "Pest", "impact": "Maggots inside ripe fruit; the main quarantine issue for exports."},
+    {"name": "Stone weevil", "sci": "Sternochetus mangiferae", "type": "Pest", "impact": "Quarantine pest in South India; blocks some export markets."},
+    {"name": "Malformation", "sci": "Fusarium mangiferae", "type": "Disease", "impact": "Bunchy, sterile flower clusters in North India."},
+    {"name": "Spongy tissue", "sci": "Physiological", "type": "Disorder", "impact": "Internal breakdown in Alphonso."}
+  ],
+  "postharvest": {
+    "storage": "10–13 °C depending on variety (Alphonso about 12 °C), 85–90% RH.",
+    "shelf_ambient": "4–7 days ripe.",
+    "shelf_cold": "2–4 weeks for mature fruit at the right temperature.",
+    "respiration": "Climacteric; ripens after harvest; responds to ethylene.",
+    "chilling": "Chilling injury below ~10–12 °C: grey skin, uneven ripening, poor flavour.",
+    "loss": {"value": 8.53, "src": "NABCONS 2022 (for MoFPI)", "detail": "Farm stage 6.03%, market stage 2.50%."},
+    "practices": [
+      "Harvested at physiological maturity with a short stalk, then de-sapped to avoid sap burn.",
+      "Ripened with ethylene (10–100 ppm) at 20–25 °C; calcium carbide is banned and FSSAI runs enforcement drives every season.",
+      "Export treatments: hot water (EU and others), vapour heat (Japan, Korea), irradiation (USA).",
+      "Alphonso is sold per dozen and in 4–6 dozen wooden boxes (peti); most others per kg."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Orchard contract", "what": "Many owners sell the standing crop at flowering to a pre-harvest contractor, who carries the weather risk."},
+      {"stage": "Harvest and pack", "what": "Contractor picks, grades and packs in wooden boxes, crates or cartons."},
+      {"stage": "Wholesale", "what": "Vashi (Navi Mumbai) for Alphonso; Lucknow, Azadpur, Kolkata for northern types; Chittoor pulp units for Totapuri."},
+      {"stage": "Ripening", "what": "Traders ripen in chambers or traditional straw-and-paper stacks."},
+      {"stage": "Retail and export", "what": "Domestic retail, quick commerce, online direct-from-farm boxes, and export pack houses."}
+    ],
+    "routes": [
+      {"from": "Ratnagiri / Devgad", "to": "Vashi (Navi Mumbai)", "km": 350, "days": "<1", "mode": "Truck"},
+      {"from": "Malihabad", "to": "Delhi, Mumbai, Kolkata", "km": 550, "days": "1–2", "mode": "Truck, rail parcel"},
+      {"from": "Chittoor", "to": "Pulp units → Gulf, EU", "km": null, "days": "", "mode": "Processing, then container"},
+      {"from": "Vashi / Lasalgaon (irradiation)", "to": "USA", "km": null, "days": "1–2", "mode": "Air"}
+    ],
+    "packaging": "Wooden boxes and plastic crates (domestic); CFB cartons with grading (export).",
+    "farmer_share": "About 43% of the retail price in the domestic chain (RBI, 2024)."
+  },
+  "markets": [
+    {"name": "Vashi APMC", "place": "Navi Mumbai", "role": "Largest Alphonso market; season opens with ceremonial first boxes."},
+    {"name": "Lucknow (Dubagga) mandi", "place": "Uttar Pradesh", "role": "Dasheri and Chausa hub."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Largest consuming market."},
+    {"name": "Nuzvid and Vijayawada", "place": "Andhra Pradesh", "role": "Banganapalli trade."},
+    {"name": "Krishnagiri", "place": "Tamil Nadu", "role": "Totapuri and Neelam for pulp and table."}
+  ],
+  "varieties": [
+    {"name": "Alphonso (Hapus)", "note": "Konkan; Mar–May; premium, sold per dozen."},
+    {"name": "Kesar", "note": "Gujarat and Marathwada; Apr–Jun."},
+    {"name": "Banganapalli (Benishan)", "note": "AP; Apr–Jun; large, fibreless."},
+    {"name": "Totapuri", "note": "South; May–Jul; mostly for pulp."},
+    {"name": "Dasheri, Langra, Chausa", "note": "North; Jun–Aug."},
+    {"name": "Himsagar, Fazli, Lakshmanbhog", "note": "Bengal; Jun–Jul."},
+    {"name": "Amrapali, Mallika", "note": "ICAR-IARI hybrids; regular bearing."}
+  ],
+  "trade": {"exports": "Fresh mango exports are a few tens of thousands of tonnes a year (UAE, UK, USA, Gulf); mango pulp exports are larger.", "imports": "Small; some off-season imports.", "hs_code": "0804 50"},
+  "policy": [
+    {"when": "2007", "what": "USA opened to Indian mangoes with irradiation."},
+    {"when": "2011 onward", "what": "Calcium carbide ripening banned; ethylene permitted."},
+    {"when": "Ongoing", "what": "APEDA's MangoNet traceability for export orchards and pack-house approvals."}
+  ],
+  "history": [
+    {"when": "2021 May", "type": "shock", "what": "Cyclone Tauktae destroyed Konkan and Gir orchards weeks before harvest."},
+    {"when": "Every Feb–Mar", "type": "spike", "what": "First Alphonso boxes at Vashi sell at ₹1,500–5,000+ per dozen; prices fall as volumes rise."},
+    {"when": "Off years", "type": "shock", "what": "Alternate bearing plus bad flowering weather can cut regional output by half."}
+  ],
+  "signals": [
+    "Flowering reports (Dec–Feb) from Konkan, AP and UP horticulture departments.",
+    "Fog days and rainfall during Jan–Mar in mango districts.",
+    "First-arrival dates and daily box counts at Vashi APMC.",
+    "Heat and storm warnings in Apr–May for the North."
+  ],
+  "business": [
+    "The variety calendar is the product calendar: a buyer can run five months of supply by moving from Alphonso to Kesar, Banganapalli, Dasheri, Langra and Chausa.",
+    "Pre-harvest contractors carry most of the weather risk and capture most of the margin in good years.",
+    "Residue-free, carbide-free certification and direct farm boxes command strong premiums in metros.",
+    "Pulp and frozen chunks extend the season to 12 months for food-service buyers."
+  ],
+  "institutes": [
+    {"name": "ICAR-Central Institute for Subtropical Horticulture (CISH)", "url": "https://cish.icar.gov.in/", "where": "Lucknow"},
+    {"name": "Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth", "url": "https://www.dbskkv.org/", "where": "Dapoli"}
+  ],
+  "gi": ["Alphonso (Ratnagiri, Sindhudurg, Raigad...)", "Gir Kesar", "Banganapalle", "Malihabadi Dasheri", "Banarasi Langda", "Bhagalpur Jardalu", "Malda Himsagar, Fazli, Lakshmanbhog"],
+  "sources": [
+    {"name": "RBI Working Paper 06/2024 (fruit value chains)", "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=22721"},
+    {"name": "NABCONS post-harvest loss study (summary)", "url": "https://www.global-agriculture.com/india-region/indias-highest-post-harvest-losses-guava-and-tomato-among-the-worst-hit/"},
+    {"name": "ICAR-CISH", "url": "https://cish.icar.gov.in/"},
+    {"name": "APEDA – fresh fruits", "url": "https://apeda.gov.in/"}
+  ]
+}

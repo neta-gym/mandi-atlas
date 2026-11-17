@@ -1,0 +1,171 @@
+{
+  "slug": "onion",
+  "name": "Onion",
+  "local": "प्याज़ · Pyaaz",
+  "aka": {"Marathi": "Kanda", "Tamil": "Vengayam", "Telugu": "Ullipaya", "Kannada": "Eerulli", "Bengali": "Peyaj", "Gujarati": "Dungli"},
+  "botanical": "Allium cepa L.",
+  "family": "Amaryllidaceae",
+  "group": "Vegetable · bulb",
+  "color": "#9b3d6e",
+  "perishability": "Semi-perishable. Rabi bulbs store 4–6 months; kharif bulbs only weeks.",
+  "summary": "India's most politically sensitive vegetable. About two-thirds of the crop is harvested in March–May and stored in ventilated sheds until the next harvest, so prices hinge on how well that stock holds up and on whether the monsoon lets the kharif crop arrive on time in October.",
+  "key_numbers": [
+    {"label": "Production 2024-25", "value": "307.7 lakh t", "note": "Final estimate; up 27% from 242.7 lakh t in 2023-24", "src": "DA&FW horticulture estimates"},
+    {"label": "Production 2025-26", "value": "307.4 lakh t", "note": "Second advance estimate, June 2026", "src": "DA&FW"},
+    {"label": "Area 2025-26", "value": "20.1 lakh ha", "note": "up from 15.4 lakh ha in 2023-24", "src": "DA&FW"},
+    {"label": "Maharashtra share", "value": "~35%", "note": "of national output (2023-24)", "src": "DA&FW via DoCA"},
+    {"label": "Post-harvest loss", "value": "7.27%", "note": "farm 5.31% + market 1.96%; storage shrinkage is extra", "src": "NABCONS 2022"},
+    {"label": "Farmer's share", "value": "~36%", "note": "of the consumer rupee", "src": "RBI Working Paper 2024 (TOP)"}
+  ],
+  "global": "India and China are the two largest onion producers. India is usually the largest exporter of fresh onions, mainly to Bangladesh, Malaysia, the UAE, Sri Lanka and Nepal.",
+  "states": {
+    "year": "2023-24",
+    "basis": "Share of national production (approx.; computed from DA&FW state estimates)",
+    "rows": [
+      {"state": "Maharashtra", "share": 35.5, "hubs": "Nashik, Ahilyanagar (Ahmednagar), Pune, Solapur, Dhule"},
+      {"state": "Madhya Pradesh", "share": 17.2, "hubs": "Indore, Shajapur, Dewas, Ujjain, Khandwa"},
+      {"state": "Gujarat", "share": 8.5, "hubs": "Bhavnagar (Mahuva), Rajkot, Amreli"},
+      {"state": "Karnataka", "share": 6.8, "hubs": "Chitradurga, Davanagere, Vijayapura, Bagalkot, Ballari"},
+      {"state": "Rajasthan", "share": 6.7, "hubs": "Sikar, Jodhpur, Alwar, Nagaur"},
+      {"state": "Bihar", "share": 5.0, "hubs": "Nalanda, Patna, Muzaffarpur"},
+      {"state": "Others", "share": 20.3, "hubs": "Andhra Pradesh (Kurnool), West Bengal, Haryana, UP, Telangana, Tamil Nadu (small onion)"}
+    ]
+  },
+  "belts": [
+    {"name": "Nashik–Lasalgaon belt", "where": "Nashik and Ahilyanagar districts, Maharashtra", "note": "Grows all three seasons; Lasalgaon APMC is the national price reference."},
+    {"name": "Malwa plateau", "where": "Indore–Shajapur–Dewas, Madhya Pradesh", "note": "Fast-growing rabi belt; feeds North India from April."},
+    {"name": "Saurashtra white-onion belt", "where": "Bhavnagar (Mahuva), Gujarat", "note": "White onions for India's dehydration (flakes, powder) industry."},
+    {"name": "North Karnataka kharif belt", "where": "Chitradurga, Davanagere, Ballari", "note": "Early kharif crop that reaches markets in Aug–Oct, ahead of Maharashtra."},
+    {"name": "Small onion (shallot) belt", "where": "Perambalur, Tiruppur, Dindigul (Tamil Nadu)", "note": "Multiplier onion (sambar onion), a separate market."}
+  ],
+  "seasons": [
+    {"name": "Kharif", "sow": [6, 7, 8], "harvest": [10, 11, 12], "share": "~20%", "region": "Karnataka, Maharashtra, Andhra Pradesh, Rajasthan", "note": "Monsoon crop. Bulbs carry high moisture and cannot be stored, so they are sold straight away."},
+    {"name": "Late kharif (Rangda)", "sow": [8, 9, 10], "harvest": [1, 2, 3], "share": "~20%", "region": "Maharashtra, Gujarat", "note": "Bridges the gap between kharif and rabi; limited storability."},
+    {"name": "Rabi", "sow": [11, 12, 1], "harvest": [3, 4, 5], "share": "~60–65%", "region": "Maharashtra, MP, Gujarat, Rajasthan, Bihar, Karnataka", "note": "The storage crop. Supplies the market from June to October out of chawls."}
+  ],
+  "lean_season": "September–November, when rabi stocks run low and the kharif crop has not yet arrived. Most historic spikes happened in this window.",
+  "climate": [
+    {"k": "Temperature", "v": "13–24 °C for leaf growth; 25–30 °C for bulbing. Cool nights and warm days give the best bulbs."},
+    {"k": "Day length", "v": "Indian varieties are short-day types (10–12 h); long-day European varieties fail to bulb here."},
+    {"k": "Rainfall", "v": "650–750 mm, well distributed. Dry weather is needed at maturity and harvest."},
+    {"k": "Soil", "v": "Well-drained sandy loam to clay loam, pH 6.0–7.5. Waterlogging rots bulbs."},
+    {"k": "Water", "v": "Shallow-rooted; 12–15 light irrigations. Stop irrigation 10–15 days before harvest for better storage."}
+  ],
+  "weather_risks": [
+    {"risk": "Excess or late monsoon rain", "months": [8, 9, 10], "where": "Maharashtra, Karnataka", "impact": "Rots the kharif crop in the field, delays transplanting and harvest. The single most common cause of autumn price spikes.", "example": "2019: late heavy rain cut the kharif crop; retail onion crossed ₹100/kg in Nov–Dec."},
+    {"risk": "Delayed or weak monsoon onset", "months": [6, 7], "where": "Karnataka, Maharashtra", "impact": "Delays kharif sowing, pushing arrivals into November and stretching the lean season.", "example": "2023: dry spell in Karnataka shrank kharif area."},
+    {"risk": "Unseasonal rain and hail at rabi harvest", "months": [3, 4], "where": "Maharashtra, MP", "impact": "Wet bulbs cure badly and rot in storage, so the summer stock is weaker than the harvest suggests.", "example": "March 2023 and April 2024 hail in Nashik."},
+    {"risk": "Heat wave during bulbing", "months": [4, 5], "where": "MP, Rajasthan, Maharashtra", "impact": "Forces early maturity and smaller bulbs; raises storage weight loss.", "example": ""},
+    {"risk": "Humid, cloudy spells", "months": [1, 2, 9, 10], "where": "All belts", "impact": "Trigger purple blotch and Stemphylium blight outbreaks.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Onion thrips", "sci": "Thrips tabaci", "type": "Pest", "impact": "Most damaging pest; silvery leaf streaks, yield loss up to 30–50%, and spreads Iris yellow spot virus."},
+    {"name": "Purple blotch", "sci": "Alternaria porri", "type": "Disease", "impact": "Leaf and stalk lesions in humid weather; severe in kharif."},
+    {"name": "Stemphylium blight", "sci": "Stemphylium vesicarium", "type": "Disease", "impact": "Leaf blight in late kharif and rabi; often occurs with purple blotch."},
+    {"name": "Basal rot", "sci": "Fusarium oxysporum f. sp. cepae", "type": "Disease", "impact": "Rots bulbs from the base, in the field and in storage."},
+    {"name": "Black mould", "sci": "Aspergillus niger", "type": "Storage", "impact": "Black powdery growth under scales in warm stores."},
+    {"name": "Neck rot", "sci": "Botrytis allii", "type": "Storage", "impact": "Starts from poorly cured necks; a key reason for curing."},
+    {"name": "Sprouting and weight loss", "sci": "Physiological", "type": "Disorder", "impact": "Bulbs lose 20–40% of weight over 4–6 months in ambient stores."}
+  ],
+  "postharvest": {
+    "storage": "Ambient ventilated store (kanda chawl) at 25–30 °C, 65–70% RH; or cold store at 0–2 °C, 65–70% RH.",
+    "shelf_ambient": "Rabi: 4–6 months in a chawl. Kharif: 2–4 weeks.",
+    "shelf_cold": "6–8 months at 0–2 °C, but bulbs sprout quickly after removal.",
+    "respiration": "Non-climacteric, low ethylene producer.",
+    "chilling": "Not chilling-sensitive. Store dry: high humidity causes rooting and rot.",
+    "loss": {"value": 7.27, "src": "NABCONS 2022 (for MoFPI)", "detail": "Farm stage 5.31%, market stage 1.96%. Long-term storage shrinkage (25–40%) is reported separately by ICAR-DOGR."},
+    "practices": [
+      "Field curing: bulbs left in windrows for 3–5 days, tops covering bulbs, then shade-cured 2–3 weeks.",
+      "Necks cut 2–2.5 cm above the bulb; only fully cured, medium bulbs go into storage.",
+      "Chawls: single or double-row bamboo/wood structures with ventilated sides and raised floors, 25–50 t each.",
+      "Gamma irradiation (0.03–0.09 kGy) to stop sprouting has been piloted with NAFED at the KRUSHAK facility, Lasalgaon.",
+      "Packing: 50 kg jute or leno mesh bags for domestic trade; 5–25 kg mesh bags for export."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Harvest, field curing, sorting by size. Farmer decides to sell now or store in own chawl."},
+      {"stage": "Village aggregation", "what": "Loads go by tractor-trolley to the APMC; some sold to village traders or FPOs."},
+      {"stage": "APMC auction", "what": "Open auction trolley by trolley at Lasalgaon, Pimpalgaon Baswant, Vinchur, Yeola and others. Commission agent settles payment."},
+      {"stage": "Trader–packer", "what": "Buyers grade, bag (50 kg) and either store or dispatch by truck the same day."},
+      {"stage": "Terminal market", "what": "Azadpur (Delhi), Vashi (Navi Mumbai), Koyambedu (Chennai), Yeshwanthpur (Bengaluru), Kolkata, Guwahati."},
+      {"stage": "Retail", "what": "Wholesaler → semi-wholesaler → vendors, kiranas, modern retail and quick-commerce dark stores."}
+    ],
+    "routes": [
+      {"from": "Lasalgaon / Nashik", "to": "Delhi (Azadpur)", "km": 1350, "days": "2–3", "mode": "Truck, 25–30 t"},
+      {"from": "Lasalgaon / Nashik", "to": "Kolkata", "km": 1700, "days": "3–4", "mode": "Truck"},
+      {"from": "Lasalgaon / Nashik", "to": "Guwahati", "km": 2600, "days": "5–6", "mode": "Truck / rail"},
+      {"from": "Indore / Shajapur", "to": "Delhi, Lucknow, Patna", "km": 800, "days": "1–2", "mode": "Truck"},
+      {"from": "Nashik", "to": "Dhaka, Colombo, Dubai, Kuala Lumpur", "km": null, "days": "7–20", "mode": "Road via Petrapole; sea via JNPT/Mundra"}
+    ],
+    "packaging": "50 kg jute/leno bags; open trucks with tarpaulin; export in ventilated containers.",
+    "farmer_share": "About 36% of the retail price (RBI, 2024)."
+  },
+  "markets": [
+    {"name": "Lasalgaon APMC", "place": "Nashik, Maharashtra", "role": "Asia's largest onion market; national benchmark price."},
+    {"name": "Pimpalgaon Baswant APMC", "place": "Nashik, Maharashtra", "role": "Second Nashik hub; often higher arrivals than Lasalgaon."},
+    {"name": "Solapur APMC", "place": "Solapur, Maharashtra", "role": "Big kharif and late-kharif market."},
+    {"name": "Mahuva APMC", "place": "Bhavnagar, Gujarat", "role": "White onion for dehydration; red onion too."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Largest consuming terminal market."},
+    {"name": "Bengaluru (Yeshwanthpur)", "place": "Karnataka", "role": "South India's main onion terminal."}
+  ],
+  "varieties": [
+    {"name": "N-2-4-1", "note": "Rabi, the classic storage variety."},
+    {"name": "Bhima Super, Bhima Red, Bhima Dark Red", "note": "ICAR-DOGR; kharif and late kharif."},
+    {"name": "Bhima Kiran, Bhima Shakti", "note": "Rabi; good storage life."},
+    {"name": "Agrifound Dark Red, Nasik Red (N-53)", "note": "NHRDF kharif varieties."},
+    {"name": "Bhima Shubhra, Bhima Shweta, Phule Safed", "note": "White onions for processing."},
+    {"name": "Bangalore Rose, Krishnapuram", "note": "Small pungent export onions (GI tagged)."}
+  ],
+  "trade": {
+    "exports": "Typically 1.5–2.5 million t a year when exports are open (2.5 million t in 2022-23). Buyers: Bangladesh, Malaysia, UAE, Sri Lanka, Nepal, Indonesia.",
+    "imports": "Only during crises, e.g. 2019-20 from Egypt, Turkey, Afghanistan via MMTC.",
+    "hs_code": "0703 10"
+  },
+  "policy": [
+    {"when": "Aug 2023", "what": "40% export duty imposed."},
+    {"when": "Oct 2023", "what": "Minimum export price (MEP) of US$800/t."},
+    {"when": "Dec 2023", "what": "Export ban (extended to May 2024)."},
+    {"when": "May 2024", "what": "Ban lifted with MEP US$550/t and 40% duty."},
+    {"when": "Sep 2024", "what": "MEP removed; duty cut to 20%."},
+    {"when": "Apr 2025", "what": "20% export duty withdrawn."},
+    {"when": "Every year", "what": "Price Stabilisation Fund buffer: NAFED and NCCF buy rabi onion (4.7 lakh t in 2024-25) and release it in Sep–Dec, including retail sales at subsidised rates."}
+  ],
+  "history": [
+    {"when": "1998 Oct–Nov", "type": "spike", "what": "Prices tripled; widely credited with affecting the Delhi assembly election."},
+    {"when": "2010 Dec", "type": "spike", "what": "Unseasonal rain hit the late-kharif crop; retail ₹70–80/kg; export ban."},
+    {"when": "2013 Aug–Oct", "type": "spike", "what": "Retail ₹80–100/kg after a delayed kharif crop."},
+    {"when": "2018 Dec–2019 Jan", "type": "crash", "what": "Glut: Nashik farmers received ₹1–2/kg; protests and state transport subsidies."},
+    {"when": "2019 Sep–Dec", "type": "spike", "what": "Late monsoon rains destroyed kharif; retail ₹100–150/kg; export ban, stock limits and imports."},
+    {"when": "2020 Oct", "type": "spike", "what": "Heavy rains again; retail ₹80–100/kg; stock limits on traders."},
+    {"when": "2023 Dec–2024 May", "type": "policy", "what": "Export ban to cool prices after a weak kharif crop."},
+    {"when": "2025", "type": "crash", "what": "Record 2024-25 crop pushed farm prices down to ₹8–12/kg in Nashik for long stretches."}
+  ],
+  "signals": [
+    "Daily arrivals and modal price at Lasalgaon and Pimpalgaon (MSAMB / Agmarknet).",
+    "Rabi stock estimates and storage losses reported by NHRDF in May–August.",
+    "Kharif area sown in Maharashtra and Karnataka (DA&FW weekly sowing reports, Jul–Sep).",
+    "IMD district rainfall in Nashik, Pune, Ahilyanagar and Chitradurga during Aug–Oct.",
+    "Export policy notifications from DGFT and NAFED/NCCF buffer release announcements.",
+    "Bangladesh import demand and its own crop status (largest buyer)."
+  ],
+  "business": [
+    "Storage arbitrage is the core trade: buy rabi onion in Apr–May, sell Sep–Nov. Budget for 25–40% shrinkage and the risk of government intervention capping the upside.",
+    "A 1–2 week lead exists from Lasalgaon modal prices to Delhi retail; retail moves later and less on the way down.",
+    "Dehydrated onion (Mahuva cluster) and pre-cut onion for QSR chains are steady demand sinks during gluts.",
+    "Kharif onions cannot be stored. Price falls in Nov–Dec are usually sharp once kharif arrives in volume."
+  ],
+  "institutes": [
+    {"name": "ICAR-Directorate of Onion and Garlic Research (DOGR)", "url": "https://dogr.icar.gov.in/", "where": "Rajgurunagar, Pune"},
+    {"name": "National Horticultural Research & Development Foundation (NHRDF)", "url": "https://nhrdf.org/", "where": "Nashik"}
+  ],
+  "gi": ["Lasalgaon onion", "Bangalore Rose onion", "Krishnapuram onion", "Alibag white onion"],
+  "sources": [
+    {"name": "DA&FW horticulture area & production estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "NABCONS post-harvest loss study (summary)", "url": "https://www.global-agriculture.com/india-region/indias-highest-post-harvest-losses-guava-and-tomato-among-the-worst-hit/"},
+    {"name": "RBI DEPR Working Paper on TOP inflation (2024)", "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=22721"},
+    {"name": "APEDA – fresh onion", "url": "https://apeda.gov.in/FreshOnions"},
+    {"name": "NHRDF", "url": "https://nhrdf.org/"},
+    {"name": "ICAR-DOGR", "url": "https://dogr.icar.gov.in/"}
+  ]
+}

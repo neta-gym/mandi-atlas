@@ -1,0 +1,134 @@
+{
+  "slug": "brinjal",
+  "name": "Brinjal",
+  "local": "बैंगन · Baingan",
+  "aka": {"Bengali": "Begun", "Tamil": "Kathirikai", "Telugu": "Vankaya", "Kannada": "Badanekayi", "Marathi": "Vangi", "Gujarati": "Ringan"},
+  "botanical": "Solanum melongena L.",
+  "family": "Solanaceae",
+  "group": "Vegetable · fruit",
+  "color": "#5b3a7a",
+  "perishability": "Highly perishable. 3–5 days at room temperature before it wilts and loses gloss.",
+  "summary": "India is the crop's home and grows thousands of local types, from long purple to the small round green Mattu Gulla. It is grown all year close to cities and moves mostly within a few hundred kilometres, so prices are regional. The shoot and fruit borer makes it one of the most heavily sprayed vegetables.",
+  "key_numbers": [
+    {"label": "Production", "value": "~128 lakh t", "note": "approx., recent years; second only to China", "src": "DA&FW / NHB"},
+    {"label": "Area", "value": "~7.5 lakh ha", "note": "approx.", "src": "DA&FW / NHB"},
+    {"label": "World share", "value": "~25%", "note": "of global output (approx.)", "src": "FAOSTAT"},
+    {"label": "Retail today", "value": "Tracked daily", "note": "All-India average retail price published by DoCA", "src": "DoCA PMS"},
+    {"label": "Bt brinjal", "value": "Moratorium", "note": "since Feb 2010; not approved for cultivation", "src": "MoEFCC"}
+  ],
+  "global": "India is the centre of origin and diversity of brinjal and the world's second-largest producer after China. Exports are small (UAE, UK, Gulf).",
+  "states": {
+    "year": "recent years",
+    "basis": "Leading producing states (ranked, approx. shares)",
+    "rows": [
+      {"state": "West Bengal", "share": 23, "hubs": "Nadia, North 24 Parganas, Hooghly, Murshidabad"},
+      {"state": "Odisha", "share": 16, "hubs": "Cuttack, Puri, Ganjam, Balasore"},
+      {"state": "Gujarat", "share": 10, "hubs": "Anand, Vadodara, Surat, Mehsana"},
+      {"state": "Madhya Pradesh", "share": 10, "hubs": "Sagar, Chhindwara, Jabalpur"},
+      {"state": "Bihar", "share": 9, "hubs": "Nalanda, Patna, Vaishali, Samastipur"},
+      {"state": "Others", "share": 32, "hubs": "Maharashtra (Jalgaon), AP, Chhattisgarh, Karnataka (Udupi), UP, Telangana, Haryana"}
+    ]
+  },
+  "belts": [
+    {"name": "Bengal delta", "where": "Nadia, North 24 Parganas", "note": "Largest producing region; supplies Kolkata year round."},
+    {"name": "Coastal Odisha", "where": "Cuttack, Puri", "note": "Major kharif and rabi supply to Odisha and Andhra."},
+    {"name": "Jalgaon", "where": "Maharashtra", "note": "Bharit brinjal (GI) for the roasted dish bharit."},
+    {"name": "Udupi", "where": "Karnataka", "note": "Mattu Gulla (GI), a round green heirloom."},
+    {"name": "Peri-urban belts", "where": "Around Delhi, Hyderabad, Pune, Bengaluru", "note": "Short supply chains feeding city mandis daily."}
+  ],
+  "seasons": [
+    {"name": "Kharif", "sow": [6, 7], "harvest": [8, 9, 10, 11, 12], "share": "~40%", "region": "All states", "note": "Rainy season raises pest and disease pressure."},
+    {"name": "Rabi", "sow": [10, 11], "harvest": [1, 2, 3, 4], "share": "~40%", "region": "East and South", "note": "Best quality; winter glut keeps prices low."},
+    {"name": "Summer", "sow": [1, 2], "harvest": [4, 5, 6], "share": "~20%", "region": "Irrigated belts", "note": "Heat cuts fruit set; borer peaks."}
+  ],
+  "lean_season": "June–September: rain and borer damage cut marketable fruit.",
+  "climate": [
+    {"k": "Temperature", "v": "Warm-season crop; 21–30 °C ideal. Stunted below ~17 °C; killed by frost."},
+    {"k": "Heat", "v": "Tolerates heat better than tomato, but fruit set drops above ~35 °C."},
+    {"k": "Soil", "v": "Deep, fertile loam, pH 5.5–6.6. Long-duration crop (5–8 months of picking)."},
+    {"k": "Water", "v": "Regular irrigation; waterlogging causes wilt and root rot."}
+  ],
+  "weather_risks": [
+    {"risk": "Heavy monsoon rain", "months": [7, 8, 9], "where": "WB, Odisha, Maharashtra", "impact": "Fruit rot, Phomopsis blight, and borer flare-ups; fewer pickings.", "example": ""},
+    {"risk": "Cyclones", "months": [5, 10, 11], "where": "Odisha, WB, AP", "impact": "Plants lodged and fields flooded in the main eastern belts.", "example": "Cyclone Amphan (May 2020) and Yaas (May 2021) in Bengal and Odisha."},
+    {"risk": "Cold wave and frost", "months": [12, 1], "where": "North India", "impact": "Slows growth and damages fruit.", "example": ""},
+    {"risk": "Heat wave", "months": [4, 5, 6], "where": "Central and North India", "impact": "Flower drop and small, dull fruit.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Brinjal shoot and fruit borer", "sci": "Leucinodes orbonalis", "type": "Pest", "impact": "Bores into shoots and fruit; 30–70% losses without control; drives spraying every few days."},
+    {"name": "Little leaf", "sci": "Phytoplasma, spread by leafhoppers", "type": "Disease", "impact": "Tiny leaves and no fruit; plants must be removed."},
+    {"name": "Bacterial wilt", "sci": "Ralstonia solanacearum", "type": "Disease", "impact": "Sudden wilting in warm, wet soils."},
+    {"name": "Phomopsis blight and fruit rot", "sci": "Phomopsis vexans", "type": "Disease", "impact": "Fruit rot in humid weather."},
+    {"name": "Jassids, whitefly, mites, epilachna beetle", "sci": "Various", "type": "Pest", "impact": "Sucking and leaf-feeding damage."},
+    {"name": "Root-knot nematode", "sci": "Meloidogyne spp.", "type": "Pest", "impact": "Galls on roots; stunting."}
+  ],
+  "postharvest": {
+    "storage": "10–12 °C, 90–95% RH.",
+    "shelf_ambient": "3–5 days.",
+    "shelf_cold": "1–2 weeks.",
+    "respiration": "Non-climacteric; moderately sensitive to ethylene (calyx yellowing).",
+    "chilling": "Chilling injury below ~10 °C: pitting, browning of skin and seeds.",
+    "loss": {"value": null, "src": "NABCONS 2022", "detail": "Not reported separately; vegetables range 4.87–11.61%."},
+    "practices": [
+      "Picked young and glossy every 3–5 days; over-mature fruit is seedy and fetches less.",
+      "Packed in gunny bags or crates (20–40 kg); mostly sold within 300 km.",
+      "Gloss and calyx freshness drive price; shading and quick sale matter more than cold chain."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Frequent pickings; sorted by type and size."},
+      {"stage": "Local mandi or direct trader", "what": "Sold the same day at a nearby APMC or to a trader at the farm gate."},
+      {"stage": "City wholesale", "what": "Azadpur, Bowenpally, Koley Market (Kolkata), Gultekdi (Pune)."},
+      {"stage": "Retail", "what": "Vendors and quick commerce; strong regional preference by type."}
+    ],
+    "routes": [
+      {"from": "Nadia / North 24 Parganas", "to": "Kolkata", "km": 100, "days": "<1", "mode": "Truck, train"},
+      {"from": "Cuttack / Puri", "to": "Bhubaneswar, Visakhapatnam", "km": 450, "days": "<1", "mode": "Truck"},
+      {"from": "Haryana / west UP", "to": "Delhi", "km": 150, "days": "<1", "mode": "Truck"}
+    ],
+    "packaging": "Gunny bags and crates; rarely refrigerated.",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Koley Market / Sealdah", "place": "Kolkata", "role": "Largest eastern brinjal market."},
+    {"name": "Bowenpally and Gudimalkapur", "place": "Hyderabad", "role": "Large South India brinjal arrivals."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "North India terminal."},
+    {"name": "Gultekdi (Pune) APMC", "place": "Maharashtra", "role": "West India hub."}
+  ],
+  "varieties": [
+    {"name": "Pusa Purple Long, Pusa Purple Round, Pusa Kranti", "note": "ICAR-IARI open-pollinated varieties."},
+    {"name": "Arka Navneet, Arka Kusumakar, Arka Sheel", "note": "ICAR-IIHR."},
+    {"name": "Bharta (large round), long purple, small round, green long, white", "note": "Fruit types priced separately in markets."},
+    {"name": "Mattu Gulla (Udupi), Jalgaon Bharit", "note": "GI-tagged heirlooms."}
+  ],
+  "trade": {"exports": "Small; UAE, UK, Gulf.", "imports": "Negligible.", "hs_code": "0709 30"},
+  "policy": [
+    {"when": "Feb 2010", "what": "Moratorium on commercial release of Bt brinjal (Bt brinjal is grown in Bangladesh since 2014)."},
+    {"when": "Ongoing", "what": "DoCA tracks brinjal among its 38 essential commodities."}
+  ],
+  "history": [
+    {"when": "Most Jul–Sep", "type": "spike", "what": "Monsoon pest and rain damage lift prices for a few weeks."},
+    {"when": "Most Jan–Mar", "type": "crash", "what": "Winter glut: farm prices fall to a few rupees per kg."}
+  ],
+  "signals": [
+    "Arrivals in Kolkata, Hyderabad and Delhi mandis (Agmarknet).",
+    "Rainfall and cyclone tracks over Bengal and Odisha.",
+    "Borer and little-leaf advisories from state agriculture universities."
+  ],
+  "business": [
+    "Regional and type-specific: what sells in Kolkata (round, light purple) differs from Hyderabad (small round) and Delhi (bharta).",
+    "Residue-tested and IPM brinjal (pheromone traps for the borer) is a premium niche for modern retail.",
+    "Short supply chains reward peri-urban sourcing and same-day delivery."
+  ],
+  "institutes": [
+    {"name": "ICAR-Indian Institute of Vegetable Research (IIVR)", "url": "https://iivr.icar.gov.in/", "where": "Varanasi"},
+    {"name": "ICAR-Indian Institute of Horticultural Research (IIHR)", "url": "https://iihr.res.in/", "where": "Bengaluru"}
+  ],
+  "gi": ["Udupi Mattu Gulla", "Jalgaon Bharit brinjal"],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "DoCA Price Monitoring System", "url": "https://fcainfoweb.nic.in/"},
+    {"name": "ICAR-IIVR", "url": "https://iivr.icar.gov.in/"}
+  ]
+}

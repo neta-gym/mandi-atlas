@@ -1,0 +1,146 @@
+{
+  "slug": "banana",
+  "name": "Banana",
+  "local": "केला · Kela",
+  "aka": {"Tamil": "Vazhaipazham", "Telugu": "Arati pandu", "Kannada": "Balehannu", "Malayalam": "Pazham / Nendran", "Marathi": "Keli", "Bengali": "Kola", "Gujarati": "Kela"},
+  "botanical": "Musa spp. (AAA Cavendish, AAB, ABB groups)",
+  "family": "Musaceae",
+  "group": "Fruit · tropical, perennial",
+  "color": "#d6a515",
+  "perishability": "Perishable once ripened (2–4 days). Green fruit travels 2–3 weeks at 13–14 °C.",
+  "summary": "India is the world's largest banana producer and harvests it every month of the year. Fruit is cut green and ripened with ethylene close to where it is sold, so the ripening chamber is the key node of the chain. Demand rises with festivals and summer heat; wind storms and cold snaps are the main supply shocks.",
+  "key_numbers": [
+    {"label": "Production", "value": "~360–370 lakh t", "note": "approx., 2023-24; largest fruit by volume", "src": "DA&FW / NHB"},
+    {"label": "World share", "value": "~26%", "note": "India is #1", "src": "FAOSTAT / NHB"},
+    {"label": "Post-harvest loss", "value": "7.57%", "note": "farm 5.17% + market 2.40%", "src": "NABCONS 2022"},
+    {"label": "Farmer's share", "value": "~31%", "note": "of the consumer rupee in the domestic chain", "src": "RBI Working Paper 06/2024"},
+    {"label": "Crop cycle", "value": "11–14 months", "note": "plant crop, then 1–2 ratoons", "src": "ICAR-NRCB"}
+  ],
+  "global": "India grows about a quarter of the world's bananas, nearly all for home consumption. Exports of Grand Naine (Cavendish) have grown fast, mainly to Iran, Iraq, UAE, Oman, Saudi Arabia, Nepal and Central Asia.",
+  "states": {
+    "year": "recent years",
+    "basis": "Share of national production (approx.)",
+    "rows": [
+      {"state": "Andhra Pradesh", "share": 18, "hubs": "Anantapur, Kadapa, Kurnool, East & West Godavari"},
+      {"state": "Maharashtra", "share": 13, "hubs": "Jalgaon (Raver, Yawal), Solapur, Nanded"},
+      {"state": "Gujarat", "share": 12, "hubs": "Anand, Bharuch, Narmada, Surat, Vadodara"},
+      {"state": "Tamil Nadu", "share": 11, "hubs": "Theni, Tiruchirappalli, Erode, Thoothukudi, Kanyakumari"},
+      {"state": "Uttar Pradesh", "share": 10, "hubs": "Kushinagar, Maharajganj, Lakhimpur Kheri, Ayodhya"},
+      {"state": "Karnataka", "share": 8, "hubs": "Chitradurga, Davanagere, Mysuru, Chamarajanagar"},
+      {"state": "Madhya Pradesh", "share": 7, "hubs": "Burhanpur, Khargone, Dhar"},
+      {"state": "Bihar", "share": 5, "hubs": "Vaishali (Hajipur), Samastipur, Katihar"},
+      {"state": "Others", "share": 16, "hubs": "Kerala (Nendran), West Bengal, Assam, Odisha"}
+    ]
+  },
+  "belts": [
+    {"name": "Jalgaon–Raver–Burhanpur", "where": "Maharashtra and MP", "note": "'Banana city' belt; Grand Naine trucked to North India daily; Jalgaon banana is GI tagged."},
+    {"name": "Anantapur–Kadapa", "where": "Andhra Pradesh", "note": "Drip-irrigated Grand Naine; largest export-grade cluster."},
+    {"name": "Narmada valley", "where": "Gujarat", "note": "Tissue-culture plantations; North and West India supply plus exports."},
+    {"name": "Cauvery delta and Theni", "where": "Tamil Nadu", "note": "Diverse local types: Poovan, Rasthali, Nendran, red banana."},
+    {"name": "Eastern UP", "where": "Kushinagar, Maharajganj", "note": "Newer Grand Naine belt, closer to North Indian demand."}
+  ],
+  "seasons": [
+    {"name": "Mrig bahar planting", "sow": [6, 7], "harvest": [5, 6, 7, 8], "share": "Major", "region": "Maharashtra, MP, Gujarat", "note": "Planted with the monsoon; harvested the next summer."},
+    {"name": "Kande bahar planting", "sow": [10, 11], "harvest": [9, 10, 11, 12], "share": "Major", "region": "Maharashtra, Gujarat", "note": "Harvested in time for the autumn festival season."},
+    {"name": "Year-round planting", "sow": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "harvest": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "share": "South", "region": "AP, Tamil Nadu, Kerala, Karnataka", "note": "Staggered planting keeps fruit flowing all year."}
+  ],
+  "lean_season": "No true lean season. Prices firm up in summer (Apr–Jun) and around Navratri–Diwali (Sep–Nov); winter demand is weakest.",
+  "climate": [
+    {"k": "Temperature", "v": "15–35 °C, best near 27 °C. Growth stops below ~13 °C; leaves scorch above ~38 °C."},
+    {"k": "Cold", "v": "Cold winters cause 'choke throat' (bunch stuck in the stem) and dull, grey peel."},
+    {"k": "Water", "v": "Very thirsty: ~1,800–2,200 mm a year, so drip irrigation dominates commercial plantings."},
+    {"k": "Wind", "v": "Large leaves and top-heavy bunches make plants topple in winds above ~40 km/h; props are standard."},
+    {"k": "Soil", "v": "Deep, rich, well-drained loam, pH 6.5–7.5."}
+  ],
+  "weather_risks": [
+    {"risk": "Pre-monsoon storms and hail", "months": [4, 5, 6], "where": "Jalgaon, Burhanpur, Gujarat", "impact": "Thousands of hectares flattened just before harvest.", "example": "Storms in Jalgaon flatten plantations in many years."},
+    {"risk": "Cyclones", "months": [5, 10, 11, 12], "where": "AP, Tamil Nadu, Kerala, Gujarat coast", "impact": "Mass toppling of plants.", "example": "Cyclone Gaja (Nov 2018) in Tamil Nadu; Cyclone Tauktae (May 2021) in Gujarat."},
+    {"risk": "Cold wave", "months": [12, 1, 2], "where": "Maharashtra, MP, Gujarat, UP", "impact": "Choke throat, slow filling, chilling injury to peel.", "example": ""},
+    {"risk": "Heat wave and water stress", "months": [4, 5, 6], "where": "AP, Maharashtra", "impact": "Leaf scorch and smaller bunches.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Fusarium wilt (Panama disease), incl. TR4", "sci": "Fusarium oxysporum f. sp. cubense", "type": "Disease", "impact": "Soil-borne wilt; TR4, which kills Cavendish, has been detected in Bihar and UP."},
+    {"name": "Sigatoka leaf spot", "sci": "Mycosphaerella spp.", "type": "Disease", "impact": "Leaf loss, smaller fingers and early ripening."},
+    {"name": "Banana bunchy top virus", "sci": "BBTV, spread by aphids", "type": "Disease", "impact": "Stunted rosette plants with no bunch."},
+    {"name": "Bract mosaic and streak viruses", "sci": "BBrMV, BSV", "type": "Disease", "impact": "Yield loss; spread through planting material."},
+    {"name": "Rhizome and pseudostem weevils", "sci": "Cosmopolites sordidus, Odoiporus longicollis", "type": "Pest", "impact": "Tunnels weaken plants, which then topple."},
+    {"name": "Nematodes and thrips", "sci": "Radopholus similis; rust thrips", "type": "Pest", "impact": "Root damage; scarring of peel lowers grade."}
+  ],
+  "postharvest": {
+    "storage": "Green fruit: 13–14 °C, 90–95% RH. Ripening: 14–18 °C with 100 ppm ethylene for 24 h, then ventilate.",
+    "shelf_ambient": "2–4 days once ripe.",
+    "shelf_cold": "2–3 weeks green at 13–14 °C (export voyages use 13–13.5 °C).",
+    "respiration": "Climacteric; ripens after harvest and is very sensitive to ethylene.",
+    "chilling": "Chilling injury below ~12–13 °C: grey, dull peel and poor ripening.",
+    "loss": {"value": 7.57, "src": "NABCONS 2022 (for MoFPI)", "detail": "Farm stage 5.17%, market stage 2.40%."},
+    "practices": [
+      "Harvested at about 75–80% maturity ('three-quarters full') for distant markets.",
+      "Ripening with ethylene gas is permitted by FSSAI; calcium carbide is banned (FSS Prohibition and Restriction on Sales Regulations, 2011).",
+      "Domestic trade ships whole bunches in open trucks padded with leaves; exports are de-handed, washed, treated and packed in 13 kg cartons.",
+      "Sold per dozen at retail in most of India, per kg in some cities and on quick commerce."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm gate", "what": "Traders buy standing bunches at a daily rate per quintal (e.g. the Raver/Jalgaon rate) and send their own cutting crews."},
+      {"stage": "Loading", "what": "Bunches loaded green into trucks the same day."},
+      {"stage": "Ripening", "what": "At destination wholesalers' chambers (e.g. around Azadpur), 3–5 days."},
+      {"stage": "Wholesale", "what": "Ripe or turning fruit sold by weight or crate to retailers and vendors."},
+      {"stage": "Retail", "what": "Per dozen from carts and stores; per piece or kg on quick commerce."}
+    ],
+    "routes": [
+      {"from": "Jalgaon / Raver", "to": "Delhi (Azadpur)", "km": 1100, "days": "2", "mode": "Truck; Kisan Rail ran 2020-22"},
+      {"from": "Anantapur / Kadapa", "to": "Mundra / JNPT → Gulf, Iran", "km": 1200, "days": "10–20 by sea", "mode": "Reefer container at 13.5 °C"},
+      {"from": "Narmada / Bharuch", "to": "Delhi, Punjab, Rajasthan", "km": 1100, "days": "2", "mode": "Truck"},
+      {"from": "Theni / Trichy", "to": "Chennai, Bengaluru, Kerala", "km": 450, "days": "<1", "mode": "Truck"}
+    ],
+    "packaging": "Whole bunches in open trucks (domestic); 13 kg CFB cartons in reefers (export).",
+    "farmer_share": "About 31% of the retail price in the domestic chain (RBI, 2024)."
+  },
+  "markets": [
+    {"name": "Raver / Jalgaon (farm-gate rate)", "place": "Maharashtra", "role": "Daily reference price for North India."},
+    {"name": "Burhanpur APMC", "place": "Madhya Pradesh", "role": "Large Grand Naine market."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Ripening and distribution hub for North India."},
+    {"name": "Tiruchirappalli (Gandhi Market)", "place": "Tamil Nadu", "role": "Hub for southern varieties."},
+    {"name": "Hajipur", "place": "Bihar", "role": "East India supply."}
+  ],
+  "varieties": [
+    {"name": "Grand Naine (G9)", "note": "Cavendish, tissue culture; dominant commercial and export variety."},
+    {"name": "Robusta, Dwarf Cavendish (Basrai)", "note": "Cavendish types in Maharashtra and the South."},
+    {"name": "Nendran", "note": "Kerala; for chips and cooking, also eaten ripe."},
+    {"name": "Poovan, Rasthali, Ney Poovan (Elakki)", "note": "Southern dessert bananas with premium prices."},
+    {"name": "Red banana, Monthan (cooking), Malbhog", "note": "Regional types."}
+  ],
+  "trade": {"exports": "Fast-growing Grand Naine exports to Iran, Iraq, UAE, Oman, Saudi Arabia, Nepal and Central Asia; sea trials to Europe under APEDA protocols.", "imports": "Negligible.", "hs_code": "0803"},
+  "policy": [
+    {"when": "2011 onward", "what": "Calcium carbide ripening banned under FSSAI regulations; ethylene up to 100 ppm allowed."},
+    {"when": "2020-22", "what": "Kisan Rail parcel trains (50% freight subsidy under Operation Greens) moved Jalgaon bananas to Delhi."},
+    {"when": "Ongoing", "what": "APEDA export protocols and sea-shipment trials to Europe."}
+  ],
+  "history": [
+    {"when": "2018 Nov", "type": "shock", "what": "Cyclone Gaja flattened plantations in the Cauvery delta."},
+    {"when": "2020 Apr–May", "type": "crash", "what": "COVID lockdown: farm prices in Jalgaon fell to a few hundred rupees per quintal."},
+    {"when": "2017 onward", "type": "shock", "what": "Fusarium TR4 confirmed in Bihar and UP plantations."}
+  ],
+  "signals": [
+    "Daily Raver/Jalgaon and Burhanpur farm-gate rates.",
+    "Storm and cyclone warnings over producing belts (IMD).",
+    "Festival calendar: Navratri, Chhath, Ramzan and Shravan lift demand.",
+    "Winter minimum temperatures in Jalgaon and Gujarat."
+  ],
+  "business": [
+    "Owning ripening capacity near demand is the leverage point; it decides quality, waste and margin.",
+    "Grand Naine export grade (de-handed, cartoned, reefer) is a clear upgrade path for domestic supply too.",
+    "Per-dozen street prices hide big differences in finger size; per-kg pricing on quick commerce makes comparisons easier."
+  ],
+  "institutes": [
+    {"name": "ICAR-National Research Centre for Banana (NRCB)", "url": "https://nrcb.icar.gov.in/", "where": "Tiruchirappalli"}
+  ],
+  "gi": ["Jalgaon banana", "Nanjanagud Rasabale", "Kamalapur red banana", "Chengalikodan Nendran", "Sirumalai hill banana", "Virupakshi hill banana"],
+  "sources": [
+    {"name": "RBI Working Paper 06/2024 (fruit value chains)", "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=22721"},
+    {"name": "NABCONS post-harvest loss study (summary)", "url": "https://www.global-agriculture.com/india-region/indias-highest-post-harvest-losses-guava-and-tomato-among-the-worst-hit/"},
+    {"name": "ICAR-NRCB", "url": "https://nrcb.icar.gov.in/"},
+    {"name": "APEDA – fresh fruits", "url": "https://apeda.gov.in/"}
+  ]
+}

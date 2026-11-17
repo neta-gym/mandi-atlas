@@ -1,0 +1,155 @@
+{
+  "slug": "tomato",
+  "name": "Tomato",
+  "local": "टमाटर · Tamatar",
+  "aka": {"Telugu": "Tamata", "Tamil": "Thakkali", "Kannada": "Tomato hannu", "Bengali": "Tomato / Biliti begun", "Marathi": "Tomato"},
+  "botanical": "Solanum lycopersicum L.",
+  "family": "Solanaceae",
+  "group": "Vegetable · fruit",
+  "color": "#d1402c",
+  "perishability": "Highly perishable. Ripe fruit lasts 2–5 days at room temperature.",
+  "summary": "Grown somewhere in India in every month, but the crop cannot be stored, so supply follows the weather week by week. Prices are lowest in the January–March glut and usually peak in July–August, when monsoon rain and earlier heat damage hit the southern and hill crops at the same time.",
+  "key_numbers": [
+    {"label": "Production 2024-25", "value": "206.0 lakh t", "note": "Final; down from 213.2 lakh t in 2023-24", "src": "DA&FW"},
+    {"label": "Production 2025-26", "value": "214.6 lakh t", "note": "Second advance estimate, June 2026", "src": "DA&FW"},
+    {"label": "Post-harvest loss", "value": "11.62%", "note": "farm 8.37% + market 3.25%; among the highest of all crops", "src": "NABCONS 2022"},
+    {"label": "Farmer's share", "value": "~33%", "note": "of the consumer rupee", "src": "RBI Working Paper 2024 (TOP)"},
+    {"label": "Peak retail spike", "value": "₹200+/kg", "note": "July 2023, several metros", "src": "DoCA"}
+  ],
+  "global": "India is the second-largest tomato producer after China. Exports are small (mainly Bangladesh, Nepal, UAE, Oman) because the fruit does not travel well.",
+  "states": {
+    "year": "2023-24",
+    "basis": "Share of national production (approx.)",
+    "rows": [
+      {"state": "Madhya Pradesh", "share": 14, "hubs": "Shivpuri, Jhabua, Ratlam, Dhar, Chhindwara"},
+      {"state": "Andhra Pradesh", "share": 10, "hubs": "Madanapalle (Annamayya), Chittoor, Anantapur, Kurnool"},
+      {"state": "Karnataka", "share": 10, "hubs": "Kolar, Chikkaballapur, Bengaluru Rural, Belagavi"},
+      {"state": "Gujarat", "share": 7, "hubs": "Anand, Vadodara, Rajkot, Sabarkantha"},
+      {"state": "Odisha", "share": 6, "hubs": "Bargarh, Balangir, Koraput"},
+      {"state": "West Bengal", "share": 6, "hubs": "Nadia, Hooghly, North 24 Parganas"},
+      {"state": "Tamil Nadu", "share": 5, "hubs": "Krishnagiri, Dharmapuri, Salem, Dindigul"},
+      {"state": "Maharashtra", "share": 5, "hubs": "Pune (Narayangaon, Junnar), Nashik, Sangamner"},
+      {"state": "Chhattisgarh", "share": 5, "hubs": "Durg, Raigarh, Jashpur"},
+      {"state": "Others", "share": 32, "hubs": "Bihar, Telangana, UP, Haryana, Himachal Pradesh (summer), Uttarakhand"}
+    ]
+  },
+  "belts": [
+    {"name": "Kolar–Chikkaballapur", "where": "Karnataka", "note": "Kolar APMC is one of Asia's largest tomato markets; ships to North India, Bangladesh and the Gulf."},
+    {"name": "Madanapalle", "where": "Annamayya district, Andhra Pradesh", "note": "Huge summer (Apr–Jun) market; supplies Chennai, Hyderabad, Bengaluru."},
+    {"name": "Narayangaon–Junnar", "where": "Pune, Maharashtra", "note": "Kharif and rabi crops for Mumbai and the North."},
+    {"name": "Solan–Sirmaur", "where": "Himachal Pradesh", "note": "Hill crop, Jun–Sep, filling the monsoon gap in North India."},
+    {"name": "Malwa and Nimar", "where": "Madhya Pradesh", "note": "Large winter crop feeding North and Central India."}
+  ],
+  "seasons": [
+    {"name": "Kharif", "sow": [6, 7], "harvest": [9, 10, 11, 12], "share": "~30%", "region": "Maharashtra, Karnataka, MP, Chhattisgarh", "note": "Monsoon crop; disease pressure is high."},
+    {"name": "Rabi / winter", "sow": [10, 11], "harvest": [1, 2, 3, 4], "share": "~45%", "region": "MP, Karnataka, AP, Gujarat, Odisha, WB", "note": "Largest crop; causes the Jan–Mar glut."},
+    {"name": "Summer", "sow": [1, 2], "harvest": [4, 5, 6], "share": "~15%", "region": "AP (Madanapalle), Karnataka, Tamil Nadu", "note": "Fruit set suffers in heat waves."},
+    {"name": "Hill (off-season)", "sow": [3, 4], "harvest": [6, 7, 8, 9], "share": "~10%", "region": "HP, Uttarakhand, J&K, Karnataka hills", "note": "Critical for North India in the monsoon."}
+  ],
+  "lean_season": "June–August, and again in October–November after heavy late rains.",
+  "climate": [
+    {"k": "Temperature", "v": "21–24 °C ideal. Fruit set fails above 32 °C (day) or 21 °C (night), and below 10 °C."},
+    {"k": "Colour", "v": "Red pigment (lycopene) forms best at 21–24 °C and stops above 30 °C, so summer fruit turns orange-yellow."},
+    {"k": "Rainfall", "v": "Prefers a dry season with irrigation. Heavy rain causes fruit cracking, blight and rot."},
+    {"k": "Soil", "v": "Well-drained loam, pH 6.0–7.0; staked crops on raised beds with drip and mulch are now common."},
+    {"k": "Frost", "v": "Killed by frost; winter crops in the North are planted to avoid Dec–Jan cold."}
+  ],
+  "weather_risks": [
+    {"risk": "Heat wave at flowering", "months": [4, 5, 6], "where": "Karnataka, AP, Maharashtra", "impact": "Flower drop and poor fruit set cut the summer crop that should supply July.", "example": "2023: April–June heat plus whitefly-borne viruses set up the July spike."},
+    {"risk": "Heavy monsoon rain", "months": [7, 8, 9], "where": "Karnataka, Maharashtra, Himachal", "impact": "Fruit rot and blight; landslides block hill supply routes.", "example": "July 2023: Himachal floods cut the Solan supply line."},
+    {"risk": "Retreating-monsoon rains and cyclones", "months": [10, 11, 12], "where": "AP, Tamil Nadu, Karnataka", "impact": "Damages the kharif harvest in the South.", "example": "Nov 2021: heavy rains in the South pushed retail to ₹80–100/kg."},
+    {"risk": "Cold wave and frost", "months": [12, 1], "where": "North and Central India", "impact": "Damages winter crop and slows ripening.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Tomato leaf curl virus (ToLCV)", "sci": "Begomovirus, spread by whitefly (Bemisia tabaci)", "type": "Disease", "impact": "Stunting and curled leaves; can wipe out summer crops."},
+    {"name": "Cucumber mosaic virus (CMV)", "sci": "Aphid-borne", "type": "Disease", "impact": "Large outbreaks in Karnataka and Maharashtra in 2023 contributed to the price spike."},
+    {"name": "South American pinworm", "sci": "Tuta absoluta", "type": "Pest", "impact": "Invasive since 2014; mines leaves and fruit."},
+    {"name": "Fruit borer", "sci": "Helicoverpa armigera", "type": "Pest", "impact": "Bores into fruit; heavy losses without control."},
+    {"name": "Early blight / late blight", "sci": "Alternaria solani / Phytophthora infestans", "type": "Disease", "impact": "Leaf and fruit blight in humid and rainy weather."},
+    {"name": "Bacterial wilt", "sci": "Ralstonia solanacearum", "type": "Disease", "impact": "Sudden wilting in warm, wet soils."},
+    {"name": "Groundnut bud necrosis virus", "sci": "Thrips-borne tospovirus", "type": "Disease", "impact": "Necrotic rings on fruit; common in the South."}
+  ],
+  "postharvest": {
+    "storage": "Mature-green: 12–15 °C, 85–95% RH. Ripe: 8–10 °C for a few days.",
+    "shelf_ambient": "2–5 days ripe; about a week if picked at the breaker stage.",
+    "shelf_cold": "2–3 weeks for mature-green fruit at 12–15 °C.",
+    "respiration": "Climacteric; produces ethylene and ripens after harvest. Keep away from ethylene-sensitive leafy vegetables and cauliflower.",
+    "chilling": "Chilling injury below ~10 °C (mature-green) or ~7 °C (ripe): uneven ripening, pitting, rot.",
+    "loss": {"value": 11.62, "src": "NABCONS 2022 (for MoFPI)", "detail": "Farm stage 8.37%, market stage 3.25%."},
+    "practices": [
+      "For long hauls, fruit is picked at the breaker or turning stage so it ripens in transit.",
+      "Packed in plastic crates or wooden boxes; Kolar trades in roughly 15 kg crates, many other markets in 25 kg crates.",
+      "Less than 1% is processed; India still imports tomato paste.",
+      "Gluts end with fruit dumped on roads when the price falls below the cost of picking and freight."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Hand-picked every 3–4 days over 2–3 months; sorted by colour stage."},
+      {"stage": "APMC auction", "what": "Kolar, Madanapalle, Narayangaon and Pimpalgaon auction crate by crate; a commission agent settles."},
+      {"stage": "Long-haul traders", "what": "Repack and send trucks to Delhi, Kolkata, Bangladesh border and Gulf exporters."},
+      {"stage": "Terminal markets", "what": "Azadpur, Vashi, Koyambedu, Bowenpally, Kolkata."},
+      {"stage": "Retail", "what": "Vendors and quick commerce; retail mark-up is widest when prices are rising."}
+    ],
+    "routes": [
+      {"from": "Kolar", "to": "Delhi (Azadpur)", "km": 2100, "days": "3–4", "mode": "Truck"},
+      {"from": "Madanapalle", "to": "Chennai, Bengaluru, Hyderabad", "km": 250, "days": "<1", "mode": "Truck"},
+      {"from": "Narayangaon", "to": "Mumbai (Vashi)", "km": 150, "days": "<1", "mode": "Truck"},
+      {"from": "Solan", "to": "Delhi, Chandigarh", "km": 300, "days": "<1", "mode": "Truck"},
+      {"from": "Kolar / Nashik", "to": "Bangladesh (Petrapole)", "km": 2000, "days": "4–5", "mode": "Truck"}
+    ],
+    "packaging": "Plastic or wooden crates (15–25 kg). Open trucks, rarely refrigerated.",
+    "farmer_share": "About 33% of the retail price (RBI, 2024)."
+  },
+  "markets": [
+    {"name": "Kolar APMC", "place": "Karnataka", "role": "Largest tomato market in South India; sets national tone in Jul–Dec."},
+    {"name": "Madanapalle APMC", "place": "Andhra Pradesh", "role": "Summer price leader (Apr–Jun)."},
+    {"name": "Narayangaon (Junnar) APMC", "place": "Pune, Maharashtra", "role": "West India hub."},
+    {"name": "Pimpalgaon Baswant", "place": "Nashik, Maharashtra", "role": "Kharif tomato for North India."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Largest consuming market."}
+  ],
+  "varieties": [
+    {"name": "Arka Rakshak, Arka Samrat", "note": "ICAR-IIHR hybrids with triple disease resistance."},
+    {"name": "Pusa Ruby, Pusa Rohini", "note": "ICAR-IARI open-pollinated varieties."},
+    {"name": "Abhinav, Saho, US-440, NS-585", "note": "Popular private hybrids: firm, long shelf life."},
+    {"name": "Desi (round, soft, sour) vs Hybrid (firm, oval)", "note": "Traded and priced separately in most markets."}
+  ],
+  "trade": {"exports": "Small; mostly to Bangladesh, Nepal, UAE, Oman, Qatar.", "imports": "Negligible fresh; occasional Nepal imports in 2023. India imports tomato paste.", "hs_code": "0702 00"},
+  "policy": [
+    {"when": "Jul–Aug 2023", "what": "NCCF and NAFED bought tomato in Kolar and Madanapalle and sold it at subsidised prices in Delhi-NCR and other cities, starting at ₹90/kg and cutting to ₹50/kg by mid-August."},
+    {"when": "2018 onward", "what": "Operation Greens (MoFPI) covers tomato: freight and storage subsidies during gluts."},
+    {"when": "Ongoing", "what": "No minimum support price. Some states run Market Intervention Schemes in gluts."}
+  ],
+  "history": [
+    {"when": "2017 Jul", "type": "spike", "what": "Retail ₹80–100/kg after heavy rains."},
+    {"when": "2021 Nov", "type": "spike", "what": "Unseasonal rain in AP, Karnataka and Tamil Nadu; retail ₹80–120/kg."},
+    {"when": "2023 Jul–Aug", "type": "spike", "what": "Heat, viral disease and floods together; retail ₹200–250/kg in several cities."},
+    {"when": "2024 Oct", "type": "spike", "what": "Extended monsoon rain; retail ₹80–100/kg."},
+    {"when": "Most Feb–Mar", "type": "crash", "what": "Winter glut: farm prices of ₹2–5/kg; fruit dumped on roads."}
+  ],
+  "signals": [
+    "Arrivals and prices at Kolar and Madanapalle (Krishi Marata Vahini, Agmarknet).",
+    "IMD maximum temperatures in Kolar, Chittoor and Pune during Apr–Jun (fruit-set risk).",
+    "Whitefly and virus advisories from state horticulture departments.",
+    "Monsoon rainfall and landslide closures in Himachal (Solan–Delhi route) in Jul–Aug.",
+    "Area under nursery and transplanting reported by state agriculture departments."
+  ],
+  "business": [
+    "Tomato is a weather-and-logistics business, not a storage business. Speed and sourcing from several belts at once is the edge.",
+    "Breaker-stage sourcing with controlled ripening (18–20 °C) cuts losses for quick commerce and QSR supply.",
+    "Processing (puree, paste) during the Jan–Mar glut is under-built; India still imports paste.",
+    "Price swings of 10x within six months are normal; contracts with price bands protect both farmer and buyer."
+  ],
+  "institutes": [
+    {"name": "ICAR-Indian Institute of Horticultural Research (IIHR)", "url": "https://iihr.res.in/", "where": "Bengaluru"},
+    {"name": "ICAR-Indian Institute of Vegetable Research (IIVR)", "url": "https://iivr.icar.gov.in/", "where": "Varanasi"}
+  ],
+  "gi": [],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "NABCONS post-harvest loss study (summary)", "url": "https://www.global-agriculture.com/india-region/indias-highest-post-harvest-losses-guava-and-tomato-among-the-worst-hit/"},
+    {"name": "RBI DEPR Working Paper on TOP inflation (2024)", "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=22721"},
+    {"name": "Karnataka Krishi Marata Vahini (APMC prices)", "url": "https://krishimaratavahini.karnataka.gov.in/"},
+    {"name": "ICAR-IIHR", "url": "https://iihr.res.in/"}
+  ]
+}

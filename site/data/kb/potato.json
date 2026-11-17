@@ -1,0 +1,149 @@
+{
+  "slug": "potato",
+  "name": "Potato",
+  "local": "आलू · Aloo",
+  "aka": {"Bengali": "Alu", "Tamil": "Urulaikizhangu", "Telugu": "Bangala dumpa", "Kannada": "Aalugadde", "Gujarati": "Bataka", "Marathi": "Batata"},
+  "botanical": "Solanum tuberosum L.",
+  "family": "Solanaceae",
+  "group": "Vegetable · tuber",
+  "color": "#b58a3c",
+  "perishability": "Semi-perishable. Months in cold storage; weeks at room temperature.",
+  "summary": "A one-harvest, cold-storage commodity. Almost all of the crop is dug in the Indo-Gangetic plains in January–March and loaded into cold stores, then released through the year. Prices climb steadily from June and peak in October–November, just before the new crop.",
+  "key_numbers": [
+    {"label": "Production 2024-25", "value": "585.7 lakh t", "note": "Final; up from 570.5 lakh t in 2023-24", "src": "DA&FW"},
+    {"label": "Production 2025-26", "value": "598.9 lakh t", "note": "Second advance estimate, June 2026", "src": "DA&FW"},
+    {"label": "Cold storage", "value": "~70%", "note": "of India's ~40 million t cold-store capacity is used for potato", "src": "NHB / NCCD"},
+    {"label": "Post-harvest loss", "value": "7.32%", "note": "harvest to retail", "src": "ICAR-CIPHET 2015"},
+    {"label": "Farmer's share", "value": "~37%", "note": "of the consumer rupee", "src": "RBI Working Paper 2024 (TOP)"}
+  ],
+  "global": "India is the world's second-largest potato producer after China. Exports (mostly to Nepal, Sri Lanka, Oman, Malaysia) are a few lakh tonnes a year.",
+  "states": {
+    "year": "2021-24 average",
+    "basis": "Share of national production (approx.)",
+    "rows": [
+      {"state": "Uttar Pradesh", "share": 31, "hubs": "Agra, Firozabad, Aligarh, Hathras, Mainpuri, Kannauj, Farrukhabad"},
+      {"state": "West Bengal", "share": 22, "hubs": "Hooghly, Purba & Paschim Bardhaman, Bankura, Paschim Medinipur"},
+      {"state": "Bihar", "share": 15, "hubs": "Nalanda, Patna, Vaishali, Saran"},
+      {"state": "Gujarat", "share": 7, "hubs": "Banaskantha (Deesa), Sabarkantha, Gandhinagar"},
+      {"state": "Madhya Pradesh", "share": 6, "hubs": "Indore, Ujjain, Dewas, Gwalior"},
+      {"state": "Punjab", "share": 5, "hubs": "Jalandhar, Kapurthala, Hoshiarpur (seed potato)"},
+      {"state": "Others", "share": 14, "hubs": "Assam, Haryana, Jharkhand, Karnataka (kharif), Himachal (seed), Meghalaya"}
+    ]
+  },
+  "belts": [
+    {"name": "Agra belt", "where": "Agra–Firozabad–Aligarh–Hathras, UP", "note": "Densest cluster of cold stores in India."},
+    {"name": "Farrukhabad–Kannauj", "where": "Central UP", "note": "Major table-potato supply to North and East India."},
+    {"name": "Hooghly–Bardhaman", "where": "West Bengal", "note": "Feeds Odisha, Jharkhand, Assam and the North-East; West Bengal sometimes restricts movement out of state."},
+    {"name": "Deesa", "where": "Banaskantha, Gujarat", "note": "Processing potatoes for chips and fries (PepsiCo, McCain, Balaji)."},
+    {"name": "Jalandhar seed belt", "where": "Punjab", "note": "Certified seed potatoes for UP, Bihar and West Bengal, grown in a low-aphid window."}
+  ],
+  "seasons": [
+    {"name": "Rabi (plains)", "sow": [10, 11], "harvest": [1, 2, 3], "share": "~85–90%", "region": "UP, WB, Bihar, Punjab, Gujarat, MP", "note": "Loaded into cold stores Feb–Mar; released Apr–Nov."},
+    {"name": "Summer (hills)", "sow": [3, 4], "harvest": [7, 8, 9], "share": "~5%", "region": "Himachal, Uttarakhand, J&K, NE hills", "note": "Mostly seed and local supply."},
+    {"name": "Kharif (plateau)", "sow": [6, 7], "harvest": [9, 10], "share": "~5%", "region": "Karnataka (Hassan, Chikkaballapur), Maharashtra (Pune)", "note": "Fresh potatoes for South India in autumn."}
+  ],
+  "lean_season": "October–November: cold-store stocks are thinning and the new crop has not arrived.",
+  "climate": [
+    {"k": "Temperature", "v": "Tubers form best at 15–20 °C; night temperatures above ~22 °C slow tuber formation and above 30 °C stop it."},
+    {"k": "Day length", "v": "Short winter days in the plains favour tuber formation."},
+    {"k": "Frost and fog", "v": "Frost kills foliage; long foggy spells trigger late blight epidemics."},
+    {"k": "Soil", "v": "Loose, well-drained sandy loam, pH 5.2–6.5 (tolerates up to ~7.5)."},
+    {"k": "Water", "v": "Needs steady moisture at tuber bulking; excess water at harvest causes rot in storage."}
+  ],
+  "weather_risks": [
+    {"risk": "Late blight weather (fog, drizzle, 10–20 °C)", "months": [12, 1], "where": "UP, WB, Punjab, Bihar", "impact": "Can destroy foliage within days and cut yields sharply.", "example": "2014-15 epidemic in West Bengal."},
+    {"risk": "Frost and cold wave", "months": [12, 1], "where": "Punjab, Haryana, west UP", "impact": "Foliage damage and smaller tubers.", "example": ""},
+    {"risk": "Cyclone or late rains at planting", "months": [11, 12], "where": "West Bengal, Odisha", "impact": "Waterlogged fields delay or force replanting.", "example": "Cyclone Jawad (Dec 2021) and Michaung (Dec 2023) rains hit Bengal planting."},
+    {"risk": "Unseasonal rain at harvest", "months": [2, 3], "where": "UP, WB", "impact": "Wet tubers go into storage and rot.", "example": "March 2023 rains in UP."},
+    {"risk": "Early heat", "months": [2, 3], "where": "Plains", "impact": "Shortens the bulking period and cuts yield.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Late blight", "sci": "Phytophthora infestans", "type": "Disease", "impact": "The defining risk: rapid foliage collapse in cool, humid weather."},
+    {"name": "Early blight", "sci": "Alternaria solani", "type": "Disease", "impact": "Leaf spots; less severe."},
+    {"name": "Black scurf / common scab", "sci": "Rhizoctonia solani / Streptomyces scabies", "type": "Disease", "impact": "Blemishes lower the grade and price."},
+    {"name": "Viruses (PVY, PLRV)", "sci": "Aphid-borne", "type": "Disease", "impact": "Seed degeneration; why seed comes from low-aphid areas."},
+    {"name": "Bacterial wilt (brown rot)", "sci": "Ralstonia solanacearum", "type": "Disease", "impact": "Wilting and rotting tubers in warm areas."},
+    {"name": "Potato tuber moth", "sci": "Phthorimaea operculella", "type": "Pest", "impact": "Damages tubers in non-cold storage."},
+    {"name": "Golden cyst nematode", "sci": "Globodera rostochiensis", "type": "Pest", "impact": "Quarantine pest in the Nilgiris and parts of the hills."}
+  ],
+  "postharvest": {
+    "storage": "Table and seed: 2–4 °C, 90–95% RH. Processing grade: 10–12 °C with a sprout suppressant (CIPC) to avoid sugar build-up.",
+    "shelf_ambient": "2–3 months in well-ventilated heaps if cured; tubers sprout and shrink in summer.",
+    "shelf_cold": "7–9 months.",
+    "respiration": "Non-climacteric.",
+    "chilling": "Below ~8 °C starch turns into sugar ('cold sweetening'), which makes chips and fries brown. Table potatoes tolerate it.",
+    "loss": {"value": 7.32, "src": "ICAR-CIPHET 2015", "detail": "Harvest-to-retail loss. Cold-store weight loss of 2–4% is extra."},
+    "practices": [
+      "Curing for 10–15 days in shade heals skin before cold storage.",
+      "Cold-store rent is charged per bag per season and is notified by state governments in UP and West Bengal.",
+      "Cold-store owners often finance farmers and traders against stored stock.",
+      "Bags of 50 kg (jute or HDPE). Big chip makers contract-farm specific varieties."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Dug by hand or digger in Jan–Mar; cured and bagged."},
+      {"stage": "Cold store", "what": "Farmer or trader stores in a village or town cold store; receipts double as collateral."},
+      {"stage": "Release and trade", "what": "Stock leaves the cold store in phases from April; traders sell in Agra, Kolkata and Farrukhabad markets."},
+      {"stage": "Inter-state movement", "what": "Trucks to Maharashtra, the South, Odisha, Assam and the North-East."},
+      {"stage": "Retail", "what": "Terminal markets → vendors, modern retail and quick commerce."}
+    ],
+    "routes": [
+      {"from": "Agra", "to": "Mumbai (Vashi)", "km": 1200, "days": "2–3", "mode": "Truck"},
+      {"from": "Agra / Farrukhabad", "to": "Hyderabad, Bengaluru, Chennai", "km": 1800, "days": "3–4", "mode": "Truck"},
+      {"from": "Hooghly", "to": "Bhubaneswar, Ranchi, Guwahati", "km": 1000, "days": "1–3", "mode": "Truck"},
+      {"from": "Jalandhar", "to": "UP, Bihar, WB (seed)", "km": 1200, "days": "2–3", "mode": "Truck, Oct"}
+    ],
+    "packaging": "50 kg jute or HDPE bags; mostly unrefrigerated trucks after release from cold store.",
+    "farmer_share": "About 37% of the retail price (RBI, 2024)."
+  },
+  "markets": [
+    {"name": "Agra APMC", "place": "Uttar Pradesh", "role": "Cold-store hub; North India price setter."},
+    {"name": "Farrukhabad (Satanpur) APMC", "place": "Uttar Pradesh", "role": "One of the largest potato markets."},
+    {"name": "Kolkata (Posta / Jagubabur Bazar)", "place": "West Bengal", "role": "Eastern price setter."},
+    {"name": "Deesa APMC", "place": "Gujarat", "role": "Processing-variety trade."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Largest consuming market."}
+  ],
+  "varieties": [
+    {"name": "Kufri Pukhraj", "note": "Most widely grown table variety; early maturing."},
+    {"name": "Kufri Jyoti, Kufri Bahar, Kufri Badshah, Kufri Chandramukhi", "note": "Long-standing table varieties."},
+    {"name": "Kufri Chipsona-1/3/4, Kufri FryoM", "note": "ICAR-CPRI processing varieties for chips and fries."},
+    {"name": "Lady Rosetta, Atlantic, FC-5", "note": "Contract-farmed chipping varieties (FC-5 is PepsiCo's variety and the subject of a long plant-variety rights dispute)."},
+    {"name": "Red potatoes (Kufri Sindhuri, Kufri Lalit)", "note": "Preferred in East India and Bengal."}
+  ],
+  "trade": {"exports": "A few lakh tonnes a year to Nepal, Sri Lanka, Oman, Malaysia, UAE.", "imports": "Negligible; occasional imports from Bhutan.", "hs_code": "0701"},
+  "policy": [
+    {"when": "Jul & Nov 2024", "what": "West Bengal restricted potato trucks leaving the state to hold local prices down, disrupting supply to Odisha, Jharkhand and Assam."},
+    {"when": "Ongoing", "what": "States notify cold-store rents (UP, WB) and run market intervention in gluts."},
+    {"when": "2018 onward", "what": "Covered under Operation Greens (TOP) for freight and storage subsidies."}
+  ],
+  "history": [
+    {"when": "2014 Jul–Nov", "type": "spike", "what": "Retail ₹30–40/kg; West Bengal blocked out-of-state movement."},
+    {"when": "2017–18", "type": "crash", "what": "Glut: farm prices ₹1–3/kg; potatoes abandoned in Agra cold stores."},
+    {"when": "2020 Oct–Nov", "type": "spike", "what": "Retail ₹40–50/kg; government allowed imports of 10 lakh t at a reduced 10% duty."},
+    {"when": "2024 Oct–Dec", "type": "spike", "what": "Retail ₹40–50/kg after a weak 2023-24 crop; Bengal movement curbs."}
+  ],
+  "signals": [
+    "Cold-store loading in March and remaining stock in Aug–Oct (UP and WB horticulture departments, cold-store associations).",
+    "Planting area and weather in Oct–Nov in UP, WB and Bihar.",
+    "Late-blight advisories (ICAR-CPRI's Indo-Blightcast) in Dec–Jan.",
+    "West Bengal government orders on inter-state movement.",
+    "Processor contracts and chip-variety acreage in Gujarat and MP."
+  ],
+  "business": [
+    "Storage economics drive everything: farmers and traders decide in March whether to sell or store based on rent and expected October prices.",
+    "Processing demand (chips, fries, flakes) is growing faster than table demand and pays premiums for specific varieties and sugar levels.",
+    "Seed potato quality is a large, under-served market; certified seed covers only a small part of planting needs.",
+    "Spreads between Agra/Kolkata and southern markets reflect freight and are fairly stable, making potato good for multi-city sourcing."
+  ],
+  "institutes": [
+    {"name": "ICAR-Central Potato Research Institute (CPRI)", "url": "https://cpri.icar.gov.in/", "where": "Shimla"}
+  ],
+  "gi": [],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "RBI DEPR Working Paper on TOP inflation (2024)", "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=22721"},
+    {"name": "ICAR-CPRI", "url": "https://cpri.icar.gov.in/"},
+    {"name": "Cold chain requirement study (DES, 2021-22)", "url": "https://desagri.gov.in/wp-content/uploads/2024/04/2021-22-Requirement-and-Availability-of-Cold-Chain-for-Fruits-and-Vegetables-in-the-Country.pdf"}
+  ]
+}

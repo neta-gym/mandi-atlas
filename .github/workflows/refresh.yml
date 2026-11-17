@@ -1,0 +1,79 @@
+name: Refresh data and deploy
+
+on:
+  schedule:
+    - cron: "30 13 * * *"   # daily 19:00 IST: DoCA prices (published during the day)
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Also refresh CEDA and NHB history"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    # GitHub-hosted runners are outside India. DoCA, CEDA and NHB accept them;
+    # data.gov.in / Agmarknet usually do not. For the daily mandi feed, use a
+    # self-hosted runner in India (runs-on: [self-hosted, india]).
+    runs-on: ubuntu-latest
+    env:
+      HAS_OGD_KEY: ${{ secrets.DATA_GOV_IN_API_KEY != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy
+
+      - name: DoCA daily retail and wholesale
+        run: python pipeline/fetch_doca.py
+        continue-on-error: true
+
+      - name: data.gov.in daily mandi prices (needs key + Indian network)
+        if: env.HAS_OGD_KEY == 'true'
+        env:
+          DATA_GOV_IN_API_KEY: ${{ secrets.DATA_GOV_IN_API_KEY }}
+        run: python pipeline/fetch_ogd.py
+        continue-on-error: true
+
+      - name: Weekly history refresh (Mondays) or on request
+        run: |
+          if [ "$(date -u +%u)" = "1" ] || [ "${{ github.event.inputs.full }}" = "true" ]; then
+            python pipeline/fetch_ceda.py
+            python pipeline/fetch_nhb.py --from $(( $(date -u +%Y) - 1 ))
+          fi
+        continue-on-error: true
+
+      - name: Build analytics and forecasts
+        run: python pipeline/build_analytics.py
+
+      - name: Commit data
+        run: |
+          git config user.name "mandi-atlas-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add site/data data/raw
+          git diff --cached --quiet || git commit -m "Data refresh $(date -u +%F)"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

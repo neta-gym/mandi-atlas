@@ -1,0 +1,145 @@
+{
+  "slug": "apple",
+  "name": "Apple",
+  "local": "सेब · Seb",
+  "aka": {"Kashmiri": "Tsoont", "Punjabi": "Seb", "Bengali": "Apel", "Tamil": "Apple / Kumbalam"},
+  "botanical": "Malus domestica Borkh.",
+  "family": "Rosaceae",
+  "group": "Fruit · temperate tree",
+  "color": "#b3262e",
+  "perishability": "Storable. 4–6 months in cold store, 8–10 months in controlled atmosphere (CA).",
+  "summary": "Grown almost entirely in two Himalayan regions, Kashmir and Himachal Pradesh, and harvested in a single July–November window. What happens after that depends on storage and imports: CA stores carry Indian fruit into spring, and imports from Iran, Turkey, the US and others fill the gap until the next harvest.",
+  "key_numbers": [
+    {"label": "Production", "value": "~25 lakh t", "note": "approx., recent years", "src": "DA&FW / NHB"},
+    {"label": "Jammu & Kashmir share", "value": "~70–75%", "note": "of national output", "src": "DA&FW / J&K Horticulture"},
+    {"label": "Imports", "value": "~5–6 lakh t/yr", "note": "Iran, Turkey, Afghanistan, USA, Chile, NZ, Italy, Poland", "src": "DGCI&S trade data"},
+    {"label": "Minimum import price", "value": "₹50/kg CIF", "note": "since May 2023 (Bhutan exempt)", "src": "DGFT"},
+    {"label": "Post-harvest loss", "value": "10.39%", "note": "harvest to retail", "src": "ICAR-CIPHET 2015"}
+  ],
+  "global": "India is a mid-sized producer and a net importer. Imported apples dominate city shelves from March to July.",
+  "states": {
+    "year": "recent years",
+    "basis": "Share of national production (approx.)",
+    "rows": [
+      {"state": "Jammu & Kashmir", "share": 73, "hubs": "Shopian, Baramulla (Sopore), Pulwama, Kulgam, Anantnag, Kupwara, Budgam"},
+      {"state": "Himachal Pradesh", "share": 23, "hubs": "Shimla (Kotkhai, Jubbal, Rohru, Theog, Narkanda), Kinnaur, Kullu, Mandi, Chamba"},
+      {"state": "Uttarakhand", "share": 3, "hubs": "Uttarkashi (Harsil), Nainital (Ramgarh), Almora"},
+      {"state": "Others", "share": 1, "hubs": "Arunachal Pradesh, Nagaland, Ladakh; low-chill apple trials in the plains"}
+    ]
+  },
+  "belts": [
+    {"name": "South Kashmir", "where": "Shopian, Pulwama, Kulgam", "note": "Shopian is the largest apple-growing district in India."},
+    {"name": "North Kashmir", "where": "Baramulla, Sopore, Kupwara", "note": "Sopore fruit mandi is one of Asia's largest."},
+    {"name": "Shimla upper belt", "where": "Kotkhai, Jubbal, Rohru, Narkanda", "note": "Royal Delicious heartland; corporate buyers set reference prices here."},
+    {"name": "Kinnaur and Lahaul", "where": "Himachal Pradesh, 2,200–3,000 m", "note": "Late, high-colour fruit; the belt is moving uphill as winters warm."}
+  ],
+  "seasons": [
+    {"name": "Himachal harvest", "sow": [3, 4], "harvest": [7, 8, 9, 10], "share": "~25%", "region": "Himachal Pradesh", "note": "'Sow' here means bloom. Low hills from July; Royal Delicious mid-Aug to Oct; Kinnaur to Nov."},
+    {"name": "Kashmir harvest", "sow": [4], "harvest": [8, 9, 10, 11], "share": "~70%", "region": "Jammu & Kashmir", "note": "Early types in Aug; Delicious and Ambri Sep–Nov."},
+    {"name": "From CA storage", "sow": [], "harvest": [12, 1, 2, 3, 4, 5], "share": "", "region": "HP, J&K, Delhi-NCR CA stores", "note": "Stored Indian fruit sold through winter and spring."}
+  ],
+  "lean_season": "March–July: domestic stock runs out and imports set the price.",
+  "climate": [
+    {"k": "Chilling", "v": "Needs 1,000–1,500 hours below 7 °C in winter (Delicious types). Warm winters reduce flowering and fruit set."},
+    {"k": "Altitude", "v": "1,500–2,700 m in the Himalaya."},
+    {"k": "Rainfall", "v": "1,000–1,250 mm, well spread; dry, sunny weather with cool nights before harvest builds colour."},
+    {"k": "Frost", "v": "Spring frost at bloom (Mar–Apr) kills flowers."},
+    {"k": "Soil", "v": "Deep, well-drained loam, pH 5.5–6.5."}
+  ],
+  "weather_risks": [
+    {"risk": "Spring frost and cold rain at bloom", "months": [3, 4], "where": "HP, Kashmir", "impact": "Poor fruit set; whole-season crop loss in exposed orchards.", "example": ""},
+    {"risk": "Hailstorms", "months": [4, 5, 6], "where": "Shimla, Kullu, Kashmir", "impact": "Scarred fruit drops to the lowest grades; anti-hail nets are spreading.", "example": ""},
+    {"risk": "Monsoon cloudbursts and landslides", "months": [7, 8, 9], "where": "Himachal Pradesh, Jammu–Srinagar highway", "impact": "Harvest-time road closures strand trucks; fruit rots in transit.", "example": "2023 Himachal monsoon disaster; repeated NH-44 closures at Ramban."},
+    {"risk": "Early snowfall", "months": [10, 11], "where": "Kashmir", "impact": "Breaks branches still in leaf; damages unharvested fruit.", "example": "Early snow in Nov 2019 and Oct 2018 caused heavy orchard damage."},
+    {"risk": "Warm, dry winter", "months": [12, 1, 2], "where": "Lower and mid hills", "impact": "Insufficient chilling, weak bloom, more pests.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Apple scab", "sci": "Venturia inaequalis", "type": "Disease", "impact": "Scabby leaves and fruit; historic epidemics in HP and Kashmir."},
+    {"name": "Premature leaf fall (Marssonina blotch)", "sci": "Diplocarpon coronariae", "type": "Disease", "impact": "Early defoliation; widespread in HP and Kashmir since the 2000s."},
+    {"name": "Alternaria leaf blotch, powdery mildew", "sci": "Alternaria mali / Podosphaera leucotricha", "type": "Disease", "impact": "Leaf loss and weaker buds."},
+    {"name": "San Jose scale, woolly apple aphid", "sci": "Quadraspidiotus perniciosus / Eriosoma lanigerum", "type": "Pest", "impact": "Weakens trees; scale lowers grade."},
+    {"name": "European red mite", "sci": "Panonychus ulmi", "type": "Pest", "impact": "Leaf bronzing in hot dry spells."},
+    {"name": "Root and collar rot, canker", "sci": "Phytophthora, Dematophora spp.", "type": "Disease", "impact": "Tree death in poorly drained orchards."}
+  ],
+  "postharvest": {
+    "storage": "Cold store: −1 to 0 °C, 90–95% RH. CA store: 1–2% O₂ and 1–3% CO₂ at about 0 °C.",
+    "shelf_ambient": "2–4 weeks.",
+    "shelf_cold": "4–6 months (cold store), 8–10 months (CA).",
+    "respiration": "Climacteric and a strong ethylene producer: store away from cauliflower, leafy greens and bananas.",
+    "chilling": "Most varieties tolerate 0 °C; some suffer low-temperature breakdown below that.",
+    "loss": {"value": 10.39, "src": "ICAR-CIPHET 2015", "detail": "Harvest to retail."},
+    "practices": [
+      "Graded by size (Extra Large to Extra Small and 'pittoo') and colour.",
+      "Himachal moved to selling by weight in 2023 (24 kg cap per box) and to standard 'universal cartons' in 2024, ending the old over-filled boxes.",
+      "Kashmir trades in 16–18 kg wooden or cardboard boxes.",
+      "1-MCP (SmartFresh) and CA extend storage; CA capacity is concentrated in HP (including Adani Agri Fresh), Kashmir and Delhi-NCR."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Orchard", "what": "Picked and graded at the orchard; some orchards are leased to contractors before harvest."},
+      {"stage": "Local mandi or buyer", "what": "Sopore, Shopian, Parimpora (Srinagar), Narwal (Jammu), Parala and Dhalli (Shimla); corporate buyers publish procurement rates."},
+      {"stage": "Commission agents", "what": "Most fruit travels on consignment to Azadpur (Delhi) commission agents who auction it and remit after deducting fees."},
+      {"stage": "Storage", "what": "Part of the crop enters cold or CA storage for sale Dec–May."},
+      {"stage": "Retail", "what": "Fruit sellers, modern retail and quick commerce, alongside imported apples."}
+    ],
+    "routes": [
+      {"from": "Sopore / Shopian", "to": "Delhi (Azadpur)", "km": 850, "days": "2–4", "mode": "Truck via NH-44 (Banihal), often delayed by closures"},
+      {"from": "Budgam (Kashmir)", "to": "Delhi", "km": 800, "days": "1–2", "mode": "Rail parcel services on the new Jammu–Srinagar line (from 2025)"},
+      {"from": "Shimla / Rohru", "to": "Delhi (Azadpur), Chandigarh", "km": 400, "days": "1", "mode": "Truck"},
+      {"from": "Delhi", "to": "Kolkata, Mumbai, Bengaluru, Chennai", "km": 1500, "days": "2–4", "mode": "Truck"}
+    ],
+    "packaging": "Standard cartons (HP), wooden or cardboard boxes (Kashmir); trays for premium grades.",
+    "farmer_share": "Not estimated in the RBI series; commission agents typically charge a fixed percentage plus freight and labour."
+  },
+  "markets": [
+    {"name": "Sopore Fruit Mandi", "place": "Baramulla, J&K", "role": "Largest apple mandi in Kashmir."},
+    {"name": "Shopian and Parimpora mandis", "place": "J&K", "role": "South Kashmir and Srinagar trade."},
+    {"name": "Parala and Bhattakufar", "place": "Shimla, HP", "role": "Himachal's main apple markets."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "National price setter; most consignments are sold here."}
+  ],
+  "varieties": [
+    {"name": "Royal Delicious, Red Delicious, Rich-a-Red", "note": "Traditional mainstays in both states."},
+    {"name": "Ambri, Maharaji, American Trel", "note": "Kashmiri heritage varieties; Ambri keeps well."},
+    {"name": "Golden Delicious", "note": "Pollinizer and yellow apple."},
+    {"name": "Spur types (Red Chief, Oregon Spur, Super Chief, Scarlet Spur)", "note": "Compact, high-colour trees."},
+    {"name": "Gala, Fuji, Granny Smith, Jeromine, Red Velox", "note": "High-density plantings on M9/MM106 rootstocks."},
+    {"name": "Anna, HRMN-99", "note": "Low-chill types tried in the plains."}
+  ],
+  "trade": {"exports": "Small, mostly to Nepal and Bangladesh.", "imports": "About 5–6 lakh t a year: Iran (largest by volume), Turkey, Afghanistan, USA (Washington), Chile, New Zealand, Italy, Poland, South Africa. Basic duty 50% (Afghanistan duty-free under SAFTA).", "hs_code": "0808 10"},
+  "policy": [
+    {"when": "May 2023", "what": "Minimum import price of ₹50/kg (CIF) on apples, except from Bhutan."},
+    {"when": "Sep 2023", "what": "India withdrew the extra retaliatory duty on US apples; MFN duty applies."},
+    {"when": "2023–24", "what": "Himachal Pradesh made weight-based sale of apples mandatory (2023) and introduced universal cartons (2024)."},
+    {"when": "Ongoing", "what": "J&K Market Intervention Scheme (NAFED) used in crisis years such as 2019."}
+  ],
+  "history": [
+    {"when": "2019 Aug–Dec", "type": "shock", "what": "Communication shutdown in Kashmir disrupted trade; NAFED bought apples under a special MIS."},
+    {"when": "2019 Nov", "type": "shock", "what": "Early heavy snowfall damaged orchards still in leaf."},
+    {"when": "2023 Jul–Aug", "type": "shock", "what": "Floods and landslides in Himachal blocked roads at harvest; crop also smaller after a poor bloom."},
+    {"when": "2025 Sep", "type": "shock", "what": "NH-44 closures stranded trucks; rail parcel services from Kashmir started on the new line."}
+  ],
+  "signals": [
+    "Bloom and hail reports (Mar–Jun) from HP and J&K horticulture departments.",
+    "NH-44 (Jammu–Srinagar) closure notices during Aug–Nov.",
+    "Corporate procurement rates announced in Himachal each August.",
+    "CA and cold-store stock levels from Dec; import arrivals and CIF prices from Feb."
+  ],
+  "business": [
+    "Storage is the arbitrage: harvest-time prices (Aug–Oct) are the lowest of the year, and CA-stored Indian fruit competes with imports in spring.",
+    "Grading and packing standards (weight-based cartons in HP) make apples one of the easiest fruits to buy remotely by spec.",
+    "Imports set the ceiling for half the year; the ₹50/kg minimum import price matters mostly for cheap Iranian fruit.",
+    "Premium high-density varieties (Gala, Fuji) from new Indian orchards can substitute imports."
+  ],
+  "institutes": [
+    {"name": "ICAR-Central Institute of Temperate Horticulture (CITH)", "url": "https://cith.icar.gov.in/", "where": "Srinagar"},
+    {"name": "Dr YS Parmar University of Horticulture and Forestry", "url": "https://www.yspuniversity.ac.in/", "where": "Nauni, Solan"}
+  ],
+  "gi": ["Kashmir apples are not GI-tagged as a whole; 'Kinnauri apple' and others have been proposed"],
+  "sources": [
+    {"name": "DGFT notifications (apple MIP)", "url": "https://www.dgft.gov.in/"},
+    {"name": "TradeStat – Ministry of Commerce", "url": "https://tradestat.commerce.gov.in/"},
+    {"name": "ICAR-CITH", "url": "https://cith.icar.gov.in/"},
+    {"name": "HP Horticulture Department", "url": "https://hpagrisnet.gov.in/"}
+  ]
+}

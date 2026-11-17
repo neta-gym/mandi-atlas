@@ -1,0 +1,135 @@
+{
+  "slug": "cauliflower",
+  "name": "Cauliflower",
+  "local": "फूलगोभी · Phool gobhi",
+  "aka": {"Bengali": "Phulkopi", "Marathi": "Phulkobi", "Gujarati": "Fulavar", "Tamil": "Kovippoo", "Telugu": "Cauliflower / Gobi puvvu"},
+  "botanical": "Brassica oleracea var. botrytis L.",
+  "family": "Brassicaceae",
+  "group": "Vegetable · flower head (curd)",
+  "color": "#8a8f3a",
+  "perishability": "Highly perishable. 2–4 days at room temperature; curds yellow and spot quickly.",
+  "summary": "A cool-season crop that India has bred to grow in heat. Varieties are grouped by the temperature at which they form a curd, so plains harvests run from September (early types) to March (snowball types). In the monsoon months only the hills supply, which is when prices peak.",
+  "key_numbers": [
+    {"label": "Production", "value": "~95 lakh t", "note": "approx., recent years; second only to China", "src": "DA&FW / NHB"},
+    {"label": "Area", "value": "~4.7 lakh ha", "note": "approx.", "src": "DA&FW / NHB"},
+    {"label": "Price swing", "value": "5–10x", "note": "between the winter glut and the monsoon peak in a typical year", "src": "CEDA / Agmarknet series on this site"},
+    {"label": "Storage life at 0 °C", "value": "2–4 weeks", "note": "at 95–98% RH", "src": "Post-harvest handbooks"}
+  ],
+  "global": "India is the second-largest producer of cauliflower and broccoli after China. Almost all of it is eaten at home.",
+  "states": {
+    "year": "recent years",
+    "basis": "Leading producing states (ranked, approx. shares)",
+    "rows": [
+      {"state": "West Bengal", "share": 19, "hubs": "Nadia, Hooghly, North 24 Parganas"},
+      {"state": "Bihar", "share": 11, "hubs": "Vaishali, Samastipur, Patna, Nalanda"},
+      {"state": "Madhya Pradesh", "share": 10, "hubs": "Indore, Jabalpur, Chhindwara"},
+      {"state": "Odisha", "share": 8, "hubs": "Cuttack, Ganjam"},
+      {"state": "Haryana", "share": 7, "hubs": "Sonipat, Panipat, Karnal"},
+      {"state": "Gujarat", "share": 7, "hubs": "Anand, Vadodara"},
+      {"state": "Others", "share": 38, "hubs": "Jharkhand, Chhattisgarh, Assam, UP, Punjab, Himachal (summer), Maharashtra"}
+    ]
+  },
+  "belts": [
+    {"name": "Bengal and Bihar plains", "where": "Nadia, Hooghly, Vaishali, Samastipur", "note": "Huge winter output; supplies East India and Delhi."},
+    {"name": "Sonipat–Panipat", "where": "Haryana", "note": "Early and mid-season crops for Delhi."},
+    {"name": "Kullu–Shimla–Solan", "where": "Himachal Pradesh", "note": "Summer crop (Jun–Sep) when plains cannot grow it."},
+    {"name": "Katrain (Kullu)", "where": "Himachal Pradesh", "note": "ICAR-IARI station; source of snowball seed."}
+  ],
+  "seasons": [
+    {"name": "Early (plains)", "sow": [5, 6], "harvest": [9, 10], "share": "~15%", "region": "Haryana, Bihar, WB", "note": "Curds form at 20–27 °C; small curds, high prices."},
+    {"name": "Mid-season (plains)", "sow": [7, 8], "harvest": [11, 12], "share": "~35%", "region": "All plains states", "note": "Main crop."},
+    {"name": "Late / snowball (plains)", "sow": [9, 10], "harvest": [1, 2, 3], "share": "~40%", "region": "North and East India", "note": "Large white curds; winter glut."},
+    {"name": "Hills (summer)", "sow": [3, 4, 5], "harvest": [6, 7, 8, 9], "share": "~10%", "region": "HP, J&K, Uttarakhand, Nilgiris", "note": "Fills the monsoon gap."}
+  ],
+  "lean_season": "June–September: plains supply stops and the hills carry the market.",
+  "climate": [
+    {"k": "Temperature", "v": "Each maturity group needs its own temperature for curd formation: early 20–27 °C, mid 12–16 °C, snowball 10–16 °C."},
+    {"k": "Heat stress", "v": "Above ~30 °C curds turn ricey, leafy or loose; stress causes 'buttoning' (tiny premature curds)."},
+    {"k": "Sun", "v": "Direct sun yellows curds; growers tie inner leaves over the curd (blanching)."},
+    {"k": "Soil", "v": "Well-drained loam, pH 6.0–7.0. Boron shortage causes hollow stems and brown curds; molybdenum shortage causes 'whiptail'."}
+  ],
+  "weather_risks": [
+    {"risk": "Warm spell during curding", "months": [10, 11, 2, 3], "where": "Plains", "impact": "Loose, ricey or leafy curds that fetch low prices.", "example": ""},
+    {"risk": "Heavy monsoon rain in hills", "months": [7, 8], "where": "Himachal Pradesh", "impact": "Rot and blocked roads cut the only monsoon supply.", "example": "2023 Himachal floods."},
+    {"risk": "Late monsoon rain on nurseries", "months": [7, 8, 9], "where": "Plains", "impact": "Damping-off and delayed transplanting of early crops.", "example": ""},
+    {"risk": "Frost", "months": [12, 1], "where": "North India", "impact": "Curd discolouration and damage.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Diamondback moth", "sci": "Plutella xylostella", "type": "Pest", "impact": "Key pest of all crucifers; resistant to many insecticides."},
+    {"name": "Cabbage butterfly and tobacco caterpillar", "sci": "Pieris brassicae / Spodoptera litura", "type": "Pest", "impact": "Defoliation."},
+    {"name": "Aphids", "sci": "Brevicoryne brassicae, Lipaphis erysimi", "type": "Pest", "impact": "Colonies on leaves and curds; lower grade."},
+    {"name": "Black rot", "sci": "Xanthomonas campestris pv. campestris", "type": "Disease", "impact": "V-shaped yellow lesions; spreads in warm, wet weather."},
+    {"name": "Alternaria leaf spot, downy mildew", "sci": "Alternaria brassicae / Hyaloperonospora", "type": "Disease", "impact": "Leaf and curd spots."},
+    {"name": "Club root", "sci": "Plasmodiophora brassicae", "type": "Disease", "impact": "Problem in acidic hill soils (Nilgiris, Darjeeling)."},
+    {"name": "Buttoning, riceyness, browning", "sci": "Physiological", "type": "Disorder", "impact": "Temperature and nutrient-related defects."}
+  ],
+  "postharvest": {
+    "storage": "0 °C, 95–98% RH.",
+    "shelf_ambient": "2–4 days.",
+    "shelf_cold": "2–4 weeks.",
+    "respiration": "Non-climacteric, high respiration rate. Very sensitive to ethylene: leaves yellow and drop, curds discolour.",
+    "chilling": "Not chilling-sensitive; freezes below about −0.8 °C.",
+    "loss": {"value": null, "src": "NABCONS 2022", "detail": "Not reported separately; cabbage, a close relative, was 8.15%."},
+    "practices": [
+      "Harvested with a few wrapper leaves to protect the curd.",
+      "Do not ship or store with tomatoes, bananas, mangoes or apples (ethylene).",
+      "Hydro- or room-cooling quickly after harvest extends life several days.",
+      "Sold per piece at retail; trimming removes 40–50% of harvested weight."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Cut when curds are compact; packed with leaves in jute bags or crates."},
+      {"stage": "Local APMC", "what": "Same-day auction; traders consolidate truckloads for cities."},
+      {"stage": "City wholesale", "what": "Azadpur, Kolkata, Patna, Ranchi; hill produce via Solan and Kullu."},
+      {"stage": "Retail", "what": "Priced per piece by vendors; per piece or per 400–500 g on quick commerce."}
+    ],
+    "routes": [
+      {"from": "Sonipat / Panipat", "to": "Delhi (Azadpur)", "km": 60, "days": "<1", "mode": "Truck"},
+      {"from": "Kullu / Shimla", "to": "Delhi, Chandigarh", "km": 500, "days": "1", "mode": "Truck"},
+      {"from": "Vaishali / Samastipur", "to": "Kolkata, Guwahati", "km": 700, "days": "1–2", "mode": "Truck"}
+    ],
+    "packaging": "Jute bags or crates with wrapper leaves.",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "North India price setter."},
+    {"name": "Solan APMC", "place": "Himachal Pradesh", "role": "Summer hill supply."},
+    {"name": "Kolkata markets", "place": "West Bengal", "role": "Eastern hub."},
+    {"name": "Pune / Solapur APMC", "place": "Maharashtra", "role": "West India arrivals."}
+  ],
+  "varieties": [
+    {"name": "Pusa Meghna, Pusa Kartik Sankar, Pusa Early Synthetic", "note": "Early group (Sep–Oct harvest)."},
+    {"name": "Pusa Sharad, Pusa Hybrid-2, Pusa Paushja", "note": "Mid-season group."},
+    {"name": "Pusa Snowball-1, Pusa Snowball K-1, Pusa Snowball Hybrid-1", "note": "Late snowball group, also the hill summer crop."},
+    {"name": "Private hybrids", "note": "Widely used for uniform white curds."}
+  ],
+  "trade": {"exports": "Negligible (some to Nepal, Gulf).", "imports": "Negligible.", "hs_code": "0704 10"},
+  "policy": [
+    {"when": "Ongoing", "what": "No MSP or buffer; occasional state market intervention when winter prices collapse."}
+  ],
+  "history": [
+    {"when": "Most Jan–Feb", "type": "crash", "what": "Farm prices of ₹1–4 per piece; some farmers plough the crop back in."},
+    {"when": "Most Jul–Sep", "type": "spike", "what": "Hill-only supply; retail often ₹60–100 per kg equivalent."}
+  ],
+  "signals": [
+    "Hill arrivals at Solan and weather in Himachal (Jun–Sep).",
+    "Plains nursery and transplanting conditions (Jul–Sep rainfall).",
+    "Temperature anomalies in Oct–Nov (early curd quality) and Feb (late crop)."
+  ],
+  "business": [
+    "The monsoon window is the margin window: hill sourcing plus cold chain into plains cities.",
+    "Pre-cut florets sell at 4–5 times the whole-head price per kg on quick commerce (see the price snapshot).",
+    "Keep cauliflower out of mixed ethylene loads; it is one of the most ethylene-sensitive vegetables."
+  ],
+  "institutes": [
+    {"name": "ICAR-Indian Agricultural Research Institute (IARI)", "url": "https://www.iari.res.in/", "where": "New Delhi; regional station Katrain (Kullu)"},
+    {"name": "ICAR-Indian Institute of Vegetable Research (IIVR)", "url": "https://iivr.icar.gov.in/", "where": "Varanasi"}
+  ],
+  "gi": [],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "ICAR-IARI", "url": "https://www.iari.res.in/"},
+    {"name": "NABCONS post-harvest loss study (summary)", "url": "https://www.global-agriculture.com/india-region/indias-highest-post-harvest-losses-guava-and-tomato-among-the-worst-hit/"}
+  ]
+}
