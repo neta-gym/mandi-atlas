@@ -29,6 +29,17 @@ COMMODITIES = {
     "mango": {"nhb": ("FRUITS", "MANGO"), "doca": None, "ogd": "Mango"},
     "apple": {"nhb": ("FRUITS", "APPLE"), "doca": None, "ogd": "Apple"},
     "grapes": {"nhb": ("FRUITS", "GRAPES"), "doca": None, "ogd": "Grapes"},
+    # second ten (added 2026-11-17)
+    "garlic": {"nhb": ("VEGETABLES", "GARLIC"), "doca": "Garlic", "ogd": "Garlic"},
+    "ginger": {"nhb": ("VEGETABLES", "GINGER"), "doca": "Ginger", "ogd": "Ginger(Green)"},
+    "cabbage": {"nhb": ("VEGETABLES", "CABBAGE"), "doca": None, "ogd": "Cabbage"},
+    "okra": {"nhb": ("VEGETABLES", "OKRA"), "doca": None, "ogd": "Bhindi(Ladies Finger)"},
+    "green-peas": {"nhb": ("VEGETABLES", "PEAS"), "doca": None, "ogd": "Green Peas"},
+    "capsicum": {"nhb": None, "doca": None, "ogd": "Capsicum"},
+    "pomegranate": {"nhb": ("FRUITS", "POMEGRANATE"), "doca": None, "ogd": "Pomegranate"},
+    "orange": {"nhb": None, "doca": None, "ogd": "Orange"},
+    "papaya": {"nhb": ("FRUITS", "PAPAYA"), "doca": None, "ogd": "Papaya"},
+    "guava": {"nhb": ("FRUITS", "GUAVA"), "doca": None, "ogd": "Guava"},
 }
 
 

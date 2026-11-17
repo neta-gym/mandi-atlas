@@ -1,0 +1,130 @@
+{
+  "slug": "okra",
+  "name": "Okra (Bhindi)",
+  "local": "भिंडी · Bhindi",
+  "aka": {"English": "Lady's finger", "Marathi": "Bhendi", "Tamil": "Vendakkai", "Telugu": "Bendakaya", "Kannada": "Bende kayi", "Bengali": "Dherosh", "Gujarati": "Bhinda"},
+  "botanical": "Abelmoschus esculentus (L.) Moench",
+  "family": "Malvaceae",
+  "group": "Vegetable · pod",
+  "color": "#4f7a2a",
+  "perishability": "Highly perishable. 2–3 days at room temperature before pods toughen and blacken.",
+  "summary": "A warm-season vegetable that India grows more of than any other country. Pods are picked every two or three days and lose quality within a day, so supply tracks temperature: plentiful in summer and the monsoon, scarce and dear in the North Indian winter when the plant stops growing.",
+  "key_numbers": [
+    {"label": "Production", "value": "~65–70 lakh t", "note": "approx., recent years", "src": "DA&FW / NHB"},
+    {"label": "World rank", "value": "#1", "note": "India grows well over half of world okra", "src": "FAOSTAT"},
+    {"label": "Picking interval", "value": "2–3 days", "note": "pods harvested 5–7 days after flowering", "src": "Agronomy practice"},
+    {"label": "Export", "value": "Air-freighted", "note": "a leading fresh-vegetable export to the UK and Gulf", "src": "APEDA"}
+  ],
+  "global": "India is the largest okra producer and a major exporter of fresh okra by air to the UK, UAE and the Gulf, mainly from Gujarat and Maharashtra.",
+  "states": {
+    "year": "recent years",
+    "basis": "Major producing states (ranked approximately; shares not shown)",
+    "rows": [
+      {"state": "Gujarat", "share": null, "hubs": "Anand, Vadodara, Surat, Bharuch"},
+      {"state": "West Bengal", "share": null, "hubs": "Nadia, Hooghly, North 24 Parganas"},
+      {"state": "Bihar", "share": null, "hubs": "Vaishali, Samastipur, Nalanda"},
+      {"state": "Madhya Pradesh", "share": null, "hubs": "Indore, Jabalpur, Sagar"},
+      {"state": "Odisha", "share": null, "hubs": "Cuttack, Ganjam, Balasore"},
+      {"state": "Jharkhand", "share": null, "hubs": "Ranchi, Hazaribagh"},
+      {"state": "Andhra Pradesh", "share": null, "hubs": "Guntur, Krishna"},
+      {"state": "Haryana", "share": null, "hubs": "Sonipat, Panipat (summer crop for Delhi)"}
+    ]
+  },
+  "belts": [
+    {"name": "Central Gujarat", "where": "Anand, Vadodara, Bharuch", "note": "Large commercial and export crop."},
+    {"name": "Bengal and Bihar plains", "where": "Nadia, Vaishali", "note": "Summer and monsoon supply to the East and Delhi."},
+    {"name": "Delhi periphery", "where": "Sonipat, Panipat, western UP", "note": "Summer okra for the capital."}
+  ],
+  "seasons": [
+    {"name": "Summer", "sow": [2, 3], "harvest": [4, 5, 6], "share": "~45%", "region": "North and Central India", "note": "High quality; pest pressure rises with heat."},
+    {"name": "Kharif (rainy)", "sow": [6, 7], "harvest": [8, 9, 10], "share": "~45%", "region": "All states", "note": "Yellow vein mosaic is worst in this season."},
+    {"name": "Winter (South and West)", "sow": [10, 11], "harvest": [12, 1, 2], "share": "~10%", "region": "Gujarat, Maharashtra, South", "note": "Only mild-winter areas supply in winter."}
+  ],
+  "lean_season": "November–February in North India, when cold stops growth.",
+  "climate": [
+    {"k": "Temperature", "v": "25–35 °C ideal. Seeds barely germinate below 20 °C; flowers drop above ~42 °C."},
+    {"k": "Cold", "v": "Killed by frost; growth stalls below ~15 °C."},
+    {"k": "Water", "v": "Regular irrigation in summer; waterlogging rots roots in the monsoon."},
+    {"k": "Soil", "v": "Well-drained loam, pH 6.0–6.8."}
+  ],
+  "weather_risks": [
+    {"risk": "Cold nights", "months": [11, 12, 1, 2], "where": "North and East India", "impact": "Growth stops; supply falls and prices climb.", "example": ""},
+    {"risk": "Extreme heat", "months": [5, 6], "where": "North and Central India", "impact": "Flower drop and tough, curved pods.", "example": ""},
+    {"risk": "Heavy monsoon rain", "months": [7, 8, 9], "where": "East India, Gujarat", "impact": "Waterlogging and disease; fewer pickings.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Yellow vein mosaic virus", "sci": "Begomovirus, spread by whitefly", "type": "Disease", "impact": "The main constraint; yellow-netted leaves and unmarketable pods."},
+    {"name": "Enation leaf curl", "sci": "Begomovirus", "type": "Disease", "impact": "Curled, thickened leaves."},
+    {"name": "Shoot and fruit borer", "sci": "Earias vittella, E. insulana", "type": "Pest", "impact": "Bored, deformed pods."},
+    {"name": "Jassids and whitefly", "sci": "Amrasca biguttula, Bemisia tabaci", "type": "Pest", "impact": "Leaf curling; whitefly spreads viruses."},
+    {"name": "Powdery mildew", "sci": "Erysiphe cichoracearum", "type": "Disease", "impact": "Leaf loss in dry-cool weather."},
+    {"name": "Root-knot nematode", "sci": "Meloidogyne spp.", "type": "Pest", "impact": "Stunting in light soils."}
+  ],
+  "postharvest": {
+    "storage": "7–10 °C, 90–95% RH.",
+    "shelf_ambient": "2–3 days.",
+    "shelf_cold": "7–10 days.",
+    "respiration": "Non-climacteric, very high respiration rate.",
+    "chilling": "Chilling injury below ~7 °C: pitting and darkening.",
+    "loss": {"value": null, "src": "NABCONS 2022", "detail": "Not reported separately; vegetables range 4.87–11.61%."},
+    "practices": [
+      "Picked tender (8–10 cm) in the early morning; over-mature pods are fibrous.",
+      "Packed loosely in ventilated bags or crates; bruising blackens pods.",
+      "Export okra is graded by length, packed in 5 kg cartons and air-freighted the same day."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Picked every 2–3 days by hand."},
+      {"stage": "Local APMC", "what": "Same-day auction; prices change sharply day to day."},
+      {"stage": "City wholesale", "what": "Azadpur, Vashi, Jamalpur (Ahmedabad), Kolkata."},
+      {"stage": "Retail and export", "what": "Vendors, quick commerce, and export pack houses near Ahmedabad and Mumbai airports."}
+    ],
+    "routes": [
+      {"from": "Anand / Vadodara", "to": "Ahmedabad airport → UK, Gulf", "km": 100, "days": "1", "mode": "Truck + air"},
+      {"from": "Vaishali / Nadia", "to": "Kolkata, Delhi", "km": 1000, "days": "1–2", "mode": "Truck, rail parcel"},
+      {"from": "Sonipat", "to": "Delhi (Azadpur)", "km": 60, "days": "<1", "mode": "Truck"}
+    ],
+    "packaging": "Jute or leno bags, crates; 5 kg cartons for export.",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "North India terminal."},
+    {"name": "Jamalpur APMC", "place": "Ahmedabad", "role": "Gujarat hub and export sourcing."},
+    {"name": "Vashi APMC", "place": "Navi Mumbai", "role": "West India terminal."}
+  ],
+  "varieties": [
+    {"name": "Arka Anamika, Arka Abhay", "note": "ICAR-IIHR; tolerant to yellow vein mosaic."},
+    {"name": "Kashi Kranti, Kashi Pragati, Kashi Lalima (red)", "note": "ICAR-IIVR."},
+    {"name": "Parbhani Kranti, Pusa Sawani", "note": "Older popular varieties."},
+    {"name": "Private hybrids (e.g. Radhika, Mahyco 10)", "note": "Dominant commercially."}
+  ],
+  "trade": {"exports": "Fresh okra by air to the UK, UAE, Saudi Arabia, Qatar and other Gulf states; frozen okra too.", "imports": "Negligible.", "hs_code": "0709 99"},
+  "policy": [
+    {"when": "Ongoing", "what": "Export consignments need residue testing and phytosanitary certificates (EU and UK rules)."}
+  ],
+  "history": [
+    {"when": "Most Dec–Feb", "type": "spike", "what": "North Indian winter shortage; retail often ₹80–120/kg."},
+    {"when": "Most Apr–May and Aug", "type": "crash", "what": "Peak pickings push farm prices down to ₹5–10/kg."}
+  ],
+  "signals": [
+    "Night temperatures in North India in Nov–Feb.",
+    "Whitefly and mosaic reports in the kharif season.",
+    "Arrivals at Azadpur and Ahmedabad."
+  ],
+  "business": [
+    "Freshness is everything: same-day sourcing and gentle handling decide the grade.",
+    "Winter supply from Gujarat and the South to North India is the main arbitrage.",
+    "Export-grade okra (sorted, length-graded) commands premiums in Indian metros too."
+  ],
+  "institutes": [
+    {"name": "ICAR-IIVR", "url": "https://iivr.icar.gov.in/", "where": "Varanasi"},
+    {"name": "ICAR-IIHR", "url": "https://iihr.res.in/", "where": "Bengaluru"}
+  ],
+  "gi": [],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "APEDA – fresh vegetables", "url": "https://apeda.gov.in/"},
+    {"name": "ICAR-IIVR", "url": "https://iivr.icar.gov.in/"}
+  ]
+}

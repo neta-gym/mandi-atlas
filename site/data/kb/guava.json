@@ -1,0 +1,129 @@
+{
+  "slug": "guava",
+  "name": "Guava",
+  "local": "अमरूद · Amrood",
+  "aka": {"Marathi": "Peru", "Tamil": "Koyya", "Telugu": "Jama", "Kannada": "Seebe", "Bengali": "Peyara", "Gujarati": "Jamfal"},
+  "botanical": "Psidium guajava L.",
+  "family": "Myrtaceae",
+  "group": "Fruit · subtropical tree",
+  "color": "#9fbf3b",
+  "perishability": "Highly perishable. 2–4 days ripe at room temperature; it has the highest post-harvest loss of any fruit studied.",
+  "summary": "A hardy, cheap 'poor man's apple' that grows across India with two main crops: a rainy-season crop of poorer quality and a prized winter crop, peaking November–February. It bruises and ripens fast, which gives it the highest measured post-harvest loss of any fruit. Pink-fleshed Thai and Taiwan types now command premium prices in cities.",
+  "key_numbers": [
+    {"label": "Production", "value": "~45–55 lakh t", "note": "approx., recent years", "src": "DA&FW / NHB"},
+    {"label": "Post-harvest loss", "value": "15.05%", "note": "farm 11.59% + market 3.46%; highest among fruits", "src": "NABCONS 2022"},
+    {"label": "Best season", "value": "Nov–Feb", "note": "winter crop", "src": "ICAR-CISH"},
+    {"label": "Storage at 8–10 °C", "value": "2–3 weeks", "note": "85–90% RH", "src": "Post-harvest handbooks"}
+  ],
+  "global": "India is the largest guava producer. Fresh exports are small; pulp and juice reach the Gulf and Europe.",
+  "states": {
+    "year": "recent years",
+    "basis": "Major producing states (ranked approximately; shares not shown)",
+    "rows": [
+      {"state": "Madhya Pradesh", "share": null, "hubs": "Gwalior, Ujjain, Shajapur, Rewa"},
+      {"state": "Uttar Pradesh", "share": null, "hubs": "Prayagraj (Allahabad), Kaushambi, Lucknow, Farrukhabad"},
+      {"state": "Bihar", "share": null, "hubs": "Vaishali, Patna, Nalanda"},
+      {"state": "Andhra Pradesh", "share": null, "hubs": "Krishna, Chittoor, Guntur"},
+      {"state": "Maharashtra", "share": null, "hubs": "Ahilyanagar, Pune, Solapur, Beed"},
+      {"state": "Gujarat", "share": null, "hubs": "Bhavnagar, Ahmedabad, Kutch"},
+      {"state": "Haryana", "share": null, "hubs": "Hisar, Jind"},
+      {"state": "Punjab", "share": null, "hubs": "Patiala, Sangrur"}
+    ]
+  },
+  "belts": [
+    {"name": "Prayagraj–Kaushambi", "where": "Uttar Pradesh", "note": "Home of Allahabad Safeda, India's best-known guava."},
+    {"name": "Gwalior and Malwa", "where": "Madhya Pradesh", "note": "Large and growing belt."},
+    {"name": "Ahilyanagar–Pune", "where": "Maharashtra", "note": "Thai and Taiwan pink guava orchards for metros."}
+  ],
+  "seasons": [
+    {"name": "Rainy-season crop (ambe bahar)", "sow": [3, 4], "harvest": [7, 8, 9], "share": "Large", "region": "All belts", "note": "'Sow' here means flowering. Insipid fruit, heavy fruit-fly damage; many growers suppress it."},
+    {"name": "Winter crop (mrig bahar)", "sow": [6, 7], "harvest": [11, 12, 1, 2], "share": "Large", "region": "North and Central India", "note": "Best quality and colour."},
+    {"name": "Spring crop (hasta bahar)", "sow": [10], "harvest": [3, 4], "share": "Small", "region": "Maharashtra, South", "note": "Fetches good prices."}
+  ],
+  "lean_season": "May–June.",
+  "climate": [
+    {"k": "Temperature", "v": "23–28 °C ideal; tolerates heat and drought; young plants suffer in frost."},
+    {"k": "Winter", "v": "Cool winters give the best colour and sweetness."},
+    {"k": "Rain", "v": "Grows with 1,000 mm or more, but rain at ripening invites fruit fly and anthracnose."},
+    {"k": "Soil", "v": "Very adaptable, pH 4.5–8.2; sensitive to waterlogging."}
+  ],
+  "weather_risks": [
+    {"risk": "Rain and humidity at ripening", "months": [7, 8, 9], "where": "All belts", "impact": "Fruit fly and anthracnose spoil the rainy crop.", "example": ""},
+    {"risk": "Frost", "months": [12, 1], "where": "North India", "impact": "Damage to young trees and the winter crop.", "example": ""},
+    {"risk": "Hailstorm", "months": [2, 3], "where": "UP, MP", "impact": "Bruised fruit at the end of the winter crop.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Fruit flies", "sci": "Bactrocera dorsalis, B. zonata", "type": "Pest", "impact": "The main pest; maggots in rainy-season fruit."},
+    {"name": "Guava wilt", "sci": "Fusarium spp., Ceratocystis fimbriata", "type": "Disease", "impact": "Kills trees; serious in UP and Bihar."},
+    {"name": "Anthracnose", "sci": "Colletotrichum psidii", "type": "Disease", "impact": "Sunken spots on fruit."},
+    {"name": "Bark-eating caterpillar, mealybug, tea mosquito bug", "sci": "Various", "type": "Pest", "impact": "Tree damage and scarred fruit."}
+  ],
+  "postharvest": {
+    "storage": "8–10 °C, 85–90% RH.",
+    "shelf_ambient": "2–4 days ripe.",
+    "shelf_cold": "2–3 weeks.",
+    "respiration": "Climacteric; ripens fast after harvest.",
+    "chilling": "Chilling injury below ~8 °C (browning, poor flavour).",
+    "loss": {"value": 15.05, "src": "NABCONS 2022 (for MoFPI)", "detail": "Farm stage 11.59%, market stage 3.46% — the highest of the fruits studied."},
+    "practices": [
+      "Harvested at colour break; padded crates cut bruising.",
+      "Thai and Taiwan types are often bagged on the tree to keep skin clean.",
+      "Pulp, jelly, cheese and juice makers use the rainy-season crop."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Orchard", "what": "Picked by hand; many orchards are leased to contractors for the season."},
+      {"stage": "Local mandi", "what": "Prayagraj, Lucknow, Gwalior auctions."},
+      {"stage": "City wholesale", "what": "Azadpur, Lucknow, Kolkata, Mumbai."},
+      {"stage": "Retail and processing", "what": "Carts and fruit shops; pulp and juice units."}
+    ],
+    "routes": [
+      {"from": "Prayagraj", "to": "Delhi (Azadpur)", "km": 650, "days": "1", "mode": "Truck"},
+      {"from": "Gwalior", "to": "Delhi, Jaipur", "km": 320, "days": "<1", "mode": "Truck"},
+      {"from": "Ahilyanagar / Pune", "to": "Mumbai, Bengaluru", "km": 900, "days": "1", "mode": "Truck"}
+    ],
+    "packaging": "Crates and baskets; Thai guava in cartons.",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Prayagraj (Mundera) mandi", "place": "Uttar Pradesh", "role": "Allahabad Safeda trade."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Largest consuming market."},
+    {"name": "Lucknow (Dubagga) mandi", "place": "Uttar Pradesh", "role": "Regional hub."}
+  ],
+  "varieties": [
+    {"name": "Allahabad Safeda", "note": "Classic white-fleshed table guava."},
+    {"name": "Lucknow-49 (Sardar)", "note": "High-yielding, widely grown."},
+    {"name": "Lalit, Shweta, Dhawal", "note": "ICAR-CISH varieties (Lalit is pink-fleshed)."},
+    {"name": "Thai / Taiwan pink (e.g. VNR Bihi)", "note": "Large fruit, long shelf life, premium in cities."},
+    {"name": "Arka Mridula, Arka Kiran", "note": "ICAR-IIHR."}
+  ],
+  "trade": {"exports": "Small fresh exports; guava pulp and juice to the Gulf and Europe.", "imports": "Negligible.", "hs_code": "0804 50"},
+  "policy": [
+    {"when": "Ongoing", "what": "No MSP; NHB supports high-density orchards."}
+  ],
+  "history": [
+    {"when": "Most Aug–Sep", "type": "crash", "what": "Rainy-crop glut of poor fruit; low prices."},
+    {"when": "Most Dec–Jan", "type": "spike", "what": "Prime winter fruit, especially Allahabad Safeda, sells at a premium."}
+  ],
+  "signals": [
+    "Winter-crop flowering reports (Jul–Aug) and fruit-fly incidence.",
+    "Frost forecasts for UP and MP (Dec–Jan).",
+    "Arrivals at Prayagraj and Azadpur."
+  ],
+  "business": [
+    "The highest loss rate of any fruit means cold chain and gentle handling pay back quickly.",
+    "Pink Thai guava is a fast-growing premium segment for quick commerce.",
+    "Rainy-season fruit is better sent to pulp than to fresh markets."
+  ],
+  "institutes": [
+    {"name": "ICAR-CISH", "url": "https://cish.icar.gov.in/", "where": "Lucknow"},
+    {"name": "ICAR-IIHR", "url": "https://iihr.res.in/", "where": "Bengaluru"}
+  ],
+  "gi": [],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "NABCONS post-harvest loss study (summary)", "url": "https://www.global-agriculture.com/india-region/indias-highest-post-harvest-losses-guava-and-tomato-among-the-worst-hit/"},
+    {"name": "ICAR-CISH", "url": "https://cish.icar.gov.in/"}
+  ]
+}

@@ -2,7 +2,7 @@
 
 A static website that puts everything about India's main perishable commodities in one place: where they are grown, crop calendars, weather that hurts them, pests, storage, how they move from farm to city, prices in mandis, in shops and on quick commerce, and a tested seasonal price forecast.
 
-Launch set (10): onion, tomato, potato, brinjal, cauliflower, green chilli, banana, mango, apple, grapes.
+Tracked (20): onion, tomato, potato, brinjal, cauliflower, green chilli, banana, mango, apple, grapes, garlic, ginger, cabbage, okra, green peas, capsicum, pomegranate, orange (mandarin), papaya, guava.
 
 ## What is on the site
 
@@ -10,7 +10,7 @@ Launch set (10): onion, tomato, potato, brinjal, cauliflower, green chilli, bana
 |---|---|
 | Rate board (`#board`) | Today's DoCA retail and wholesale prices, a Blinkit snapshot, seasonal position this month, 3-month outlook, 36-month sparkline, the price year as a heat map, weather risks active this month |
 | Commodity dossier (`#onion` etc.) | 14 sections: overview and key numbers, prices (2008–2025 mandi history, daily series, yearly price and arrivals, state comparison, quick commerce, city mark-ups), outlook and forecast with backtest, crop calendar and seasonal pattern, state tile map (production share / mandi arrivals / mandi price), belts and top mandi districts, climate and weather risks, pests and diseases, post-harvest and storage, supply chain and routes with today's price build-up, markets and varieties, trade and policy timeline, price history (known episodes + largest deviations in the data), signals and business notes, sources |
-| Calendar (`#calendar`) | All ten side by side: seasonal price, mandi arrivals, harvest windows, weather-risk months |
+| Calendar (`#calendar`) | All commodities side by side: seasonal price, mandi arrivals, harvest windows, weather-risk months |
 | Supply chain (`#supply-chain`) | How the mandi system works, who takes what, transport, cold chain, quick commerce, glossary |
 | Sources (`#sources`) | 40+ data sources with what they hold, granularity, frequency, access method and whether the site uses them |
 | Method (`#method`) | Pipeline, models, limits, backtest accuracy table |
@@ -23,7 +23,8 @@ Launch set (10): onion, tomato, potato, brinjal, cauliflower, green chilli, bana
 | Dept. of Consumer Affairs, Price Monitoring System | `pipeline/fetch_doca.py` | Today's all-India average retail (₹/kg) and wholesale (₹/qtl) for onion, potato, tomato, brinjal, banana | Homepage only; detailed reports are behind a CAPTCHA and are not touched. Run daily to build a series |
 | National Horticulture Board market information | `pipeline/fetch_nhb.py` | Monthly wholesale, retail and arrivals by city (31 centres) since 2010 | Used for retail ÷ wholesale mark-ups |
 | data.gov.in daily mandi prices (Agmarknet feed) | `pipeline/fetch_ogd.py` | Every market's min/max/modal for the day | Needs a free API key and an Indian network (the portal refuses most foreign IPs). When present, the forecast also conditions on today's price |
-| Blinkit | manual snapshot in `site/data/retail/quick_commerce.json` | Shelf prices in Connaught Place, Delhi on 16 Nov 2026 | No public API; not scraped automatically |
+| Open-Meteo | `pipeline/fetch_weather.py` | Last 30 days and 16-day forecast for 3–5 growing belts per crop, flagged against crop heat/cold limits and IMD's heavy-rain threshold | Free, no key; runs daily |
+| Blinkit | manual snapshot in `site/data/retail/quick_commerce.json` | Shelf prices in Connaught Place, Delhi on 16–17 Nov 2026 | No public API; not scraped automatically |
 
 Reference facts (production, seasons, climate, pests, storage, routes, policy) are in `site/data/kb/<slug>.json` with their sources. Numbers marked "approx." are rounded from official estimates and summaries.
 
@@ -41,6 +42,7 @@ Requires Python 3.9+ and numpy.
 
 ```bash
 python3 pipeline/fetch_doca.py                 # daily
+python3 pipeline/fetch_weather.py              # daily
 python3 pipeline/fetch_ceda.py                 # weekly is plenty
 python3 pipeline/fetch_nhb.py --from 2010      # history; later runs: --from <last year>
 DATA_GOV_IN_API_KEY=xxxx python3 pipeline/fetch_ogd.py   # optional, from India

@@ -235,7 +235,7 @@ th { font-family: var(--f-display); font-weight: 600; font-size: var(--t-xs); le
 .tl .ev.policy::before, .tl .ev.shock::before { border-color: var(--turmeric); }
 .tl .when { font-family: var(--f-mono); font-size: var(--t-xs); color: var(--muted); }
 
-.monthchips { display: inline-flex; gap: 2px; flex-wrap: wrap; }
+.monthchips { display: inline-flex; gap: 2px; flex-wrap: nowrap; }
 .monthchips span { font-family: var(--f-mono); font-size: 10px; padding: 1px 4px; border-radius: 2px; background: var(--paper); color: var(--faint); border: 1px solid var(--rule); }
 .monthchips span.on { background: var(--chilli); color: #fff; border-color: var(--chilli); }
 

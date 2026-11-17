@@ -133,6 +133,7 @@ def main():
     ap.add_argument("--only", default="")
     a = ap.parse_args()
     slugs = [x for x in a.only.split(",") if x] or list(COMMODITIES)
+    slugs = [s for s in slugs if COMMODITIES[s]["nhb"]]  # some items are not in NHB's crop list
     years = list(range(a.y0, a.y1 + 1))
     for slug in slugs:
         print(f"NHB {slug} {years[0]}-{years[-1]}")

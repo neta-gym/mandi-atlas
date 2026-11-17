@@ -1,0 +1,128 @@
+{
+  "slug": "papaya",
+  "name": "Papaya",
+  "local": "पपीता · Papita",
+  "aka": {"Tamil": "Pappali", "Telugu": "Boppayi", "Kannada": "Pharangi", "Malayalam": "Kappalanga", "Marathi": "Papai", "Bengali": "Pepe"},
+  "botanical": "Carica papaya L.",
+  "family": "Caricaceae",
+  "group": "Fruit · tropical, fast-growing",
+  "color": "#f0a33c",
+  "perishability": "Perishable once ripe (2–4 days). Picked at colour break, it travels about a week.",
+  "summary": "A fast crop that fruits within a year of planting and then all year round, so supply is steady and prices stay in a narrower band than most fruit. Papaya ringspot virus and waterlogging are the main risks; a single heavy monsoon spell can kill a field in two days.",
+  "key_numbers": [
+    {"label": "Production", "value": "~55–60 lakh t", "note": "approx., recent years", "src": "DA&FW / NHB"},
+    {"label": "World rank", "value": "#1", "note": "India grows roughly 40% of world papaya", "src": "FAOSTAT"},
+    {"label": "First harvest", "value": "9–10 months", "note": "after planting; orchards last 2–3 years", "src": "Agronomy practice"},
+    {"label": "Dominant variety", "value": "Red Lady (786)", "note": "Taiwanese hybrid", "src": "Trade"}
+  ],
+  "global": "India is the world's largest papaya producer; exports of fresh fruit are small (Gulf, Nepal), while papain (dried latex) is exported for the food and pharma industries.",
+  "states": {
+    "year": "recent years",
+    "basis": "Major producing states (ranked approximately; shares not shown)",
+    "rows": [
+      {"state": "Andhra Pradesh", "share": null, "hubs": "Kadapa, Anantapur, Kurnool, East Godavari"},
+      {"state": "Gujarat", "share": null, "hubs": "Anand, Vadodara, Bharuch, Surat"},
+      {"state": "Madhya Pradesh", "share": null, "hubs": "Barwani, Khargone, Dhar"},
+      {"state": "Karnataka", "share": null, "hubs": "Chitradurga, Davanagere"},
+      {"state": "Maharashtra", "share": null, "hubs": "Jalgaon, Nandurbar, Solapur"},
+      {"state": "Chhattisgarh", "share": null, "hubs": "Durg, Bilaspur"},
+      {"state": "West Bengal", "share": null, "hubs": "Nadia, North 24 Parganas"},
+      {"state": "Tamil Nadu", "share": null, "hubs": "Coimbatore, Theni, Dindigul"}
+    ]
+  },
+  "belts": [
+    {"name": "Rayalaseema", "where": "Kadapa, Anantapur (AP)", "note": "Large drip-irrigated Red Lady belt."},
+    {"name": "Central Gujarat", "where": "Anand, Vadodara", "note": "Supplies North and West India."},
+    {"name": "Nimar", "where": "Barwani, Khargone (MP)", "note": "Fast-growing belt for North India."}
+  ],
+  "seasons": [
+    {"name": "Monsoon planting", "sow": [6, 7], "harvest": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2], "share": "Main", "region": "All belts", "note": "Bears from about March onwards for 2–3 years."},
+    {"name": "Autumn planting", "sow": [9, 10], "harvest": [7, 8, 9, 10, 11, 12, 1, 2, 3, 4, 5, 6], "share": "Some", "region": "South and West", "note": "Avoids the monsoon at the seedling stage."},
+    {"name": "Spring planting", "sow": [2, 3], "harvest": [11, 12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "share": "Some", "region": "All belts", "note": "Common where frost or waterlogging are risks."}
+  ],
+  "lean_season": "No true lean season; supply dips after heavy monsoons and cold winters in the North.",
+  "climate": [
+    {"k": "Temperature", "v": "22–35 °C ideal; growth slows below ~12 °C; frost kills plants."},
+    {"k": "Water", "v": "Regular irrigation; standing water for 24–48 hours kills plants."},
+    {"k": "Wind", "v": "Shallow roots and a single stem make plants topple in storms."},
+    {"k": "Soil", "v": "Light, very well-drained soil, pH 6.0–7.0."}
+  ],
+  "weather_risks": [
+    {"risk": "Waterlogging in heavy rain", "months": [7, 8, 9], "where": "All belts", "impact": "Collar rot and plant death within days.", "example": ""},
+    {"risk": "Cold and frost", "months": [12, 1], "where": "Gujarat, MP, North India", "impact": "Leaf burn, poor fruit set, bland fruit.", "example": ""},
+    {"risk": "Cyclones and storms", "months": [5, 10, 11], "where": "AP, Gujarat coast", "impact": "Plants uprooted.", "example": ""},
+    {"risk": "Heat wave", "months": [4, 5], "where": "AP, MP, Gujarat", "impact": "Flower drop and sunburn on fruit.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Papaya ringspot virus (PRSV)", "sci": "Potyvirus, spread by aphids", "type": "Disease", "impact": "The main constraint; mottled leaves and ringed fruit, orchards decline within a year."},
+    {"name": "Papaya leaf curl", "sci": "Begomovirus, spread by whitefly", "type": "Disease", "impact": "Curled leaves, stunting."},
+    {"name": "Papaya mealybug", "sci": "Paracoccus marginatus", "type": "Pest", "impact": "Invasive since 2008; controlled largely by released parasitoids."},
+    {"name": "Collar and root rot", "sci": "Pythium aphanidermatum, Phytophthora", "type": "Disease", "impact": "Plant death in wet soils."},
+    {"name": "Anthracnose", "sci": "Colletotrichum gloeosporioides", "type": "Disease", "impact": "Sunken spots on ripening fruit."}
+  ],
+  "postharvest": {
+    "storage": "10–13 °C, 85–90% RH for fruit at colour break.",
+    "shelf_ambient": "2–4 days ripe.",
+    "shelf_cold": "1–3 weeks.",
+    "respiration": "Climacteric; ripens after harvest.",
+    "chilling": "Chilling injury below ~10 °C (uneven ripening, hard lumps).",
+    "loss": {"value": null, "src": "NABCONS 2022", "detail": "Not reported separately; fruits range 6.02–15.05%."},
+    "practices": [
+      "Harvested when the first yellow streaks show; each fruit wrapped in paper or foam net.",
+      "Shipped in crates or trucks padded with straw; bruising is the main loss.",
+      "Raw papaya is sold as a vegetable; green fruit is tapped for papain latex."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Weekly harvests; traders buy at the farm gate by weight."},
+      {"stage": "Wholesale", "what": "Azadpur, Vashi, Ahmedabad, Hyderabad, Chennai."},
+      {"stage": "Ripening and retail", "what": "Ripened at wholesale or retail; sold per kg or per piece."}
+    ],
+    "routes": [
+      {"from": "Kadapa / Anantapur", "to": "Delhi (Azadpur)", "km": 1900, "days": "3", "mode": "Truck"},
+      {"from": "Anand / Vadodara", "to": "Delhi, Mumbai", "km": 1000, "days": "1–2", "mode": "Truck"},
+      {"from": "Barwani", "to": "Delhi, Jaipur, Indore", "km": 900, "days": "1–2", "mode": "Truck"}
+    ],
+    "packaging": "Crates or loose with straw; individually wrapped fruit.",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "North India terminal."},
+    {"name": "Vashi APMC", "place": "Navi Mumbai", "role": "West India terminal."},
+    {"name": "Kadapa and Pulivendula markets", "place": "Andhra Pradesh", "role": "Producer trade."}
+  ],
+  "varieties": [
+    {"name": "Red Lady (786)", "note": "Dominant; red flesh, good shipping."},
+    {"name": "Pusa Nanha, Pusa Delicious", "note": "ICAR-IARI dwarf and table types."},
+    {"name": "Arka Prabhath, Arka Surya", "note": "ICAR-IIHR."},
+    {"name": "Coorg Honey Dew, Washington, CO series", "note": "Traditional and TNAU types."}
+  ],
+  "trade": {"exports": "Small fresh exports to the Gulf and Nepal; papain exports.", "imports": "Negligible.", "hs_code": "0807 20"},
+  "policy": [
+    {"when": "2010s", "what": "Classical biocontrol (parasitoid release) brought the invasive papaya mealybug under control."}
+  ],
+  "history": [
+    {"when": "2008–2010", "type": "shock", "what": "Papaya mealybug invasion damaged orchards in Tamil Nadu and the South."},
+    {"when": "Wet monsoon years", "type": "shock", "what": "Waterlogging kills fields in Gujarat and AP."}
+  ],
+  "signals": [
+    "Monsoon rainfall and waterlogging in AP, Gujarat and MP.",
+    "PRSV incidence reports.",
+    "Arrivals at Azadpur."
+  ],
+  "business": [
+    "Steady year-round supply makes papaya a reliable staple for fruit bowls and cut-fruit businesses.",
+    "Cut papaya and ready-to-eat cups carry large mark-ups.",
+    "Short orchard life (2–3 years) means area responds quickly to prices."
+  ],
+  "institutes": [
+    {"name": "ICAR-IIHR", "url": "https://iihr.res.in/", "where": "Bengaluru"},
+    {"name": "ICAR-IARI", "url": "https://www.iari.res.in/", "where": "New Delhi"}
+  ],
+  "gi": [],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "ICAR-IIHR", "url": "https://iihr.res.in/"}
+  ]
+}

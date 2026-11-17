@@ -1,0 +1,131 @@
+{
+  "slug": "ginger",
+  "name": "Ginger",
+  "local": "अदरक · Adrak",
+  "aka": {"Malayalam": "Inchi", "Tamil": "Inji", "Telugu": "Allam", "Kannada": "Shunti", "Marathi": "Ale", "Bengali": "Ada", "Gujarati": "Adu"},
+  "botanical": "Zingiber officinale Roscoe",
+  "family": "Zingiberaceae",
+  "group": "Vegetable · rhizome (spice)",
+  "color": "#c27c2c",
+  "perishability": "Semi-perishable. Fresh rhizomes keep 1–3 months; dried ginger keeps a year.",
+  "summary": "Sold fresh as a kitchen staple and dried as a spice. It is planted before the monsoon and dug from October onwards, mostly by smallholders in the hills and plateaus of the South and North-East. Like garlic it runs in multi-year boom–bust cycles: ₹10/kg in 2021, ₹250–400/kg in mid-2023, then a collapse again.",
+  "key_numbers": [
+    {"label": "Production", "value": "~20–23 lakh t", "note": "fresh weight, approx.", "src": "DA&FW / Spices Board"},
+    {"label": "World rank", "value": "#1", "note": "India is the largest ginger producer", "src": "FAOSTAT"},
+    {"label": "Crop duration", "value": "8–10 months", "note": "6 months for green (vegetable) ginger", "src": "ICAR-IISR"},
+    {"label": "Peak retail", "value": "₹250–400/kg", "note": "June–July 2023", "src": "DoCA / media reports"}
+  ],
+  "global": "India grows the most ginger in the world and exports fresh and dried ginger to Bangladesh, the Gulf, Europe and the US. 'Cochin' and 'Calicut' dried ginger are long-standing export grades.",
+  "states": {
+    "year": "recent years",
+    "basis": "Major producing states (not ranked; reported shares vary a lot by year)",
+    "rows": [
+      {"state": "Karnataka", "share": null, "hubs": "Shivamogga, Hassan, Chikkamagaluru, Kodagu, Bidar"},
+      {"state": "Madhya Pradesh", "share": null, "hubs": "Chhindwara, Betul, Seoni"},
+      {"state": "Assam", "share": null, "hubs": "Karbi Anglong, Dima Hasao, Kamrup"},
+      {"state": "Odisha", "share": null, "hubs": "Koraput, Kandhamal, Rayagada"},
+      {"state": "Meghalaya", "share": null, "hubs": "Ri-Bhoi, West Khasi Hills"},
+      {"state": "Maharashtra", "share": null, "hubs": "Aurangabad, Jalna, Satara"},
+      {"state": "Kerala", "share": null, "hubs": "Wayanad, Idukki, Palakkad"},
+      {"state": "West Bengal", "share": null, "hubs": "Darjeeling, Kalimpong"},
+      {"state": "Sikkim", "share": null, "hubs": "All districts (organic)"},
+      {"state": "Mizoram", "share": null, "hubs": "Aizawl, Lunglei"}
+    ]
+  },
+  "belts": [
+    {"name": "Malnad", "where": "Shivamogga, Hassan, Kodagu (Karnataka)", "note": "Largest commercial belt; many Kerala growers lease land here."},
+    {"name": "North-East hills", "where": "Assam, Meghalaya, Sikkim, Mizoram, Nagaland", "note": "Large area of low-input, often organic ginger; long haul to markets."},
+    {"name": "Wayanad and Idukki", "where": "Kerala", "note": "Traditional dried-ginger region."},
+    {"name": "Marathwada", "where": "Aurangabad, Jalna (Maharashtra)", "note": "Fast-growing irrigated belt."}
+  ],
+  "seasons": [
+    {"name": "Main crop", "sow": [4, 5, 6], "harvest": [10, 11, 12, 1, 2, 3], "share": "~100%", "region": "All belts", "note": "Planted with pre-monsoon showers. Green ginger from 6 months (Oct); mature ginger for drying and storage at 8–10 months (Dec–Mar)."}
+  ],
+  "lean_season": "June–September, before the new crop, when old stock is thin.",
+  "climate": [
+    {"k": "Temperature", "v": "Warm and humid, 19–28 °C; tolerates partial shade."},
+    {"k": "Rainfall", "v": "1,500–3,000 mm, or irrigation; a dry spell before harvest helps."},
+    {"k": "Soil", "v": "Loose, well-drained loam rich in organic matter, pH 5.5–6.5; waterlogging spreads soft rot."},
+    {"k": "Altitude", "v": "Sea level to ~1,500 m."}
+  ],
+  "weather_risks": [
+    {"risk": "Waterlogging in heavy monsoon", "months": [7, 8, 9], "where": "Karnataka, Kerala, NE", "impact": "Soft rot and bacterial wilt spread through fields.", "example": ""},
+    {"risk": "Delayed pre-monsoon rain", "months": [4, 5], "where": "Rainfed belts", "impact": "Delays planting and germination.", "example": ""},
+    {"risk": "Drought in late season", "months": [10, 11], "where": "Rainfed belts", "impact": "Smaller rhizomes.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Soft rot (rhizome rot)", "sci": "Pythium spp.", "type": "Disease", "impact": "The most damaging disease; spreads with water and infected seed rhizomes."},
+    {"name": "Bacterial wilt", "sci": "Ralstonia solanacearum", "type": "Disease", "impact": "Rapid wilting; no cure once in field."},
+    {"name": "Leaf spot", "sci": "Phyllosticta zingiberi", "type": "Disease", "impact": "Leaf loss in humid weather."},
+    {"name": "Shoot borer", "sci": "Conogethes punctiferalis", "type": "Pest", "impact": "Bores into shoots; dead hearts."},
+    {"name": "Rhizome scale", "sci": "Aspidiella hartii", "type": "Pest", "impact": "Shrivels stored rhizomes."}
+  ],
+  "postharvest": {
+    "storage": "Fresh: 12–14 °C, 65–70% RH. Seed rhizomes: pits lined with sawdust or sand.",
+    "shelf_ambient": "2–4 weeks before shrivelling and sprouting.",
+    "shelf_cold": "2–3 months at 12–14 °C.",
+    "respiration": "Non-climacteric.",
+    "chilling": "Chilling injury below ~10 °C (soft, discoloured).",
+    "loss": {"value": null, "src": "NABCONS 2022", "detail": "Not reported separately."},
+    "practices": [
+      "Washed and air-dried before bagging for fresh trade.",
+      "Dried ginger is peeled and sun-dried (about 16–25% of fresh weight).",
+      "Seed rhizomes are a large share of cost; growers keep part of the crop as seed."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Dug by hand; many farmers sell standing crop to traders."},
+      {"stage": "Local traders and APMCs", "what": "Shivamogga, Hassan, Guwahati and Aurangabad markets."},
+      {"stage": "Wholesale", "what": "Bengaluru, Kochi, Azadpur, Vashi, Kolkata."},
+      {"stage": "Retail and processing", "what": "Fresh retail, paste makers, dried ginger and oleoresin units."}
+    ],
+    "routes": [
+      {"from": "Shivamogga / Hassan", "to": "Bengaluru, Chennai, Mumbai", "km": 900, "days": "1–2", "mode": "Truck"},
+      {"from": "Shivamogga / Hassan", "to": "Delhi (Azadpur)", "km": 2200, "days": "3–4", "mode": "Truck"},
+      {"from": "Guwahati / Shillong", "to": "Kolkata, Delhi", "km": 1900, "days": "3–5", "mode": "Truck"}
+    ],
+    "packaging": "Jute bags (40–60 kg).",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Shivamogga and Hassan markets", "place": "Karnataka", "role": "Largest fresh ginger trade."},
+    {"name": "Kochi", "place": "Kerala", "role": "Dried ginger and export trade."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Largest consuming market."},
+    {"name": "Guwahati (Fancy Bazar)", "place": "Assam", "role": "Gateway for North-East ginger."}
+  ],
+  "varieties": [
+    {"name": "Varada, Mahima, Rejatha", "note": "ICAR-IISR improved varieties."},
+    {"name": "Nadia, Maran, Rio-de-Janeiro, Himachal", "note": "Widely grown traditional types."},
+    {"name": "Suprabha, Suruchi", "note": "Odisha (OUAT) varieties."}
+  ],
+  "trade": {"exports": "Fresh and dried ginger to Bangladesh, UAE, Saudi Arabia, Netherlands, UK, US.", "imports": "Some from Nepal and Myanmar during shortages.", "hs_code": "0910 11 (fresh/dried, not crushed)"},
+  "policy": [
+    {"when": "Ongoing", "what": "Spices Board promotes dried ginger exports; no MSP."}
+  ],
+  "history": [
+    {"when": "2020–21", "type": "crash", "what": "Farm prices of ₹10–15/kg; growers in Karnataka faced heavy losses."},
+    {"when": "2023 Jun–Aug", "type": "spike", "what": "Retail ₹250–400/kg after reduced planting and rot losses."},
+    {"when": "2025", "type": "crash", "what": "Area expanded after 2023; prices fell back."}
+  ],
+  "signals": [
+    "Planting area in Karnataka and the North-East in Apr–Jun.",
+    "Monsoon rainfall and soft-rot reports in Jul–Sep.",
+    "Arrivals in Bengaluru and Azadpur from October."
+  ],
+  "business": [
+    "Ginger-garlic paste is a large processed category; paste makers buy heavily in gluts.",
+    "Prices run in multi-year cycles; contracts with seed and price support help growers stay in through busts.",
+    "North-East organic ginger is under-marketed relative to its quality."
+  ],
+  "institutes": [
+    {"name": "ICAR-Indian Institute of Spices Research (IISR)", "url": "https://www.spices.res.in/", "where": "Kozhikode"},
+    {"name": "Spices Board India", "url": "https://www.indianspices.com/", "where": "Kochi"}
+  ],
+  "gi": [],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "ICAR-IISR", "url": "https://www.spices.res.in/"},
+    {"name": "Spices Board India", "url": "https://www.indianspices.com/"}
+  ]
+}

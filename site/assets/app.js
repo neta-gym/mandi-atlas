@@ -163,7 +163,8 @@
     ]);
     const doca = await opt("data/doca/daily.json");
     const qc = await opt("data/retail/quick_commerce.json");
-    return { slugs, kbs, ans, doca, qc };
+    const wx = await Promise.all(slugs.map((s) => opt(`data/weather/${s}.json`)));
+    return { slugs, kbs, ans, doca, qc, wx };
   }
   function docaFor(doca, name) {
     if (!doca || !name) return {};
@@ -176,8 +177,11 @@
   // RATE BOARD (home)
   // =====================================================================
   async function viewBoard() {
-    const { kbs, ans, doca, qc } = await loadAll();
+    const { kbs, ans, doca, qc, wx } = await loadAll();
     const m3 = MON[(NOW_M + 3) % 12];
+    const liveFlags = [];
+    S.manifest.commodities.forEach((c, i) => (wx[i] && wx[i].locations || []).forEach((l) => l.flags.filter((f) => !/last 30 days/.test(f)).forEach((f) => liveFlags.push({ c, l, f }))));
+    const wxDate = (wx.find((w) => w) || {}).fetched;
     const rows = S.manifest.commodities.map((c, i) => {
       const kb = kbs[i], an = ans[i] || {};
       const d = docaFor(doca, DOCA_NAME[c.slug]);
@@ -213,7 +217,7 @@
         <div>
           <p class="eyebrow">India's perishable commodities · ${S.manifest.commodities.length} tracked</p>
           <h1>Where it grows, how it moves, <em>what it costs</em>, and where the price goes next.</h1>
-          <p>One place for the ten fruits and vegetables that move India's food inflation: production belts, crop calendars, weather risks, storage, supply chains, mandi and quick-commerce prices, and a tested seasonal forecast.</p>
+          <p>One place for the ${S.manifest.commodities.length} fruits and vegetables that move India's food inflation: production belts, crop calendars, weather risks, storage, supply chains, mandi and quick-commerce prices, and a tested seasonal forecast.</p>
         </div>
         <div class="stamp" aria-label="Data freshness">
           <div><span>DoCA retail &amp; wholesale</span><b class="num">${fmtDate(fr.doca)}</b></div>
@@ -255,7 +259,10 @@
       <section class="section grid g2">
         <div class="panel">
           <p class="eyebrow">Weather watch · ${MON[NOW_M]}</p>
-          <h3>Risks in season right now</h3>
+          <h3>Next 16 days in the growing belts</h3>
+          ${liveFlags.length ? `<ul class="list">${liveFlags.map(({ c, l, f }) => `<li><a href="#${c.slug}">${esc(c.name)}</a> · ${esc(l.name)}: ${esc(f)}</li>`).join("")}</ul>` : '<p class="note">No heavy rain, heat or cold beyond crop limits forecast in the tracked belts.</p>'}
+          <p class="src">Open-Meteo forecast, ${fmtDate(wxDate)}. Limits are crop-specific; a flag matters only if the crop is in the field there now (check the crop calendar).</p>
+          <h3 style="margin-top:14px">Risks typical for ${MON[NOW_M]}</h3>
           ${risksNow.length ? `<ul class="list">${risksNow.map(({ c, r }) => `<li><a href="#${c.slug}">${esc(c.name)}</a>: <b>${esc(r.risk)}</b> <span class="note">(${esc(r.where)})</span> — ${esc(r.impact)}</li>`).join("")}</ul>` : '<p class="note">No major weather risks listed for this month.</p>'}
         </div>
         <div class="panel">
@@ -292,7 +299,7 @@
 
   async function viewCommodities() {
     const { kbs } = await loadAll();
-    app.innerHTML = `<section class="section"><div class="sec-head"><div><p class="eyebrow">Launch set</p><h2 class="h-sec">Ten commodities</h2></div>
+    app.innerHTML = `<section class="section"><div class="sec-head"><div><p class="eyebrow">Tracked</p><h2 class="h-sec">${S.manifest.commodities.length} commodities</h2></div>
       <p class="note">Chosen for volume, price sensitivity and household spend. New commodities are added as one JSON file each (see Method).</p></div>
       ${commodityCards(kbs)}</section>
       <section class="section"><div class="tablewrap"><table class="dt"><thead><tr><th>Commodity</th><th>Botanical name</th><th>Perishability</th><th>Top producing state</th><th>Main markets</th></tr></thead>
@@ -316,6 +323,7 @@
       opt("data/doca/daily.json"), opt("data/retail/quick_commerce.json"),
     ]);
     const ogd = S.manifest.freshness.ogd ? await opt(`data/ogd/${slug}.json`) : null;
+    const wx = await opt(`data/weather/${slug}.json`);
     const d = docaFor(doca, DOCA_NAME[slug]);
     const qItems = (qc && qc.items[slug]) || [];
     const last = ceda && ceda.national_monthly[ceda.national_monthly.length - 1];
@@ -360,7 +368,8 @@
           <div class="legend"><span><i style="background:${css("--tarp")}"></i>Price ₹/kg</span><span><i style="background:${css("--turmeric")}"></i>Arrivals, lakh t</span></div><p class="src">Partial years marked by fewer months. CEDA.</p></div>
       </div>
       <div class="panel" style="margin-top:16px"><h3>Price by state</h3><div class="chart"><canvas id="c-states"></canvas></div>
-        <div class="legend" id="lg-states"></div><p class="src">Monthly modal price in the six states with the most mandi arrivals. CEDA.</p></div>` : ""}
+        <div class="legend" id="lg-states"></div><p class="src">Monthly modal price in the six states with the most mandi arrivals. CEDA.</p></div>
+      ${mandiPanel(ceda)}` : ""}
       <div class="grid g2" style="margin-top:16px">${qcPanel}${mk_}</div>
     </section>`);
 
@@ -454,6 +463,7 @@
         <div class="panel"><h3>Growing conditions</h3><dl class="kv">${kb.climate.map((k) => `<dt>${esc(k.k)}</dt><dd>${esc(k.v)}</dd>`).join("")}</dl></div>
         <div class="panel"><h3>Risk months</h3>${riskMatrix(kb.weather_risks)}</div>
       </div>
+      ${weatherPanel(wx)}
       <div class="tablewrap" style="margin-top:16px"><table class="dt"><thead><tr><th>Weather risk</th><th>When</th><th>Where</th><th>Impact</th><th>Example</th></tr></thead>
       <tbody>${kb.weather_risks.map((r) => `<tr><td><b>${esc(r.risk)}</b></td><td>${monthChips(r.months)}</td><td>${esc(r.where)}</td><td>${esc(r.impact)}</td><td class="note">${esc(r.example)}</td></tr>`).join("")}</tbody></table></div>
     </section>`);
@@ -590,6 +600,31 @@
     drawCommodityCharts(kb, an, ceda);
   }
 
+  function mandiPanel(ceda) {
+    const dm = (ceda.district_monthly || []).filter((d) => d.series.length);
+    const dp = ceda.district_price_year;
+    if (!dm.length && !(dp && dp.length)) return "";
+    const nm = (r) => esc(districtName(r)) + `<span class="note">, ${esc(r.state)}</span>`;
+    const sorted = (dp || []).slice().sort((a, b) => a.modal - b.modal);
+    const cheap = sorted.slice(0, 6), dear = sorted.slice(-6).reverse();
+    return `<div class="grid g2" style="margin-top:16px">
+      ${dm.length ? `<div class="panel"><h3>Prices at the biggest mandis</h3><div class="chart"><canvas id="c-mandis"></canvas></div>
+        <div class="legend">${dm.map((d, i) => `<span><i style="background:${PALETTE[i % PALETTE.length]}"></i>${esc(districtName(d))}</span>`).join("")}</div>
+        <p class="src">Monthly modal price in the four districts with the most arrivals (each district can hold several APMCs). CEDA / Agmarknet.</p></div>` : ""}
+      ${dp && dp.length ? `<div class="panel"><h3>Cheapest and dearest mandi districts, ${esc(ceda.state_price_year.year)}</h3>
+        <div class="grid g2"><div><h4 style="color:var(--leaf)">Cheapest</h4><table class="dt"><tbody>${cheap.map((r) => `<tr><td>${nm(r)}</td><td class="num">₹${inr(kg(r.modal), 1)}</td></tr>`).join("")}</tbody></table></div>
+        <div><h4 style="color:var(--chilli)">Dearest</h4><table class="dt"><tbody>${dear.map((r) => `<tr><td>${nm(r)}</td><td class="num">₹${inr(kg(r.modal), 1)}</td></tr>`).join("")}</tbody></table></div></div>
+        <p class="src">Average modal price for the year, ₹/kg, across ${dp.length} districts with trades. Gaps reflect freight, quality and variety mix. CEDA.</p></div>` : ""}
+    </div>`;
+  }
+  function weatherPanel(wx) {
+    if (!wx || !wx.locations) return "";
+    return `<div class="panel" style="margin-top:16px"><h3>Weather now in the growing belts</h3>
+      <p class="note">Last 30 days and the next 16 days. Flags use this crop's limits: heat ≥${wx.heat_limit} °C, cold ≤${wx.cold_limit} °C, heavy rain ≥${wx.heavy_mm} mm in a day (IMD's "heavy rainfall" threshold). A flag matters only if the crop is in the field there now.</p>
+      <div class="tablewrap" style="margin-top:8px"><table class="dt"><thead><tr><th>Belt</th><th class="num">Rain, last 30 d</th><th class="num">Rain, next 16 d</th><th class="num">Hottest day ahead</th><th class="num">Coldest night ahead</th><th>Flags</th></tr></thead>
+      <tbody>${wx.locations.map((l) => `<tr><td><b>${esc(l.name)}</b></td><td class="num">${l.past30.rain_mm} mm</td><td class="num">${l.next16.rain_mm} mm</td><td class="num">${l.next16.max_tmax.toFixed(0)} °C</td><td class="num">${l.next16.min_tmin.toFixed(0)} °C</td><td>${l.flags.length ? l.flags.map((f) => `<span class="pill ${/Heavy|Heat/.test(f) ? "hot" : /Cold/.test(f) ? "warn" : "mid"}" style="margin:1px 2px">${esc(f)}</span>`).join("") : '<span class="note">None</span>'}</td></tr>`).join("")}</tbody></table></div>
+      <p class="src">Open-Meteo (ERA5 and national weather models), fetched ${fmtDate(wx.fetched)}. For official warnings see IMD.</p></div>`;
+  }
   function monthChips(ms) { return `<span class="monthchips">${MON.map((m, i) => `<span class="${ms.includes(i + 1) ? "on" : ""}">${m[0]}</span>`).join("")}</span>`; }
   function riskMatrix(risks) {
     const counts = MON.map((_, i) => risks.filter((r) => r.months.includes(i + 1)).length);
@@ -649,6 +684,16 @@
           options: { interaction: { mode: "index", intersect: false }, scales: { x: { grid: noGridX, ticks: { autoSkip: false, maxRotation: 0, callback: (v, i) => (allT[i].endsWith("-01") ? allT[i].slice(0, 4) : null) } }, y: { grid: gridY(), ticks: { callback: (v) => "₹" + v } } },
             plugins: { tooltip: { displayColors: true, callbacks: { title: (it) => monthName(it[0].label), label: (it) => it.dataset.label + ": ₹" + inr(it.parsed.y, 1) } } } },
         });
+        const dm = (ceda.district_monthly || []).filter((d) => d.series.length);
+        if (dm.length) {
+          const tT = [...new Set(dm.flatMap((d) => d.series.map((r) => r.t)))].sort();
+          mk("c-mandis", {
+            type: "line",
+            data: { labels: tT, datasets: dm.map((d, i) => { const m = Object.fromEntries(d.series.map((r) => [r.t, r.modal])); return { label: districtName(d), data: tT.map((t) => (m[t] != null ? kg(m[t]) : null)), borderColor: PALETTE[i % PALETTE.length], borderWidth: 1.8, pointRadius: 0, spanGaps: true, tension: .2 }; }) },
+            options: { interaction: { mode: "index", intersect: false }, scales: { x: { grid: noGridX, ticks: { autoSkip: false, maxRotation: 0, callback: (v, i) => (tT[i].endsWith("-01") ? tT[i].slice(0, 4) : null) } }, y: { grid: gridY(), ticks: { callback: (v) => "₹" + v } } },
+              plugins: { tooltip: { displayColors: true, callbacks: { title: (it) => monthName(it[0].label), label: (it) => it.dataset.label + ": ₹" + inr(it.parsed.y, 1) + "/kg" } } } },
+          });
+        }
         const lg = document.getElementById("lg-states");
         if (lg) lg.innerHTML = states.map((s, i) => `<span><i style="background:${PALETTE[i % PALETTE.length]}"></i>${esc(s)}</span>`).join("");
       }
@@ -822,6 +867,7 @@
           ["fetch_doca.py", "Today's DoCA all-India retail and wholesale averages. Run daily; builds its own time series."],
           ["fetch_nhb.py", "NHB monthly wholesale, retail and arrivals by city since 2010; used for mark-ups."],
           ["fetch_ogd.py", "data.gov.in daily mandi prices for every market (API key, Indian network). Optional."],
+          ["fetch_weather.py", "Last 30 days and 16-day forecast for 3–5 growing belts per crop (Open-Meteo), flagged against crop limits."],
           ["build_analytics.py", "Seasonality, volatility, shock half-life, outlook and backtests per commodity."],
           ["site/", "Static site (this page). Reads JSON from site/data; host anywhere, e.g. GitHub Pages."]].map((s, i) => `<div class="step"><span class="n">${String(i + 1).padStart(2, "0")}</span><h4 class="mono" style="font-size:var(--t-sm)">${s[0]}</h4><p>${s[1]}</p></div>`).join("")}</div>
       </section>

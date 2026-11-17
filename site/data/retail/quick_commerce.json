@@ -52,6 +52,50 @@
       {"name": "Green Grapes", "pack": "200 g", "price": 82, "mrp": 104, "per_kg": 410},
       {"name": "Red-Globe Grapes", "pack": "200 g", "price": 87, "mrp": 100, "per_kg": 435},
       {"name": "Imported Black Grapes", "pack": "250 g", "price": 163, "mrp": 193, "per_kg": 652, "note": "Indian grape season starts Dec–Jan; Nov shelves lean on imports and early southern/cold-store lots"}
+    ],
+    "garlic": [
+      {"name": "Garlic (Lehsun)", "pack": "200 g", "price": 89, "mrp": 102, "per_kg": 445, "note": "Captured 17 Nov 2026"},
+      {"name": "Peeled Garlic", "pack": "100 g", "price": 64, "mrp": 74, "per_kg": 640},
+      {"name": "Unpeeled Garlic Cloves", "pack": "110 g", "price": 35, "mrp": 40, "per_kg": 318}
+    ],
+    "ginger": [
+      {"name": "Ginger (Adrak)", "pack": "200 g", "price": 34, "mrp": 42, "per_kg": 170, "note": "Captured 17 Nov 2026"},
+      {"name": "Ginger Garlic Paste (Catch)", "pack": "200 g", "price": 37, "mrp": 50, "per_kg": 185}
+    ],
+    "cabbage": [
+      {"name": "Cabbage (Patta Gobhi)", "pack": "400 g (1 pc)", "price": 18, "mrp": 21, "per_kg": 45, "note": "Captured 17 Nov 2026"},
+      {"name": "Cabbage - Shredded", "pack": "250 g", "price": 27, "mrp": 34, "per_kg": 108}
+    ],
+    "okra": [
+      {"name": "Lady Finger (Bhindi)", "pack": "2 x 250 g", "price": 39, "mrp": 51, "per_kg": 78, "note": "Captured 17 Nov 2026"},
+      {"name": "Lady Finger Diced", "pack": "200 g", "price": 32, "mrp": 40, "per_kg": 160}
+    ],
+    "green-peas": [
+      {"name": "Green Peas (Matar), in pod", "pack": "250 g", "price": 50, "mrp": 60, "per_kg": 200, "note": "Captured 17 Nov 2026. Early-season peas; prices fall sharply from late December"},
+      {"name": "Green Peas (Peeled)", "pack": "200 g", "price": 102, "mrp": 131, "per_kg": 510},
+      {"name": "Safal Frozen Green Peas", "pack": "1 kg", "price": 205, "mrp": 240, "per_kg": 205}
+    ],
+    "capsicum": [
+      {"name": "Green Capsicum (Shimla Mirch)", "pack": "250 g", "price": 15, "mrp": 19, "per_kg": 60, "note": "Captured 17 Nov 2026"},
+      {"name": "Red Bell Pepper", "pack": "125 g", "price": 57, "mrp": 71, "per_kg": 456},
+      {"name": "Yellow Bell Pepper", "pack": "125 g", "price": 62, "mrp": 71, "per_kg": 496}
+    ],
+    "pomegranate": [
+      {"name": "Pomegranate - 2 pieces", "pack": "350–450 g", "price": 156, "mrp": 199, "per_kg": 390, "note": "Captured 17 Nov 2026; per kg on 400 g"},
+      {"name": "Pomegranate - 1 piece", "pack": "175–225 g", "price": 82, "mrp": 102, "per_kg": 410}
+    ],
+    "orange": [
+      {"name": "Valencia Orange", "pack": "550 g", "price": 108, "mrp": 133, "per_kg": 196, "note": "Captured 17 Nov 2026. No Nagpur orange or kinnow listed; kinnow arrives from mid-December"},
+      {"name": "Valencia Navel Orange (Imported)", "pack": "350 g", "price": 92, "mrp": 111, "per_kg": 263}
+    ],
+    "papaya": [
+      {"name": "Papaya", "pack": "600 g", "price": 100, "mrp": 126, "per_kg": 167, "note": "Captured 17 Nov 2026"},
+      {"name": "Organically Grown Papaya", "pack": "800 g", "price": 146, "mrp": 173, "per_kg": 183}
+    ],
+    "guava": [
+      {"name": "Thai Pink Guava (Amrud)", "pack": "400 g", "price": 75, "mrp": 92, "per_kg": 188, "note": "Captured 17 Nov 2026"},
+      {"name": "Red Diamond Guava", "pack": "300 g", "price": 86, "mrp": 105, "per_kg": 287},
+      {"name": "Guava Cut", "pack": "200 g", "price": 66, "mrp": 84, "per_kg": 330}
     ]
   }
 }

@@ -32,6 +32,8 @@ BASE = "https://agmarknet.ceda.ashoka.edu.in/api/"
 IDS = {
     "onion": 23, "tomato": 78, "potato": 24, "brinjal": 35, "cauliflower": 34,
     "green-chilli": 87, "banana": 19, "mango": 20, "apple": 17, "grapes": 22,
+    "garlic": 25, "ginger": 103, "cabbage": 154, "okra": 85, "green-peas": 50,
+    "capsicum": 164, "pomegranate": 190, "orange": 18, "papaya": 72, "guava": 185,
 }
 
 
@@ -98,7 +100,8 @@ def fetch(slug, cid, today):
             agg[r.get("state") or "?"] += r.get("qty") or 0
         state_arr[str(y)] = {k: round(v) for k, v in sorted(agg.items(), key=lambda kv: -kv[1])}
         if y == ly - 1:  # latest full calendar year
-            dist_latest = sorted(({"district": r["district"], "state": r["state"], "qty": round(r["qty"] or 0)}
+            dist_latest = sorted(({"district": r["district"], "district_id": r.get("district_id"),
+                                   "state": r["state"], "state_id": r.get("state_id"), "qty": round(r["qty"] or 0)}
                                   for r in rows), key=lambda x: -x["qty"])[:25]
         time.sleep(0.5)
     out["state_arrivals"] = state_arr
@@ -126,6 +129,20 @@ def fetch(slug, cid, today):
         sm[st] = sorted(({"t": r["t"], "modal": r1(r["p_modal"])} for r in rows), key=lambda x: x["t"])
         time.sleep(0.5)
     out["state_monthly"] = sm
+
+    # monthly price + arrivals at the 4 biggest mandi districts (e.g. Nashik, Kolar, North Delhi)
+    # (single-district queries time out on the server, so pull all districts per year and filter)
+    top = [(r["district_id"], r["district"], r["state"]) for r in dist_latest[:4] if r.get("district_id")]
+    series = {d[0]: [] for d in top}
+    for y in range(ly - 3, ly + 1):
+        rows = post("prices", body(cid, "m", f"{y}-01-01", f"{y}-12-31", chart="map"))
+        for p in rows:
+            if p.get("district_id") in series and p.get("p_modal"):
+                series[p["district_id"]].append({"t": p["t"], "modal": r1(p["p_modal"]),
+                                                 "min": r1(p["p_min"]), "max": r1(p["p_max"])})
+        time.sleep(0.5)
+    out["district_monthly"] = [{"district": n, "state": s, "series": sorted(series[i], key=lambda x: x["t"])}
+                               for i, n, s in top]
     out["fetched"] = dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%MZ")
     return out
 

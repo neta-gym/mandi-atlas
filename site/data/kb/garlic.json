@@ -1,0 +1,135 @@
+{
+  "slug": "garlic",
+  "name": "Garlic",
+  "local": "लहसुन · Lahsun",
+  "aka": {"Marathi": "Lasun", "Tamil": "Poondu", "Telugu": "Vellulli", "Kannada": "Bellulli", "Bengali": "Rasun", "Gujarati": "Lasan"},
+  "botanical": "Allium sativum L.",
+  "family": "Amaryllidaceae",
+  "group": "Vegetable · bulb (spice)",
+  "color": "#8c7b6b",
+  "perishability": "Semi-perishable. Cured bulbs keep 6–8 months in airy stores.",
+  "summary": "A single-harvest, storable crop concentrated in the Malwa plateau of Madhya Pradesh and neighbouring Rajasthan. Because farmers decide area from last year's price, garlic swings through long boom–bust cycles: a 2022 crash to a few rupees a kilo was followed by retail prices of ₹400–500/kg in early 2024.",
+  "key_numbers": [
+    {"label": "Production", "value": "~32–35 lakh t", "note": "approx., recent years", "src": "DA&FW / NHB"},
+    {"label": "Madhya Pradesh share", "value": "~60%", "note": "approx.; Mandsaur–Neemuch–Ratlam belt", "src": "DA&FW"},
+    {"label": "World rank", "value": "#2", "note": "after China, which grows about three-quarters of world garlic", "src": "FAOSTAT"},
+    {"label": "Storage life", "value": "6–8 months", "note": "cured, in ventilated stores", "src": "ICAR-DOGR"},
+    {"label": "Peak retail", "value": "₹400–500/kg", "note": "Jan–Feb 2024, several cities", "src": "Media reports of DoCA data"}
+  ],
+  "global": "India is the second-largest garlic producer after China. It exports modest volumes (Bangladesh, Malaysia, Nepal, Vietnam, the Gulf) and has restricted Chinese garlic imports since 2014 on phytosanitary grounds; smuggled Chinese garlic still turns up when Indian prices spike.",
+  "states": {
+    "year": "recent years",
+    "basis": "Share of national production (approx.)",
+    "rows": [
+      {"state": "Madhya Pradesh", "share": 60, "hubs": "Mandsaur, Neemuch, Ratlam, Ujjain, Shajapur, Rajgarh, Guna"},
+      {"state": "Rajasthan", "share": 13, "hubs": "Kota, Baran, Jhalawar, Chittorgarh, Pratapgarh"},
+      {"state": "Uttar Pradesh", "share": 6, "hubs": "Barabanki, Etawah, Mainpuri"},
+      {"state": "Gujarat", "share": 5, "hubs": "Jamnagar, Rajkot, Junagadh"},
+      {"state": "Others", "share": 16, "hubs": "Punjab, Assam, Maharashtra, Haryana, Himachal, J&K, Tamil Nadu (Nilgiris, Kodaikanal)"}
+    ]
+  },
+  "belts": [
+    {"name": "Mandsaur–Neemuch", "where": "Western Madhya Pradesh", "note": "The national garlic hub; Mandsaur and Neemuch APMCs set prices for the country."},
+    {"name": "Hadoti", "where": "Kota, Baran, Jhalawar (Rajasthan)", "note": "Second-largest belt, continuous with Malwa."},
+    {"name": "Saurashtra", "where": "Jamnagar, Rajkot", "note": "Garlic for fresh trade and dehydration."},
+    {"name": "Nilgiris and Kodaikanal hills", "where": "Tamil Nadu", "note": "Hill garlic with large, pungent bulbs (Kodaikanal Malai Poondu is GI tagged)."}
+  ],
+  "seasons": [
+    {"name": "Rabi (plains)", "sow": [9, 10, 11], "harvest": [2, 3, 4], "share": "~95%", "region": "MP, Rajasthan, Gujarat, UP", "note": "Planted from cloves after the monsoon; harvested and cured in spring, then stored."},
+    {"name": "Hills", "sow": [9, 10], "harvest": [5, 6], "share": "~5%", "region": "Himachal, J&K, Nilgiris", "note": "Long-season crop with bigger bulbs."}
+  ],
+  "lean_season": "October–January, as last season's stored garlic runs down before the new crop.",
+  "climate": [
+    {"k": "Temperature", "v": "Cool weather (12–18 °C) for leaf growth, then warmer days (20–25 °C) and longer daylight for bulbing."},
+    {"k": "Cold", "v": "Tolerates light frost; needs a cool spell for proper bulb formation."},
+    {"k": "Rain", "v": "Dry weather at maturity and curing. Rain at harvest causes rot and discoloured bulbs."},
+    {"k": "Soil", "v": "Well-drained loam, pH 6–7; heavy clay deforms bulbs."}
+  ],
+  "weather_risks": [
+    {"risk": "Unseasonal rain and hail at harvest", "months": [2, 3, 4], "where": "MP, Rajasthan", "impact": "Wet bulbs cure badly and rot in storage; lowers quality grade.", "example": "March 2023 rains in Malwa."},
+    {"risk": "Warm winter", "months": [12, 1, 2], "where": "MP, Rajasthan", "impact": "Poor bulb development and split cloves.", "example": ""},
+    {"risk": "Late monsoon withdrawal", "months": [10], "where": "Malwa", "impact": "Delays planting and shortens the season.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Thrips", "sci": "Thrips tabaci", "type": "Pest", "impact": "Main pest; silvering of leaves and smaller bulbs."},
+    {"name": "Purple blotch and Stemphylium blight", "sci": "Alternaria porri, Stemphylium vesicarium", "type": "Disease", "impact": "Leaf blight in humid spells."},
+    {"name": "Eriophyid mite", "sci": "Aceria tulipae", "type": "Pest", "impact": "Twisted leaves; carried in seed cloves and stores."},
+    {"name": "Basal rot and white rot", "sci": "Fusarium spp., Sclerotium cepivorum", "type": "Disease", "impact": "Bulb rot in field and storage."},
+    {"name": "Storage sprouting and weight loss", "sci": "Physiological", "type": "Disorder", "impact": "Weight loss of 15–25% over long storage."}
+  ],
+  "postharvest": {
+    "storage": "Ambient ventilated stores (bundles hung or in mesh bags), or 0–2 °C at 65–70% RH.",
+    "shelf_ambient": "6–8 months for well-cured rabi bulbs.",
+    "shelf_cold": "8–10 months.",
+    "respiration": "Non-climacteric; low ethylene.",
+    "chilling": "Not chilling-sensitive; store dry.",
+    "loss": {"value": null, "src": "NABCONS 2022", "detail": "Not reported separately; storage shrinkage of 15–25% is common."},
+    "practices": [
+      "Cured in the field and in shade for 2–3 weeks with leaves on.",
+      "Graded by bulb size and clove count; large-bulb ('Ooty', 'Himachali', G-282) types fetch premiums.",
+      "Dehydration (flakes, powder) and peeled-garlic units absorb gluts.",
+      "Traded in 40–50 kg jute or mesh bags."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Harvest, curing and bundling; many farmers store and sell through the year."},
+      {"stage": "APMC auction", "what": "Mandsaur, Neemuch, Ratlam, Kota: open auction of trolley loads."},
+      {"stage": "Traders and stockists", "what": "Store in town godowns and release through the year."},
+      {"stage": "Terminal markets", "what": "Azadpur, Vashi, Kolkata, Chennai, Bengaluru."},
+      {"stage": "Retail and processing", "what": "Loose and peeled garlic retail; paste, powder and flakes makers."}
+    ],
+    "routes": [
+      {"from": "Mandsaur / Neemuch", "to": "Delhi (Azadpur)", "km": 750, "days": "1–2", "mode": "Truck"},
+      {"from": "Mandsaur / Neemuch", "to": "Mumbai (Vashi)", "km": 650, "days": "1–2", "mode": "Truck"},
+      {"from": "Mandsaur / Neemuch", "to": "Chennai, Bengaluru", "km": 1700, "days": "3–4", "mode": "Truck"}
+    ],
+    "packaging": "Jute or mesh bags (40–50 kg).",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Mandsaur APMC", "place": "Madhya Pradesh", "role": "India's main garlic price setter."},
+    {"name": "Neemuch APMC", "place": "Madhya Pradesh", "role": "Large garlic and spice market."},
+    {"name": "Kota (Bhamashah) APMC", "place": "Rajasthan", "role": "Hadoti garlic trade."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Largest consuming market."}
+  ],
+  "varieties": [
+    {"name": "G-282 (Yamuna Safed-3), G-1, Yamuna Safed (G-41)", "note": "NHRDF varieties; G-282 has large bulbs."},
+    {"name": "Bhima Omkar, Bhima Purple", "note": "ICAR-DOGR varieties."},
+    {"name": "Desi (small clove, Malwa)", "note": "Pungent, stores well; the bulk of trade."},
+    {"name": "Ooty / hill garlic", "note": "Large cloves, premium price."}
+  ],
+  "trade": {"exports": "Modest: Bangladesh, Malaysia, Nepal, Vietnam, UAE; also dehydrated garlic.", "imports": "Chinese garlic restricted since 2014; Afghan garlic enters occasionally.", "hs_code": "0703 20"},
+  "policy": [
+    {"when": "2014", "what": "Imports of Chinese garlic restricted on phytosanitary grounds."},
+    {"when": "2016 onward", "what": "Madhya Pradesh Bhavantar (price-deficit) payments covered garlic in some seasons."},
+    {"when": "2024", "what": "Seizures of smuggled Chinese garlic during the price spike."}
+  ],
+  "history": [
+    {"when": "2017-18", "type": "crash", "what": "Glut; farm prices fell to ₹5–10/kg in Malwa."},
+    {"when": "2022", "type": "crash", "what": "Farm prices of ₹1–5/kg; farmers dumped garlic and cut planting."},
+    {"when": "2023 Dec–2024 Mar", "type": "spike", "what": "Smaller crop after the crash; retail ₹400–500/kg."},
+    {"when": "2025", "type": "crash", "what": "Area rebounded after the 2024 spike and prices fell back sharply."}
+  ],
+  "signals": [
+    "Arrivals and modal price at Mandsaur and Neemuch.",
+    "Planted area reports from MP and Rajasthan in Oct–Nov (area follows last year's price).",
+    "Rain during Feb–Apr harvest and curing.",
+    "Stock levels with traders in Aug–Nov."
+  ],
+  "business": [
+    "Garlic is a cycle trade: high prices bring bigger plantings and a crash 12–18 months later. Track planted area, not just today's price.",
+    "Peeled garlic and paste carry large value-add on quick commerce (₹640/kg peeled vs ₹445/kg whole on Blinkit Delhi).",
+    "Storage works: cured garlic keeps for months, so buying at harvest in a weak year is the classic play."
+  ],
+  "institutes": [
+    {"name": "ICAR-Directorate of Onion and Garlic Research (DOGR)", "url": "https://dogr.icar.gov.in/", "where": "Rajgurunagar, Pune"},
+    {"name": "NHRDF", "url": "https://nhrdf.org/", "where": "Nashik"}
+  ],
+  "gi": ["Kodaikanal Malai Poondu"],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "ICAR-DOGR", "url": "https://dogr.icar.gov.in/"},
+    {"name": "NHRDF", "url": "https://nhrdf.org/"}
+  ]
+}

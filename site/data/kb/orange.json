@@ -1,0 +1,134 @@
+{
+  "slug": "orange",
+  "name": "Orange (Mandarin)",
+  "local": "संतरा · Santra",
+  "aka": {"Marathi": "Santra", "Punjabi": "Kinnow (hybrid)", "Bengali": "Komola", "Tamil": "Kamala orange", "Kannada": "Kittale", "Assamese": "Komola"},
+  "botanical": "Citrus reticulata Blanco (mandarin) and the kinnow hybrid (C. nobilis × C. deliciosa)",
+  "family": "Rutaceae",
+  "group": "Fruit · citrus tree",
+  "color": "#e8731a",
+  "perishability": "Moderately perishable. 1–2 weeks at room temperature; 4–8 weeks at 5–8 °C.",
+  "summary": "What India calls 'orange' is mostly mandarin: the Nagpur santra of Vidarbha and Malwa, the kinnow of Punjab and Rajasthan, and Khasi and Coorg mandarins in the hills. The main season runs November to March. Bangladesh is the largest export buyer, so its import duties move prices in Nagpur and Abohar.",
+  "key_numbers": [
+    {"label": "Production", "value": "~60–70 lakh t", "note": "mandarin incl. kinnow, approx.", "src": "DA&FW / NHB"},
+    {"label": "Main season", "value": "Nov–Mar", "note": "Nagpur ambia crop and kinnow", "src": "ICAR-CCRI"},
+    {"label": "Largest buyer abroad", "value": "Bangladesh", "note": "for Nagpur orange and kinnow", "src": "APEDA"},
+    {"label": "Storage at 5–8 °C", "value": "4–8 weeks", "note": "kinnow is waxed for longer life", "src": "Post-harvest handbooks"}
+  ],
+  "global": "India is among the top mandarin producers. Exports (kinnow and Nagpur orange) go mainly to Bangladesh, Nepal, the Gulf and Russia. Off-season Valencia and navel oranges are imported from Egypt, South Africa, the US and Australia.",
+  "states": {
+    "year": "recent years",
+    "basis": "Major producing states (ranked approximately; shares not shown)",
+    "rows": [
+      {"state": "Madhya Pradesh", "share": null, "hubs": "Agar Malwa, Shajapur, Rajgarh, Chhindwara (Pandhurna), Mandsaur"},
+      {"state": "Punjab", "share": null, "hubs": "Fazilka (Abohar), Hoshiarpur, Muktsar (kinnow)"},
+      {"state": "Maharashtra", "share": null, "hubs": "Nagpur, Amravati (Warud, Morshi), Wardha"},
+      {"state": "Rajasthan", "share": null, "hubs": "Jhalawar, Sri Ganganagar (kinnow)"},
+      {"state": "Haryana", "share": null, "hubs": "Sirsa, Fatehabad (kinnow)"},
+      {"state": "Assam", "share": null, "hubs": "Tinsukia, Dibrugarh (Khasi mandarin)"},
+      {"state": "Meghalaya", "share": null, "hubs": "East Khasi Hills"},
+      {"state": "Karnataka", "share": null, "hubs": "Kodagu (Coorg mandarin)"}
+    ]
+  },
+  "belts": [
+    {"name": "Vidarbha", "where": "Nagpur, Amravati (Maharashtra)", "note": "Nagpur orange (GI); Warud–Morshi is the densest belt."},
+    {"name": "Malwa", "where": "Agar, Shajapur, Rajgarh, Jhalawar", "note": "Large Nagpur-type mandarin belt in MP and Rajasthan."},
+    {"name": "Abohar–Fazilka–Sri Ganganagar", "where": "Punjab and Rajasthan", "note": "Kinnow belt with waxing and grading plants."},
+    {"name": "North-East and Coorg", "where": "Assam, Meghalaya, Kodagu", "note": "Khasi and Coorg mandarins; smaller, regional trade."}
+  ],
+  "seasons": [
+    {"name": "Nagpur ambia bahar", "sow": [1, 2], "harvest": [10, 11, 12, 1], "share": "Main", "region": "Vidarbha, Malwa", "note": "'Sow' here means flowering. The main winter crop."},
+    {"name": "Nagpur mrig bahar", "sow": [6, 7], "harvest": [2, 3, 4], "share": "Some", "region": "Vidarbha", "note": "Sweeter spring crop."},
+    {"name": "Kinnow", "sow": [3, 4], "harvest": [12, 1, 2, 3], "share": "Large", "region": "Punjab, Rajasthan, Haryana", "note": "Peak Jan–Feb."},
+    {"name": "Khasi and Coorg mandarin", "sow": [3], "harvest": [11, 12, 1, 2], "share": "Small", "region": "NE, Karnataka", "note": "Hill crops."}
+  ],
+  "lean_season": "May–September: little domestic mandarin; imports and cold-stored fruit fill shelves.",
+  "climate": [
+    {"k": "Climate", "v": "Subtropical; needs a cool winter for colour and sugar, and a dry spell (natural or by withholding water) to trigger flowering."},
+    {"k": "Temperature", "v": "13–37 °C; heat above ~40 °C causes fruit drop; frost damages kinnow in some winters."},
+    {"k": "Rain", "v": "750–1,500 mm; waterlogging spreads Phytophthora root rot."},
+    {"k": "Soil", "v": "Deep, well-drained loam, pH 5.5–7.5; Vidarbha's black soils need careful drainage."}
+  ],
+  "weather_risks": [
+    {"risk": "Heavy monsoon rain and humidity", "months": [7, 8, 9], "where": "Vidarbha, Malwa", "impact": "Mass fruit drop of the developing ambia crop and Phytophthora outbreaks.", "example": "Repeated large fruit drop in Vidarbha in wet monsoons."},
+    {"risk": "Heat wave", "months": [4, 5, 6], "where": "Vidarbha, Malwa, Punjab", "impact": "Drop of young fruit and sunburn.", "example": ""},
+    {"risk": "Hailstorm", "months": [2, 3, 4], "where": "Vidarbha, Malwa", "impact": "Damage to flowers and the mrig crop.", "example": ""},
+    {"risk": "Frost", "months": [12, 1], "where": "Punjab, Haryana, Rajasthan", "impact": "Damage to kinnow fruit and young trees.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Citrus greening (HLB)", "sci": "Candidatus Liberibacter asiaticus, spread by citrus psyllid", "type": "Disease", "impact": "Incurable; trees decline over a few years."},
+    {"name": "Phytophthora root rot and gummosis", "sci": "Phytophthora spp.", "type": "Disease", "impact": "Major cause of orchard decline in Vidarbha."},
+    {"name": "Citrus canker", "sci": "Xanthomonas citri", "type": "Disease", "impact": "Scabby lesions; lowers grade."},
+    {"name": "Citrus tristeza virus", "sci": "CTV, aphid-borne", "type": "Disease", "impact": "Decline on susceptible rootstocks."},
+    {"name": "Fruit-sucking moths, fruit fly", "sci": "Eudocima spp., Bactrocera spp.", "type": "Pest", "impact": "Fruit drop near harvest."}
+  ],
+  "postharvest": {
+    "storage": "5–8 °C, 90–95% RH.",
+    "shelf_ambient": "1–2 weeks.",
+    "shelf_cold": "4–8 weeks (waxed kinnow keeps longer).",
+    "respiration": "Non-climacteric: harvested ripe. Ethylene 'degreening' is used only to even out peel colour.",
+    "chilling": "Chilling injury below ~4 °C (pitting).",
+    "loss": {"value": null, "src": "ICAR-CIPHET 2015", "detail": "Citrus as a group lost about 9.7% harvest-to-retail."},
+    "practices": [
+      "Clipped (not pulled) from the tree to protect the stem end.",
+      "Kinnow is washed, waxed and graded by size in Abohar's plants; Nagpur oranges are sold by count or weight in crates.",
+      "Juice and concentrate plants (e.g. in Vidarbha) absorb lower grades."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Orchard contract", "what": "Many owners sell the standing crop to traders well before harvest."},
+      {"stage": "Pack house / grading", "what": "Kinnow waxing plants in Abohar; manual grading in Vidarbha."},
+      {"stage": "APMC", "what": "Kalamna (Nagpur), Warud, Abohar, Sirsa auctions."},
+      {"stage": "Terminal markets and export", "what": "Azadpur, Kolkata, Mumbai, Bengaluru; trucks to Bangladesh via Petrapole and other border points."}
+    ],
+    "routes": [
+      {"from": "Nagpur / Warud", "to": "Bangladesh border (Petrapole)", "km": 1500, "days": "3–4", "mode": "Truck"},
+      {"from": "Abohar", "to": "Delhi (Azadpur)", "km": 380, "days": "<1", "mode": "Truck"},
+      {"from": "Nagpur", "to": "Mumbai, Hyderabad, Bengaluru", "km": 900, "days": "1–2", "mode": "Truck"}
+    ],
+    "packaging": "Crates and gunny sacks (Nagpur); CFB cartons after waxing (kinnow).",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Kalamna APMC", "place": "Nagpur, Maharashtra", "role": "Main Nagpur-orange market."},
+    {"name": "Warud APMC", "place": "Amravati, Maharashtra", "role": "Densest orange belt."},
+    {"name": "Abohar", "place": "Fazilka, Punjab", "role": "Kinnow trade and waxing hub."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Largest consuming market."}
+  ],
+  "varieties": [
+    {"name": "Nagpur santra", "note": "Loose-skinned mandarin; sweet-sour; GI tagged."},
+    {"name": "Kinnow", "note": "Juicy, seedy hybrid; the North's winter citrus."},
+    {"name": "Khasi mandarin, Coorg mandarin, Darjeeling mandarin", "note": "Hill types."},
+    {"name": "Daisy, seedless Nagpur (NRCC-4)", "note": "Newer introductions from ICAR-CCRI and PAU."}
+  ],
+  "trade": {"exports": "Kinnow and Nagpur orange mainly to Bangladesh; also Nepal, Bhutan, the Gulf and Russia.", "imports": "Valencia and navel oranges from Egypt, South Africa, the US and Australia, mainly May–October.", "hs_code": "0805 21 (mandarins), 0805 10 (oranges)"},
+  "policy": [
+    {"when": "2023", "what": "Bangladesh raised import duties on Indian oranges, cutting Nagpur growers' exports and prices."},
+    {"when": "Ongoing", "what": "Maharashtra has supported export freight and processing for Nagpur oranges."}
+  ],
+  "history": [
+    {"when": "2023-24", "type": "crash", "what": "Higher Bangladesh duties and a big crop pushed Vidarbha farm prices down."},
+    {"when": "Wet monsoon years", "type": "shock", "what": "Fruit drop cuts the ambia crop in Vidarbha."}
+  ],
+  "signals": [
+    "Bangladesh import duty changes.",
+    "Monsoon rainfall and fruit-drop reports in Vidarbha (Jul–Sep).",
+    "Kinnow crop estimates from Punjab horticulture department (Nov)."
+  ],
+  "business": [
+    "The Bangladesh border trade is the swing factor for growers' prices.",
+    "Waxing, grading and cold storage add weeks of life and access to distant markets.",
+    "Off-season (May–Oct) shelves are dominated by imports: a domestic cold-store opportunity."
+  ],
+  "institutes": [
+    {"name": "ICAR-Central Citrus Research Institute (CCRI)", "url": "https://ccri.icar.gov.in/", "where": "Nagpur"},
+    {"name": "Punjab Agricultural University (kinnow)", "url": "https://www.pau.edu/", "where": "Ludhiana"}
+  ],
+  "gi": ["Nagpur orange", "Coorg orange", "Khasi mandarin"],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "ICAR-CCRI", "url": "https://ccri.icar.gov.in/"},
+    {"name": "APEDA", "url": "https://apeda.gov.in/"}
+  ]
+}

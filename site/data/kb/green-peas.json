@@ -1,0 +1,130 @@
+{
+  "slug": "green-peas",
+  "name": "Green Peas",
+  "local": "मटर · Matar",
+  "aka": {"Bengali": "Motorshuti", "Tamil": "Pattani", "Telugu": "Batani", "Kannada": "Batani", "Marathi": "Vatana", "Punjabi": "Matar"},
+  "botanical": "Pisum sativum L.",
+  "family": "Fabaceae",
+  "group": "Vegetable · legume pod",
+  "color": "#67a83a",
+  "perishability": "Highly perishable. Pods wilt in 2–3 days; peas lose sweetness within hours unless cooled.",
+  "summary": "A short winter crop of the North Indian plains, with a summer crop from the Himalaya. The January–February glut is huge, and frozen-pea makers buy heavily then to sell through the year. Prices are highest in September–November, when only hill and early crops reach the market.",
+  "key_numbers": [
+    {"label": "Production", "value": "~55–60 lakh t", "note": "green pods, approx.", "src": "DA&FW / NHB"},
+    {"label": "World rank", "value": "#2", "note": "after China, for green peas", "src": "FAOSTAT"},
+    {"label": "Crop duration", "value": "60–100 days", "note": "early varieties like Arkel in ~60 days", "src": "ICAR-IIVR"},
+    {"label": "Price swing", "value": "Very large", "note": "₹100–200/kg in Oct vs ₹10–20/kg in Feb (retail, typical)", "src": "CEDA series on this site"}
+  ],
+  "global": "India is the second-largest green pea producer. Frozen peas are a growing processed market; India also imports dry (field) peas for dal, a separate market.",
+  "states": {
+    "year": "recent years",
+    "basis": "Major producing states (ranked approximately; shares not shown)",
+    "rows": [
+      {"state": "Uttar Pradesh", "share": null, "hubs": "Barabanki, Lucknow, Jhansi, Lalitpur, Sitapur"},
+      {"state": "Madhya Pradesh", "share": null, "hubs": "Jabalpur, Katni, Sagar"},
+      {"state": "Punjab", "share": null, "hubs": "Jalandhar, Kapurthala, Hoshiarpur"},
+      {"state": "Jharkhand", "share": null, "hubs": "Ranchi, Hazaribagh"},
+      {"state": "Himachal Pradesh", "share": null, "hubs": "Shimla, Kinnaur, Kullu, Lahaul (summer)"},
+      {"state": "Haryana", "share": null, "hubs": "Sonipat, Karnal"},
+      {"state": "Bihar", "share": null, "hubs": "Patna, Nalanda"},
+      {"state": "Uttarakhand", "share": null, "hubs": "Dehradun, Uttarkashi (summer)"}
+    ]
+  },
+  "belts": [
+    {"name": "Jabalpur", "where": "Madhya Pradesh", "note": "One of the largest pea markets; early winter crop."},
+    {"name": "Central UP", "where": "Barabanki, Lucknow, Sitapur", "note": "Biggest winter volume."},
+    {"name": "Doaba", "where": "Jalandhar, Kapurthala (Punjab)", "note": "Early winter peas for Delhi and processors."},
+    {"name": "Himachal hills", "where": "Shimla, Kinnaur, Lahaul", "note": "Off-season peas Jun–Oct at premium prices."}
+  ],
+  "seasons": [
+    {"name": "Plains winter", "sow": [10, 11], "harvest": [12, 1, 2, 3], "share": "~85%", "region": "UP, MP, Punjab, Haryana, Bihar, Jharkhand", "note": "Peak arrivals in Jan–Feb."},
+    {"name": "Early plains (Arkel type)", "sow": [9, 10], "harvest": [11, 12], "share": "~5%", "region": "Punjab, MP", "note": "First new-season peas; high prices."},
+    {"name": "Hills summer", "sow": [3, 4, 5], "harvest": [6, 7, 8, 9, 10], "share": "~10%", "region": "HP, Uttarakhand, J&K", "note": "The only fresh supply through the monsoon."}
+  ],
+  "lean_season": "August–November.",
+  "climate": [
+    {"k": "Temperature", "v": "Cool season, 10–22 °C. Heat above ~25 °C at flowering cuts pod set."},
+    {"k": "Frost", "v": "Plants tolerate light frost, but frost at flowering and pod fill damages the crop."},
+    {"k": "Water", "v": "Light irrigation; waterlogging causes root rot."},
+    {"k": "Soil", "v": "Well-drained loam, pH 6.0–7.5."}
+  ],
+  "weather_risks": [
+    {"risk": "Frost and cold wave at flowering", "months": [12, 1], "where": "Punjab, Haryana, UP, MP", "impact": "Flower and pod damage.", "example": ""},
+    {"risk": "Early heat", "months": [2, 3], "where": "Plains", "impact": "Short pod-fill period; hard, starchy peas.", "example": ""},
+    {"risk": "Monsoon landslides and rain", "months": [7, 8, 9], "where": "Himachal", "impact": "Blocked roads cut the off-season supply.", "example": ""},
+    {"risk": "Late monsoon rain at sowing", "months": [10], "where": "Plains", "impact": "Delays sowing and shifts the harvest.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Powdery mildew", "sci": "Erysiphe pisi", "type": "Disease", "impact": "Most common disease; heavy in late-sown crops."},
+    {"name": "Rust", "sci": "Uromyces viciae-fabae", "type": "Disease", "impact": "Leaf and pod damage."},
+    {"name": "Fusarium wilt and root rot", "sci": "Fusarium oxysporum f. sp. pisi", "type": "Disease", "impact": "Plant death in patches."},
+    {"name": "Pod borer", "sci": "Helicoverpa armigera, Etiella zinckenella", "type": "Pest", "impact": "Bored pods."},
+    {"name": "Leaf miner", "sci": "Chromatomyia horticola", "type": "Pest", "impact": "Leaf mines; common in winter."}
+  ],
+  "postharvest": {
+    "storage": "0 °C, 95–98% RH.",
+    "shelf_ambient": "2–3 days in pods.",
+    "shelf_cold": "1–2 weeks in pods.",
+    "respiration": "Non-climacteric, high respiration; sugars turn to starch quickly when warm.",
+    "chilling": "Not chilling-sensitive.",
+    "loss": {"value": null, "src": "NABCONS 2022", "detail": "Not reported separately; vegetables range 4.87–11.61%."},
+    "practices": [
+      "Pods are picked when bright green and well filled; sold in 40–50 kg bags.",
+      "Frozen-pea plants shell and blanch peas within hours of harvest during the Jan–Feb glut.",
+      "Shelled fresh peas sell at 2–3 times the pod price per kg (shelling yield is ~40–50%)."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Hand-picked pods, bagged in the field."},
+      {"stage": "APMC or processor", "what": "Auction at Jabalpur, Barabanki, Jalandhar; contract supply to freezing plants."},
+      {"stage": "City wholesale", "what": "Azadpur, Lucknow, Kolkata, Mumbai."},
+      {"stage": "Retail", "what": "Pods by the kg, shelled peas, and frozen peas year-round."}
+    ],
+    "routes": [
+      {"from": "Jabalpur", "to": "Delhi, Mumbai, Kolkata", "km": 1000, "days": "1–2", "mode": "Truck"},
+      {"from": "Jalandhar", "to": "Delhi (Azadpur)", "km": 380, "days": "<1", "mode": "Truck"},
+      {"from": "Shimla / Kinnaur", "to": "Delhi, Chandigarh", "km": 550, "days": "1", "mode": "Truck"}
+    ],
+    "packaging": "Jute or mesh bags (40–50 kg).",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Jabalpur (Krishi Upaj Mandi)", "place": "Madhya Pradesh", "role": "Major early-winter pea market."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "North India terminal."},
+    {"name": "Shimla (Dhalli)", "place": "Himachal Pradesh", "role": "Off-season hill peas."}
+  ],
+  "varieties": [
+    {"name": "Arkel, Azad P-3, Matar Ageta-6", "note": "Early varieties."},
+    {"name": "Pusa Pragati, Kashi Nandini, Kashi Uday, Punjab-89", "note": "Main-season varieties."},
+    {"name": "GS-10, Lincoln", "note": "Common in the hills."}
+  ],
+  "trade": {"exports": "Small fresh exports; some frozen peas.", "imports": "Fresh negligible. Dry (yellow) peas imports are a separate pulses market.", "hs_code": "0708 10 (fresh), 0710 21 (frozen)"},
+  "policy": [
+    {"when": "Ongoing", "what": "No MSP for green peas; dry-pea import rules affect pulses, not fresh peas."}
+  ],
+  "history": [
+    {"when": "Most Jan–Feb", "type": "crash", "what": "Glut; farm prices ₹5–15/kg."},
+    {"when": "Most Sep–Nov", "type": "spike", "what": "Only hill and early peas; retail ₹100–200/kg."}
+  ],
+  "signals": [
+    "Sowing progress in UP and MP (Oct–Nov).",
+    "Frost and cold-wave forecasts for Punjab, Haryana and UP (Dec–Jan).",
+    "Himachal monsoon road closures (Jul–Sep).",
+    "Frozen-pea stock levels with processors."
+  ],
+  "business": [
+    "Frozen peas are a clear processing play: buy in the February glut, sell all year.",
+    "Shelled fresh peas carry large mark-ups on quick commerce (₹510/kg peeled vs ₹200/kg in pod on Blinkit Delhi).",
+    "Hill peas in the monsoon are a premium sourcing window."
+  ],
+  "institutes": [
+    {"name": "ICAR-IIVR", "url": "https://iivr.icar.gov.in/", "where": "Varanasi"},
+    {"name": "ICAR-IARI", "url": "https://www.iari.res.in/", "where": "New Delhi"}
+  ],
+  "gi": [],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "ICAR-IIVR", "url": "https://iivr.icar.gov.in/"}
+  ]
+}

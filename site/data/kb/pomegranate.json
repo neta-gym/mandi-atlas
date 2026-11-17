@@ -1,0 +1,128 @@
+{
+  "slug": "pomegranate",
+  "name": "Pomegranate",
+  "local": "अनार · Anar",
+  "aka": {"Marathi": "Dalimb", "Tamil": "Madhulai", "Telugu": "Danimma", "Kannada": "Dalimbe", "Bengali": "Dalim", "Gujarati": "Dadam"},
+  "botanical": "Punica granatum L.",
+  "family": "Lythraceae",
+  "group": "Fruit · semi-arid shrub",
+  "color": "#a3233a",
+  "perishability": "Fairly durable for a fruit: 1–2 weeks at room temperature, 2–3 months at 5–7 °C.",
+  "summary": "A dryland fruit that turned drought-prone Solapur and Nashik into a high-value export belt. Growers time flowering by withholding water (the 'bahar' system), so fruit comes to market almost all year. Bacterial blight, which thrives in rain, is the industry's constant threat.",
+  "key_numbers": [
+    {"label": "Production", "value": "~32–35 lakh t", "note": "approx., recent years", "src": "DA&FW / NHB"},
+    {"label": "Maharashtra share", "value": "~50%", "note": "approx.; Solapur, Nashik, Sangli, Ahilyanagar", "src": "DA&FW / ICAR-NRCP"},
+    {"label": "Bhagwa share", "value": "~80%+", "note": "of commercial area is the Bhagwa variety", "src": "ICAR-NRCP"},
+    {"label": "Shelf life at 5–7 °C", "value": "2–3 months", "note": "90–95% RH", "src": "ICAR-NRCP"}
+  ],
+  "global": "India is the world's largest pomegranate producer. It exports to the UAE, Netherlands and rest of the EU, Bangladesh, Saudi Arabia, the UK and Nepal; the US opened to irradiated Indian pomegranates and the first sea shipments went in 2024. APEDA's AnarNet traces export orchards.",
+  "states": {
+    "year": "recent years",
+    "basis": "Share of national production (approx.)",
+    "rows": [
+      {"state": "Maharashtra", "share": 50, "hubs": "Solapur (Sangola, Pandharpur), Nashik (Satana/Baglan), Sangli, Ahilyanagar, Pune, Dhule"},
+      {"state": "Gujarat", "share": 14, "hubs": "Kutch, Banaskantha, Bhavnagar"},
+      {"state": "Karnataka", "share": 12, "hubs": "Bagalkot, Vijayapura, Chitradurga, Koppal"},
+      {"state": "Andhra Pradesh", "share": 6, "hubs": "Anantapur, Kurnool"},
+      {"state": "Rajasthan", "share": 5, "hubs": "Barmer, Jalore (fast-growing)"},
+      {"state": "Others", "share": 13, "hubs": "Madhya Pradesh, Telangana, Tamil Nadu, Haryana"}
+    ]
+  },
+  "belts": [
+    {"name": "Solapur–Sangola", "where": "Maharashtra", "note": "Heart of the industry; Solapur pomegranate is GI tagged."},
+    {"name": "Satana (Baglan)", "where": "Nashik, Maharashtra", "note": "Large export-grade belt."},
+    {"name": "Bagalkot–Vijayapura", "where": "North Karnataka", "note": "Second major belt."},
+    {"name": "Kutch and Barmer", "where": "Gujarat, Rajasthan", "note": "New desert plantations on drip irrigation."}
+  ],
+  "seasons": [
+    {"name": "Mrig bahar", "sow": [6, 7], "harvest": [11, 12, 1], "share": "Main", "region": "Maharashtra, Karnataka", "note": "'Sow' here means flowering after a rest period. Most popular crop window."},
+    {"name": "Hasta bahar", "sow": [9, 10], "harvest": [2, 3, 4], "share": "Some", "region": "Maharashtra", "note": "Fewer disease problems; good prices."},
+    {"name": "Ambe bahar", "sow": [1, 2], "harvest": [6, 7, 8], "share": "Some", "region": "Gujarat, Rajasthan, Maharashtra", "note": "Fruit develops through the monsoon: higher blight risk."}
+  ],
+  "lean_season": "September–October, between the ambe and mrig harvests.",
+  "climate": [
+    {"k": "Climate", "v": "Semi-arid: hot, dry summers and mild winters. Tolerates drought and some salinity."},
+    {"k": "Temperature", "v": "Fruit develops best at 25–35 °C in dry air; high humidity spoils colour and invites disease."},
+    {"k": "Rain", "v": "Rain during fruit growth causes cracking and bacterial blight."},
+    {"k": "Soil", "v": "Light, well-drained soils, pH 6.5–7.5; tolerates poor soils."}
+  ],
+  "weather_risks": [
+    {"risk": "Monsoon rain and humidity on developing fruit", "months": [6, 7, 8, 9], "where": "Maharashtra, Karnataka", "impact": "Bacterial blight (telya) and fruit cracking.", "example": "Blight epidemics of 2002–2010 wiped out large areas in Solapur and Karnataka."},
+    {"risk": "Unseasonal rain and hail", "months": [11, 12, 2, 3], "where": "Solapur, Nashik", "impact": "Cracked and spotted fruit in the mrig and hasta harvests.", "example": ""},
+    {"risk": "Extreme heat", "months": [4, 5], "where": "Gujarat, Rajasthan, Maharashtra", "impact": "Sunburn and aril browning.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Bacterial blight ('telya', oily spot)", "sci": "Xanthomonas axonopodis pv. punicae", "type": "Disease", "impact": "The biggest threat; black oily spots and cracked fruit, spreads in rain."},
+    {"name": "Wilt", "sci": "Ceratocystis fimbriata and nematode complex", "type": "Disease", "impact": "Kills plants; spreading in old orchards."},
+    {"name": "Anar butterfly (fruit borer)", "sci": "Deudorix isocrates", "type": "Pest", "impact": "Larvae bore into fruit; bagging fruit helps."},
+    {"name": "Thrips, mealybugs, mites", "sci": "Various", "type": "Pest", "impact": "Scarred and sticky fruit; export rejection."},
+    {"name": "Fruit cracking and sunburn", "sci": "Physiological", "type": "Disorder", "impact": "Irregular water and heat; lowers grade."}
+  ],
+  "postharvest": {
+    "storage": "5–7 °C, 90–95% RH.",
+    "shelf_ambient": "1–2 weeks.",
+    "shelf_cold": "2–3 months.",
+    "respiration": "Non-climacteric: harvested ripe.",
+    "chilling": "Chilling injury below ~5 °C (husk scald, browning).",
+    "loss": {"value": null, "src": "NABCONS 2022", "detail": "Not reported separately; fruits range 6.02–15.05%."},
+    "practices": [
+      "Graded by weight and husk colour; Bhagwa's deep red aril and husk command premiums.",
+      "Packed in 3–5 kg CFB boxes for export, crates for domestic trade.",
+      "Minimally processed arils (ready-to-eat cups) and juice are growing categories."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Orchard", "what": "Picked by hand in several rounds; graded at the farm or a pack house."},
+      {"stage": "APMC or exporter", "what": "Sangola, Solapur, Rahata and Pune APMCs; exporters buy directly from registered orchards."},
+      {"stage": "Wholesale", "what": "Azadpur, Vashi, Kolkata, Bengaluru, Hyderabad."},
+      {"stage": "Retail and export", "what": "Fruit sellers, modern retail, quick commerce; sea containers to Europe and the Gulf."}
+    ],
+    "routes": [
+      {"from": "Sangola / Solapur", "to": "Delhi (Azadpur)", "km": 1500, "days": "2–3", "mode": "Truck"},
+      {"from": "Solapur / Nashik", "to": "JNPT → Rotterdam, Dubai", "km": 350, "days": "15–25 at sea", "mode": "Reefer container"},
+      {"from": "Bagalkot", "to": "Bengaluru, Hyderabad, Chennai", "km": 600, "days": "1", "mode": "Truck"}
+    ],
+    "packaging": "Crates (domestic); 3–5 kg cartons (export).",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Sangola APMC", "place": "Solapur, Maharashtra", "role": "One of the largest pomegranate markets."},
+    {"name": "Solapur and Pune APMCs", "place": "Maharashtra", "role": "Major auctions."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "Largest consuming market."}
+  ],
+  "varieties": [
+    {"name": "Bhagwa (Kesar)", "note": "Dominant; deep red husk and arils, good shelf life."},
+    {"name": "Super Bhagwa, Solapur Lal", "note": "Newer selections; Solapur Lal is iron- and zinc-rich (biofortified)."},
+    {"name": "Ganesh, Arakta, Mridula, Ruby", "note": "Older varieties."},
+    {"name": "Jalore Seedless", "note": "Rajasthan; soft-seeded."}
+  ],
+  "trade": {"exports": "Fresh pomegranate and arils to the UAE, Netherlands and EU, Bangladesh, Saudi Arabia, UK, Nepal, and since 2024 the US and Australia.", "imports": "Negligible.", "hs_code": "0810 90"},
+  "policy": [
+    {"when": "Ongoing", "what": "APEDA AnarNet registration and residue monitoring for export orchards."},
+    {"when": "2023–24", "what": "Market access to the US (irradiation) and Australia."}
+  ],
+  "history": [
+    {"when": "2002–2010", "type": "shock", "what": "Bacterial blight epidemics destroyed large areas in Maharashtra and Karnataka."},
+    {"when": "2023–24", "type": "spike", "what": "Lower supply after rain-damaged crops lifted prices to records in some months."}
+  ],
+  "signals": [
+    "Rainfall in Solapur, Nashik and Bagalkot during fruit development.",
+    "Bahar choices reported by growers' associations (which harvest window is crowded).",
+    "Arrivals at Sangola and Azadpur; export registrations on AnarNet."
+  ],
+  "business": [
+    "Long shelf life and year-round supply make pomegranate one of the easiest fruits to run in quick commerce.",
+    "Ready-to-eat arils sell at a large premium per kg of fruit.",
+    "New desert plantations in Rajasthan and Gujarat are shifting supply west."
+  ],
+  "institutes": [
+    {"name": "ICAR-National Research Centre on Pomegranate (NRCP)", "url": "https://nrcpomegranate.icar.gov.in/", "where": "Solapur"}
+  ],
+  "gi": ["Solapur pomegranate"],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "ICAR-NRC on Pomegranate", "url": "https://nrcpomegranate.icar.gov.in/"},
+    {"name": "APEDA", "url": "https://apeda.gov.in/"}
+  ]
+}

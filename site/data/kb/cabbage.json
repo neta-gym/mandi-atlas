@@ -1,0 +1,130 @@
+{
+  "slug": "cabbage",
+  "name": "Cabbage",
+  "local": "पत्ता गोभी · Patta gobhi",
+  "aka": {"Bengali": "Bandhakopi", "Tamil": "Muttaikose", "Telugu": "Cabbage / Gose", "Kannada": "Ele kosu", "Marathi": "Kobi", "Gujarati": "Kobij"},
+  "botanical": "Brassica oleracea var. capitata L.",
+  "family": "Brassicaceae",
+  "group": "Vegetable · leafy head",
+  "color": "#6f9b5e",
+  "perishability": "Moderately perishable. 1–2 weeks at room temperature; weeks to months near 0 °C.",
+  "summary": "A cheap, bulky winter vegetable from the eastern plains, with hill and southern plateau crops filling the summer and monsoon. It tolerates more heat than cauliflower and stores better, so its price swings are milder, but winter gluts still push farm prices to a rupee or two a kilo.",
+  "key_numbers": [
+    {"label": "Production", "value": "~95 lakh t", "note": "approx., recent years; second only to China", "src": "DA&FW / NHB"},
+    {"label": "Area", "value": "~4 lakh ha", "note": "approx.", "src": "DA&FW / NHB"},
+    {"label": "Post-harvest loss", "value": "8.15%", "note": "farm 5.83% + market 2.32%", "src": "NABCONS 2022"},
+    {"label": "Storage at 0 °C", "value": "3–6 weeks", "note": "longer for late, dense varieties", "src": "Post-harvest handbooks"}
+  ],
+  "global": "India is the second-largest cabbage producer after China; almost all of it is eaten domestically.",
+  "states": {
+    "year": "recent years",
+    "basis": "Leading producing states (ranked, approx. shares)",
+    "rows": [
+      {"state": "West Bengal", "share": 22, "hubs": "Hooghly, Nadia, North 24 Parganas, Murshidabad"},
+      {"state": "Odisha", "share": 11, "hubs": "Cuttack, Ganjam, Koraput"},
+      {"state": "Bihar", "share": 8, "hubs": "Vaishali, Samastipur, Nalanda"},
+      {"state": "Gujarat", "share": 8, "hubs": "Anand, Vadodara, Banaskantha"},
+      {"state": "Assam", "share": 7, "hubs": "Nagaon, Kamrup, Sonitpur"},
+      {"state": "Madhya Pradesh", "share": 6, "hubs": "Indore, Jabalpur"},
+      {"state": "Others", "share": 38, "hubs": "Jharkhand, Karnataka (Belagavi, Kolar), Chhattisgarh, Maharashtra, UP, Haryana, Himachal, Tamil Nadu (Nilgiris)"}
+    ]
+  },
+  "belts": [
+    {"name": "Bengal plains", "where": "Hooghly, Nadia", "note": "Biggest winter supply; ships to the East and North-East."},
+    {"name": "Belagavi and Kolar", "where": "Karnataka", "note": "Plateau crops through much of the year for southern cities."},
+    {"name": "Nilgiris", "where": "Tamil Nadu", "note": "Hill cabbage year-round via Mettupalayam market."},
+    {"name": "Himachal and Uttarakhand", "where": "Shimla, Solan, Kullu", "note": "Summer and monsoon supply for North India."}
+  ],
+  "seasons": [
+    {"name": "Plains winter", "sow": [8, 9, 10], "harvest": [11, 12, 1, 2, 3], "share": "~70%", "region": "East, North and Central India", "note": "Main crop; Jan–Feb glut."},
+    {"name": "Hills summer", "sow": [3, 4], "harvest": [6, 7, 8, 9], "share": "~15%", "region": "HP, Uttarakhand, J&K, NE hills", "note": "Fills the monsoon gap."},
+    {"name": "Southern plateau", "sow": [6, 7, 10, 11], "harvest": [9, 10, 1, 2], "share": "~15%", "region": "Karnataka, Tamil Nadu hills, Maharashtra", "note": "Two or more crops a year."}
+  ],
+  "lean_season": "July–October, when plains supply has stopped.",
+  "climate": [
+    {"k": "Temperature", "v": "15–20 °C ideal; heads form loosely above ~25 °C."},
+    {"k": "Cold", "v": "Tolerates frost better than most vegetables; long cold spells can trigger bolting in some varieties."},
+    {"k": "Water", "v": "Even moisture; heavy rain or irrigation after dry spells splits heads."},
+    {"k": "Soil", "v": "Fertile loam, pH 6.0–6.5; club root in acidic hill soils."}
+  ],
+  "weather_risks": [
+    {"risk": "Heavy rain at heading", "months": [8, 9, 10], "where": "Hills, plateau", "impact": "Head splitting and black rot.", "example": ""},
+    {"risk": "Warm spell in winter", "months": [11, 2, 3], "where": "Plains", "impact": "Loose heads, faster pest build-up.", "example": ""},
+    {"risk": "Cyclones", "months": [10, 11], "where": "Odisha, West Bengal", "impact": "Damage to early winter plantings.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Diamondback moth", "sci": "Plutella xylostella", "type": "Pest", "impact": "Key pest of crucifers; widespread insecticide resistance."},
+    {"name": "Cabbage butterfly, head borer", "sci": "Pieris brassicae, Hellula undalis", "type": "Pest", "impact": "Defoliation and bored heads."},
+    {"name": "Aphids", "sci": "Brevicoryne brassicae", "type": "Pest", "impact": "Colonies inside heads; rejected loads."},
+    {"name": "Black rot", "sci": "Xanthomonas campestris pv. campestris", "type": "Disease", "impact": "Spreads in warm, wet weather."},
+    {"name": "Club root", "sci": "Plasmodiophora brassicae", "type": "Disease", "impact": "Serious in Nilgiris and Darjeeling hills."}
+  ],
+  "postharvest": {
+    "storage": "0 °C, 95–98% RH.",
+    "shelf_ambient": "1–2 weeks if kept cool and shaded.",
+    "shelf_cold": "3–6 weeks (early types) to 3–4 months (late, dense types).",
+    "respiration": "Non-climacteric; sensitive to ethylene (yellowing, leaf drop).",
+    "chilling": "Not chilling-sensitive.",
+    "loss": {"value": 8.15, "src": "NABCONS 2022 (for MoFPI)", "detail": "Farm stage 5.83%, market stage 2.32%."},
+    "practices": [
+      "Harvested when heads are firm; a few wrapper leaves are left for protection.",
+      "Shipped loose or in mesh bags in open trucks; it travels well compared with leafy vegetables.",
+      "Shredded and salad-cut cabbage sells at roughly double the whole-head price per kg."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm", "what": "Cut and loaded loose or in bags."},
+      {"stage": "Local APMC", "what": "Auctioned by weight or by the truckload."},
+      {"stage": "City wholesale", "what": "Kolkata, Bhubaneswar, Azadpur, Bengaluru, Mettupalayam."},
+      {"stage": "Retail", "what": "Sold per piece or per kg; a staple in restaurants and street food."}
+    ],
+    "routes": [
+      {"from": "Hooghly / Nadia", "to": "Guwahati, Bhubaneswar, Patna", "km": 900, "days": "1–2", "mode": "Truck"},
+      {"from": "Belagavi", "to": "Mumbai, Pune, Goa, Bengaluru", "km": 500, "days": "1", "mode": "Truck"},
+      {"from": "Shimla / Solan", "to": "Delhi, Chandigarh", "km": 350, "days": "<1", "mode": "Truck"}
+    ],
+    "packaging": "Loose in trucks or 25–40 kg mesh bags.",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Kolkata markets", "place": "West Bengal", "role": "Eastern price setter."},
+    {"name": "Mettupalayam", "place": "Tamil Nadu", "role": "Nilgiris hill vegetables."},
+    {"name": "Belagavi APMC", "place": "Karnataka", "role": "South-West supply."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "North India terminal."}
+  ],
+  "varieties": [
+    {"name": "Golden Acre, Pride of India, Copenhagen Market", "note": "Early, round-headed."},
+    {"name": "Pusa Drumhead, Late Large Drumhead", "note": "Late, large flat heads."},
+    {"name": "Pusa Mukta, Pusa Ageti", "note": "IARI; black-rot resistant and heat-tolerant types."},
+    {"name": "Private hybrids", "note": "Dominant in commercial plantings."},
+    {"name": "Red cabbage, Chinese cabbage", "note": "Small premium niche."}
+  ],
+  "trade": {"exports": "Small, to Nepal, Bangladesh and the Gulf.", "imports": "Negligible.", "hs_code": "0704 90"},
+  "policy": [
+    {"when": "Ongoing", "what": "No MSP; occasional state relief when winter prices collapse."}
+  ],
+  "history": [
+    {"when": "Most Jan–Feb", "type": "crash", "what": "Farm prices of ₹1–3/kg in Bengal and Bihar; crops left in the field."},
+    {"when": "Most Aug–Oct", "type": "spike", "what": "Hill-only supply lifts city prices."}
+  ],
+  "signals": [
+    "Hill arrivals and Himachal monsoon weather (Jul–Sep).",
+    "Planting conditions in Bengal and Odisha (Sep–Oct).",
+    "Arrivals at Kolkata and Azadpur."
+  ],
+  "business": [
+    "Low value per kg makes freight the main cost; regional sourcing matters more than for most vegetables.",
+    "Good keeping quality suits food-service and cloud kitchens buying in bulk.",
+    "Shredded cabbage and coleslaw mixes are a simple value-add on quick commerce."
+  ],
+  "institutes": [
+    {"name": "ICAR-IARI", "url": "https://www.iari.res.in/", "where": "New Delhi; Katrain (Kullu) station"},
+    {"name": "ICAR-IIVR", "url": "https://iivr.icar.gov.in/", "where": "Varanasi"}
+  ],
+  "gi": [],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "NABCONS post-harvest loss study (summary)", "url": "https://www.global-agriculture.com/india-region/indias-highest-post-harvest-losses-guava-and-tomato-among-the-worst-hit/"}
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "capsicum",
+  "name": "Capsicum",
+  "local": "शिमला मिर्च · Shimla mirch",
+  "aka": {"English": "Bell pepper, sweet pepper", "Kannada": "Donne menasinakayi", "Tamil": "Kudai milagai", "Telugu": "Bengaluru mirapakaya", "Marathi": "Dhobli mirchi", "Bengali": "Capsicum"},
+  "botanical": "Capsicum annuum L. (Grossum group)",
+  "family": "Solanaceae",
+  "group": "Vegetable · fruit",
+  "color": "#2f6b3a",
+  "perishability": "Perishable. About a week at room temperature; 2–3 weeks at 7–10 °C.",
+  "summary": "A mild pepper grown in the field in Karnataka and the hills, and increasingly under polyhouses (red and yellow bell peppers) around Pune, Bengaluru and in Haryana and Punjab. Demand comes from restaurants, Chinese and Indian food service, and pizza chains as much as from homes.",
+  "key_numbers": [
+    {"label": "Production", "value": "~5–6 lakh t", "note": "approx., recent years", "src": "DA&FW / NHB"},
+    {"label": "Coloured peppers", "value": "Polyhouse crop", "note": "red and yellow sell at 4–8× green on quick commerce", "src": "Blinkit snapshot on this site"},
+    {"label": "Storage at 7–10 °C", "value": "2–3 weeks", "note": "90–95% RH", "src": "Post-harvest handbooks"}
+  ],
+  "global": "India grows capsicum mainly for home use; small volumes go to the Gulf, UK and Nepal.",
+  "states": {
+    "year": "recent years",
+    "basis": "Major producing states (ranked approximately; shares not shown)",
+    "rows": [
+      {"state": "Karnataka", "share": null, "hubs": "Chikkaballapur, Kolar, Bengaluru Rural, Belagavi"},
+      {"state": "Himachal Pradesh", "share": null, "hubs": "Solan, Sirmaur, Mandi"},
+      {"state": "Madhya Pradesh", "share": null, "hubs": "Sehore, Dhar, Indore"},
+      {"state": "Haryana", "share": null, "hubs": "Sonipat, Karnal (polyhouse)"},
+      {"state": "Maharashtra", "share": null, "hubs": "Pune, Nashik, Satara (polyhouse)"},
+      {"state": "Jharkhand", "share": null, "hubs": "Ranchi"},
+      {"state": "Uttarakhand", "share": null, "hubs": "Nainital, Dehradun"},
+      {"state": "Punjab", "share": null, "hubs": "Mansa, Ludhiana"}
+    ]
+  },
+  "belts": [
+    {"name": "Bengaluru–Chikkaballapur", "where": "Karnataka", "note": "Year-round field and polyhouse crop; ships nationwide."},
+    {"name": "Solan–Sirmaur", "where": "Himachal Pradesh", "note": "Summer–monsoon supply for North India."},
+    {"name": "Pune polyhouse cluster", "where": "Maharashtra", "note": "Coloured bell peppers for metros and hotels."}
+  ],
+  "seasons": [
+    {"name": "Southern plateau", "sow": [6, 7, 10, 11], "harvest": [9, 10, 11, 12, 1, 2, 3], "share": "Large", "region": "Karnataka", "note": "Staggered plantings keep supply going most of the year."},
+    {"name": "Hills summer", "sow": [3, 4], "harvest": [6, 7, 8, 9, 10], "share": "Medium", "region": "HP, Uttarakhand", "note": "Monsoon-season supply."},
+    {"name": "Plains winter", "sow": [9, 10], "harvest": [12, 1, 2, 3], "share": "Medium", "region": "MP, Haryana, Punjab, Jharkhand", "note": "Field crop for winter."}
+  ],
+  "lean_season": "April–June, when plains crops end and hill crops have not started.",
+  "climate": [
+    {"k": "Temperature", "v": "Day 21–27 °C and nights 16–18 °C. Poor fruit set above ~32 °C or below ~15 °C."},
+    {"k": "Sun", "v": "Fruits sunscald in strong sun; shade nets common."},
+    {"k": "Water", "v": "Even moisture; drip and mulch. Waterlogging brings Phytophthora."},
+    {"k": "Soil", "v": "Well-drained loam, pH 6.0–7.0."}
+  ],
+  "weather_risks": [
+    {"risk": "Heat wave", "months": [4, 5, 6], "where": "Plains, Karnataka", "impact": "Flower drop and sunscald; the summer gap widens.", "example": ""},
+    {"risk": "Heavy monsoon rain", "months": [7, 8, 9], "where": "Karnataka, Himachal", "impact": "Phytophthora blight, fruit rot, road closures.", "example": ""},
+    {"risk": "Cold nights", "months": [12, 1], "where": "North India", "impact": "Misshapen fruit and slow growth in field crops.", "example": ""}
+  ],
+  "pests": [
+    {"name": "Thrips and mites", "sci": "Scirtothrips dorsalis, Polyphagotarsonemus latus", "type": "Pest", "impact": "Leaf curl and scarred fruit."},
+    {"name": "Phytophthora blight", "sci": "Phytophthora capsici", "type": "Disease", "impact": "Collar rot and fruit rot in wet soils."},
+    {"name": "Tospovirus and CMV", "sci": "Thrips- and aphid-borne viruses", "type": "Disease", "impact": "Ring spots, stunting."},
+    {"name": "Bacterial wilt", "sci": "Ralstonia solanacearum", "type": "Disease", "impact": "Sudden wilting."},
+    {"name": "Anthracnose", "sci": "Colletotrichum spp.", "type": "Disease", "impact": "Sunken fruit spots."}
+  ],
+  "postharvest": {
+    "storage": "7–10 °C, 90–95% RH.",
+    "shelf_ambient": "5–7 days.",
+    "shelf_cold": "2–3 weeks.",
+    "respiration": "Non-climacteric.",
+    "chilling": "Chilling injury below ~7 °C: pitting and soft rot.",
+    "loss": {"value": null, "src": "NABCONS 2022", "detail": "Not reported separately."},
+    "practices": [
+      "Harvested firm and glossy; graded by size and shape (blocky fruit fetches more).",
+      "Coloured peppers are often stretch-wrapped or packed in punnets.",
+      "Shipped in crates or CFB boxes; holds up in transit better than leafy vegetables."
+    ]
+  },
+  "supply_chain": {
+    "steps": [
+      {"stage": "Farm or polyhouse", "what": "Several pickings a week; polyhouse growers often sell to fixed buyers."},
+      {"stage": "APMC or aggregator", "what": "Chikkaballapur, Kolar, Solan auctions; agri-tech aggregators for coloured peppers."},
+      {"stage": "City wholesale", "what": "Bengaluru, Azadpur, Vashi, Chennai, Hyderabad."},
+      {"stage": "Retail and food service", "what": "Households, restaurants and pizza chains."}
+    ],
+    "routes": [
+      {"from": "Chikkaballapur", "to": "Chennai, Hyderabad, Mumbai, Delhi", "km": 2100, "days": "1–4", "mode": "Truck"},
+      {"from": "Solan", "to": "Delhi (Azadpur)", "km": 300, "days": "<1", "mode": "Truck"},
+      {"from": "Pune polyhouses", "to": "Mumbai", "km": 150, "days": "<1", "mode": "Truck"}
+    ],
+    "packaging": "Crates and CFB boxes.",
+    "farmer_share": "Not estimated in the RBI series."
+  },
+  "markets": [
+    {"name": "Chikkaballapur and Kolar APMCs", "place": "Karnataka", "role": "Largest producer markets."},
+    {"name": "Solan APMC", "place": "Himachal Pradesh", "role": "Summer supply hub."},
+    {"name": "Azadpur APMC", "place": "Delhi", "role": "North India terminal."}
+  ],
+  "varieties": [
+    {"name": "Indra and other private hybrids", "note": "Dominant green field types."},
+    {"name": "California Wonder, Yolo Wonder", "note": "Older open-pollinated types."},
+    {"name": "Arka Mohini, Arka Gaurav, Arka Basant", "note": "ICAR-IIHR."},
+    {"name": "Red and yellow bell peppers (e.g. Bomby, Orobelle)", "note": "Polyhouse hybrids."}
+  ],
+  "trade": {"exports": "Small, to the Gulf, UK and Nepal.", "imports": "Negligible.", "hs_code": "0709 60"},
+  "policy": [
+    {"when": "Ongoing", "what": "State and NHB subsidies for polyhouses have driven coloured-pepper growth."}
+  ],
+  "history": [
+    {"when": "Most Apr–Jun", "type": "spike", "what": "Summer gap lifts prices."},
+    {"when": "Most Dec–Feb", "type": "crash", "what": "Winter plains crop plus Karnataka supply pushes prices down."}
+  ],
+  "signals": [
+    "Arrivals at Chikkaballapur, Kolar and Solan.",
+    "Heat in Apr–Jun and rain in Jul–Sep over Karnataka and Himachal.",
+    "Restaurant demand cycles (festivals, wedding season)."
+  ],
+  "business": [
+    "Food service is a big buyer; contract supply with spec grading suits capsicum well.",
+    "Coloured peppers are a polyhouse premium crop with steady metro demand.",
+    "Ships and stores better than most vegetables, which helps multi-city distribution."
+  ],
+  "institutes": [
+    {"name": "ICAR-IIHR", "url": "https://iihr.res.in/", "where": "Bengaluru"},
+    {"name": "Dr YS Parmar University of Horticulture and Forestry", "url": "https://www.yspuniversity.ac.in/", "where": "Nauni, Solan"}
+  ],
+  "gi": [],
+  "sources": [
+    {"name": "DA&FW horticulture estimates", "url": "https://agriwelfare.gov.in/en/StatHortEst"},
+    {"name": "ICAR-IIHR", "url": "https://iihr.res.in/"}
+  ]
+}

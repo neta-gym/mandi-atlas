@@ -28,14 +28,18 @@ jobs:
     env:
       HAS_OGD_KEY: ${{ secrets.DATA_GOV_IN_API_KEY != '' }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
       - run: pip install numpy
 
       - name: DoCA daily retail and wholesale
         run: python pipeline/fetch_doca.py
+        continue-on-error: true
+
+      - name: Weather in growing belts (Open-Meteo)
+        run: python pipeline/fetch_weather.py
         continue-on-error: true
 
       - name: data.gov.in daily mandi prices (needs key + Indian network)
@@ -60,11 +64,12 @@ jobs:
         run: |
           git config user.name "mandi-atlas-bot"
           git config user.email "actions@users.noreply.github.com"
+          git pull --rebase --autostash || true
           git add site/data data/raw
           git diff --cached --quiet || git commit -m "Data refresh $(date -u +%F)"
           git push
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
@@ -76,4 +81,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
